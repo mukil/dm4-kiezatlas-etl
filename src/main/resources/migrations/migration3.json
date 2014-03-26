@@ -272,8 +272,25 @@
             "uri":      "ka2.bezirk.mitte",
             "type_uri": "ka2.bezirk"
         },
+        {
+            "value":    "Friedrichshain-Kreuzberg",
+            "uri":      "ka2.bezirk.friedrichshain-kreuzberg",
+            "type_uri": "ka2.bezirk"
+        },
+        {
+            "value":    "Tempelhof-Sch\u00f6neberg",
+            "uri":      "ka2.bezirk.tempelhof-schoeneberg",
+            "type_uri": "ka2.bezirk"
+        },
+        {
+            "value":    "Treptow-K\u00f6penick",
+            "uri":      "ka2.bezirk.treptow-koepenick",
+            "type_uri": "ka2.bezirk"
+        },
 
         # Bezirksregionen
+
+        # --- Mitte
 
         {
             "value":    "Alexanderplatz",
@@ -323,6 +340,190 @@
         {
             "value":    "Wedding Zentrum",
             "uri":      "ka2.bezirksregion.mitte-wedding-zentrum",
+            "type_uri": "ka2.bezirksregion"
+        },
+
+        # --- Friedrichshain-Kreuzberg
+
+        {
+            "value":    "Friedrichshain-Kreuzberg (Bezirskregion I)",
+            "uri":      "ka2.bezirksregion.friedrichshain-kreuzberg-bezirksregion1",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Friedrichshain-Kreuzberg (Bezirskregion II)",
+            "uri":      "ka2.bezirksregion.friedrichshain-kreuzberg-bezirksregion2",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Friedrichshain-Kreuzberg (Bezirskregion III)",
+            "uri":      "ka2.bezirksregion.friedrichshain-kreuzberg-bezirksregion3",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Friedrichshain-Kreuzberg (Bezirskregion IV)",
+            "uri":      "ka2.bezirksregion.friedrichshain-kreuzberg-bezirksregion4",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Friedrichshain-Kreuzberg (Bezirskregion V)",
+            "uri":      "ka2.bezirksregion.friedrichshain-kreuzberg-bezirksregion5",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Friedrichshain-Kreuzberg (Bezirskregion VI)",
+            "uri":      "ka2.bezirksregion.friedrichshain-kreuzberg-bezirksregion6",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Friedrichshain-Kreuzberg (Bezirskregion VII)",
+            "uri":      "ka2.bezirksregion.friedrichshain-kreuzberg-bezirksregion7",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Friedrichshain-Kreuzberg (Bezirskregion VIII)",
+            "uri":      "ka2.bezirksregion.friedrichshain-kreuzberg-bezirksregion8",
+            "type_uri": "ka2.bezirksregion"
+        },
+
+        # --- Tempelhof-Schöneberg
+
+        {
+            "value":    "Friedenau",
+            "uri":      "ka2.bezirksregion.friedenau",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Lichtenrade",
+            "uri":      "ka2.bezirksregion.lichtenrade",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Mariendorf",
+            "uri":      "ka2.bezirksregion.mariendorf",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Marienfelde",
+            "uri":      "ka2.bezirksregion.marienfelde",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Sch\u00f6neberg Nord",
+            "uri":      "ka2.bezirksregion.schoeneberg-nord",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Sch\u00f6neberg S\u00fcd",
+            "uri":      "ka2.bezirksregion.schoeneberg-sued",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Tempelhof",
+            "uri":      "ka2.bezirksregion.tempelhof",
+            "type_uri": "ka2.bezirksregion"
+        },
+
+        # Treptow-Köpenick
+
+        {
+            "value":    "Adlershof",
+            "uri":      "ka2.bezirksregion.tk-adlershof",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Alt-Treptow",
+            "uri":      "ka2.bezirksregion.tk-alt-treptow",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Altglienicke",
+            "uri":      "ka2.bezirksregion.tk-alt-glienicke",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Altstadt",
+            "uri":      "ka2.bezirksregion.tk-altstadt",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Baumschulenweg",
+            "uri":      "ka2.bezirksregion.tk-baumschulenweg",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Bohnsdorf",
+            "uri":      "ka2.bezirksregion.tk-bohnsdorf",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Dammvorstadt",
+            "uri":      "ka2.bezirksregion.tk-dammvorstadt",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Friedrichshagen",
+            "uri":      "ka2.bezirksregion.tk-friedrichshagen",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Gr\u00fcnau",
+            "uri":      "ka2.bezirksregion.tk-gruenau",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Johannisthal",
+            "uri":      "ka2.bezirksregion.tk-johannisthal",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Karolinenhof Schm\u00f6ckwitz",
+            "uri":      "ka2.bezirksregion.tk-karolinenhof-schmoeckwitz",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "K\u00f6penick-Nord",
+            "uri":      "ka2.bezirksregion.tk-koepenick-nord",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "K\u00f6penick-Süd",
+            "uri":      "ka2.bezirksregion.tk-koepenick",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "M\u00fcggelheim",
+            "uri":      "ka2.bezirksregion.tk-mueggelheim",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Niedersch\u00f6neweide",
+            "uri":      "ka2.bezirksregion.tk-niederschoeneweide",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Obersch\u00f6neweide",
+            "uri":      "ka2.bezirksregion.tk-oberschoeneweide",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Pl\u00e4nterwald",
+            "uri":      "ka2.bezirksregion.tk-plaenterwald",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Rahnsdorf",
+            "uri":      "ka2.bezirksregion.tk-rahnsdorf",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Salvador-Allende-Viertel",
+            "uri":      "ka2.bezirksregion.tk-allende-viertel",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Spindlersfeld",
+            "uri":      "ka2.bezirksregion.tk-spindlersfeld",
             "type_uri": "ka2.bezirksregion"
         },
 
