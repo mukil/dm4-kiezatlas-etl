@@ -1,0 +1,378 @@
+{
+    "error": null, 
+    "result": [
+        {
+            "categories": [
+                {
+                    "catIcon": "ka-B.gif", 
+                    "catId": "t-ka-kat5", 
+                    "catName": "Ausbildung + Arbeit"
+                }, 
+                {
+                    "catIcon": "ka-J.gif", 
+                    "catId": "t-ka-kat6", 
+                    "catName": "Beratung"
+                }, 
+                {
+                    "catIcon": "ka-M.gif", 
+                    "catId": "t-ka-kat1", 
+                    "catName": "Familien"
+                }, 
+                {
+                    "catIcon": "ka-F.gif", 
+                    "catId": "t-ka-kat7", 
+                    "catName": "Gesundheit + Behinderung"
+                }, 
+                {
+                    "catIcon": "ka-O.gif", 
+                    "catId": "t-ka-kat17", 
+                    "catName": "Gewerbe"
+                }, 
+                {
+                    "catIcon": "ka-G.gif", 
+                    "catId": "t-6246", 
+                    "catName": "Jugend"
+                }, 
+                {
+                    "catIcon": "ka-P.gif", 
+                    "catId": "t-ka-kat8", 
+                    "catName": "Jugendamt"
+                }, 
+                {
+                    "catIcon": "ka-Q.gif", 
+                    "catId": "t-ka-kat2", 
+                    "catName": "Kinder"
+                }, 
+                {
+                    "catIcon": "ka-L.gif", 
+                    "catId": "t-ka-kat9", 
+                    "catName": "Kinderbetreuung"
+                }, 
+                {
+                    "catIcon": "ka-A.gif", 
+                    "catId": "t-ka-kat10", 
+                    "catName": "Kultur + Bildung"
+                }, 
+                {
+                    "catIcon": "ka-D.gif", 
+                    "catId": "t-ka-kat11", 
+                    "catName": "Nachbarschaft + Stadtteil"
+                }, 
+                {
+                    "catIcon": "ka-K.gif", 
+                    "catId": "t-ka-kat13", 
+                    "catName": "Not"
+                }, 
+                {
+                    "catIcon": "ka-pflege2.gif", 
+                    "catId": "t-305613", 
+                    "catName": "Pflege"
+                }, 
+                {
+                    "catIcon": "ka-H.gif", 
+                    "catId": "t-ka-kat14", 
+                    "catName": "Schule"
+                }, 
+                {
+                    "catIcon": "ka-E.gif", 
+                    "catId": "t-ka-kat4", 
+                    "catName": "Senioren"
+                }, 
+                {
+                    "catIcon": "ka-C.gif", 
+                    "catId": "t-ka-kat15", 
+                    "catName": "Sport"
+                }, 
+                {
+                    "catIcon": "ka-I.gif", 
+                    "catId": "t-ka-kat16", 
+                    "catName": "Wohnung + Unterkunft"
+                }
+            ], 
+            "critId": "tt-ka-kategorie", 
+            "critName": "Kategorie"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang1", 
+                    "catName": "Beratung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-95413", 
+                    "catName": "Besch\u00e4ftigungstagesst\u00e4tte f. Alkoholkranke"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-95414", 
+                    "catName": "Betreutes Einzelwohnen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang2", 
+                    "catName": "Betreuung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang3", 
+                    "catName": "Essen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-96740", 
+                    "catName": "Freizeit und Besch\u00e4ftigung f. Kinder u. Jugendliche"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-95142", 
+                    "catName": "Freizeit-u.Besch\u00e4ftigungen f. Senioren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-96749", 
+                    "catName": "Ganzheitliche Bildung &amp; Erziehung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-305625", 
+                    "catName": "Generations\u00fcbergreifendes Wohnen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-305622", 
+                    "catName": "Gesetzliche Betreuung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-183042", 
+                    "catName": "Jugendfeuerwehr"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-306996", 
+                    "catName": "Kindertagespflege"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-95491", 
+                    "catName": "Kleiderkammer"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-95126", 
+                    "catName": "Kochen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang4", 
+                    "catName": "Kontakte"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-305623", 
+                    "catName": "Kurzzeitpflegeeinrichtungen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang5", 
+                    "catName": "Medien / Computer"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-305626", 
+                    "catName": "Mobilit\u00e4tstdienst"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-306042", 
+                    "catName": "Pflegedienste"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-305619", 
+                    "catName": "Pflegeheime"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang6", 
+                    "catName": "Qualifizierung / Aus- /Weiterbildung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang7", 
+                    "catName": "R\u00e4ume / Freiraumnutzung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-306995", 
+                    "catName": "Schulsozialarbeit"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-305621", 
+                    "catName": "Seniorenwohnanlage"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang13", 
+                    "catName": "Sonstige"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-95117", 
+                    "catName": "Sozial-kulturelle Projekte"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-95468", 
+                    "catName": "Sozialbetreutes Wohnen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang8", 
+                    "catName": "Spielzeug / Sportger\u00e4te / Spiel- /Sportplatz"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-305624", 
+                    "catName": "Tagespflegeeinrichtungen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-1037011", 
+                    "catName": "Tagespflegestelle"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang9", 
+                    "catName": "Technische Ger\u00e4te / Werkzeuge / Werkst\u00e4tten"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-95412", 
+                    "catName": "Therapeutische Wohngemeinschaft"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang10", 
+                    "catName": "Transportm\u00f6glichkeiten"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang11", 
+                    "catName": "Unterhaltung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-ang12", 
+                    "catName": "Vermittlung von Jobs / Nachbarschaftshilfe"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-96696", 
+                    "catName": "Weiterbildung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-305620", 
+                    "catName": "Wohngemeinschaft f\u00fcr Demenzkranke"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-305627", 
+                    "catName": "Wohngemeinschaft f\u00fcr Pflegebed\u00fcrftige"
+                }
+            ], 
+            "critId": "tt-ka-angebot", 
+            "critName": "Angebot"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-96750", 
+                    "catName": "0-6 Jahre"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-97135", 
+                    "catName": "11-14 Jahren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-96733", 
+                    "catName": "2-6 Jahre"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-97127", 
+                    "catName": "ab 14 Jahren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-alt10", 
+                    "catName": "Alle Altersgruppen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-alt7", 
+                    "catName": "Auszubildende &amp; junge Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-alt8", 
+                    "catName": "Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-alt3", 
+                    "catName": "Familien/Alleinerziehende mit Kindern im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-alt2", 
+                    "catName": "Familien/Alleinerziehende mit Kleinkindern"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-alt1", 
+                    "catName": "Familien/Alleinerziehende mit S\u00e4uglingen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-alt6", 
+                    "catName": "Jugendgruppen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-alt5", 
+                    "catName": "Jugendliche/Selbstorganisierte"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-95469", 
+                    "catName": "Junge Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-alt4", 
+                    "catName": "Kinder im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-alt9", 
+                    "catName": "Seniorinnen und Senioren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-ka-alt11", 
+                    "catName": "Sonstige"
+                }
+            ], 
+            "critId": "tt-ka-altersgruppe", 
+            "critName": "Altersgruppe"
+        }
+    ]
+}

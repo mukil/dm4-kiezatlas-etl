@@ -36,6 +36,11 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Gewerbe",
+            "uri":      "ka2.category.gewerbe",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Jugend",
             "uri":      "ka2.category.jugend",
             "type_uri": "ka2.criteria.kategorie"
@@ -83,6 +88,11 @@
         {
             "value":    "Notdienste",
             "uri":      "ka2.category.notdienste",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Pflege",
+            "uri":      "ka2.category.pflege",
             "type_uri": "ka2.criteria.kategorie"
         },
         {
