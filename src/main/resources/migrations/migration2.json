@@ -164,6 +164,21 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Besch\u00e4ftigungstagesst\u00e4tte f\u00fcr Alkoholkranke",
+            "uri":      "ka2.category.beschaeftigungstagesstaette_fuer_alkoholkranke",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Betreutes Einzelwohnen",
+            "uri":      "ka2.category.betreutes_einzelwohnen",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Betreuung",
+            "uri":      "ka2.category.betreuung",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Drogenberatung",
             "uri":      "ka2.category.drogenberatung",
             "type_uri": "ka2.criteria.angebot"
@@ -181,6 +196,11 @@
         {
             "value":    "Erziehungs- und Familienberatung",
             "uri":      "ka2.category.erziehungs_und_familienberatung",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Essen",
+            "uri":      "ka2.category.essen",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -219,8 +239,33 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Freizeit und Besch\u00e4ftigung f\u00fcr Kinder und Jugendliche",
+            "uri":      "ka2.category.freizeit_und_beschaeftigung_fuer_kinder_und_jugendliche",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Freizeit und Besch\u00e4ftigung f\u00fcr Seniorinnen und Senioren",
+            "uri":      "ka2.category.freizeit_und_beschaeftigung_fuer_seniorinnen_und_senioren",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Ganzheitliche Bildung und Erziehung",
+            "uri":      "ka2.category.ganzheitliche_bildung_und_erziehung",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Geburtsh\u00e4user",
             "uri":      "ka2.category.geburtshaeuser",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Generations\u00fcbergreifendes Wohnen",
+            "uri":      "ka2.category.generationsuebergreifendes_wohnen",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Gesetzliche Betreuung",
+            "uri":      "ka2.category.gesetzliche_betreuung",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -284,6 +329,11 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Jugendfeuerwehr",
+            "uri":      "ka2.category.jugendfeuerwehr",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Jugendfreizeiteinrichtungen",
             "uri":      "ka2.category.jugendfreizeiteinrichtungen",
             "type_uri": "ka2.criteria.angebot"
@@ -344,6 +394,11 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Kindertagespflege",
+            "uri":      "ka2.category.kindertagespflege",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Kirchen- und Religionsgemeinschaften",
             "uri":      "ka2.category.kirchen_und_religionsgemeinschaften",
             "type_uri": "ka2.criteria.angebot"
@@ -351,6 +406,21 @@
         {
             "value":    "KJPD",
             "uri":      "ka2.category.kjpd",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Kleiderkammer",
+            "uri":      "ka2.category.kleiderkammer",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Kochen",
+            "uri":      "ka2.category.kochen",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Kontakte",
+            "uri":      "ka2.category.kontakte",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -364,6 +434,11 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Kurzzeitpflegeeinrichtungen",
+            "uri":      "ka2.category.kurzzeitpflegeeinrichtungen",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Leitung und Team des Jugendamtes, 8 Regionen",
             "uri":      "ka2.category.leitung_und_team_des_jugendamtes",
             "type_uri": "ka2.criteria.angebot"
@@ -374,6 +449,11 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Medien / Computer",
+            "uri":      "ka2.category.medien_computer",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Mietberatung",
             "uri":      "ka2.category.mietberatung",
             "type_uri": "ka2.criteria.angebot"
@@ -381,6 +461,11 @@
         {
             "value":    "Migration/Integration",
             "uri":      "ka2.category.migration_und_integration",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Mobilit\u00e4tsdienst",
+            "uri":      "ka2.category.mobilitaetsdienst",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -399,6 +484,21 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Pflegedienste",
+            "uri":      "ka2.category.pflegedienste",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Pflegeheime",
+            "uri":      "ka2.category.pflegeheime",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Qualifizierung / Aus- und Weiterbildung",
+            "uri":      "ka2.category.qualifizierung_ausbildung_weiterbildung",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Qualifizierung und Besch\u00e4ftigung",
             "uri":      "ka2.category.qualifizierung_und_beschaeftigung",
             "type_uri": "ka2.criteria.angebot"
@@ -406,6 +506,11 @@
         {
             "value":    "Quartiersmanagement",
             "uri":      "ka2.category.quartiersmanagement",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "R\u00e4ume / Freiraumnutzung",
+            "uri":      "ka2.category.raeume_freiraumnutzung",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -439,6 +544,11 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Schulsozialarbeit",
+            "uri":      "ka2.category.schulsozialarbeit",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Schulsporthalle",
             "uri":      "ka2.category.schulsporthalle",
             "type_uri": "ka2.criteria.angebot"
@@ -454,13 +564,38 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Seniorenwohnanlage",
+            "uri":      "ka2.category.seniorenwohnanlage",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Sonstige",
+            "uri":      "ka2.category.sonstige",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Sonstige Schulen",
             "uri":      "ka2.category.sonstige_schulen",
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Sozialbetreutes Wohnen",
+            "uri":      "ka2.category.sozialbetreutes_wohnen",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Sozialhilfeberatung",
             "uri":      "ka2.category.sozialhilfeberatung",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Sozial-kulturelle Projekte",
+            "uri":      "ka2.category.sozial_kulturelle_projekte",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Spielzeug / Sportger\u00e4te / Spiel- oder Sportplatz",
+            "uri":      "ka2.category.spielzeug_sportgeraete_spielplatz_sportplatz",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -494,8 +629,33 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Tagespflegeeinrichtungen",
+            "uri":      "ka2.category.tagespflegeeinrichtungen",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Tagespflegestelle",
+            "uri":      "ka2.category.tagespflegestelle",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Technische Ger\u00e4te / Werkzeuge / Werkst\u00e4tten",
+            "uri":      "ka2.category.technische_geraete_werkzeuge_werkstaetten",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Therapeutische Wohngemeinschaft",
+            "uri":      "ka2.category.therapeutische_wohngemeinschaft",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Tr\u00e4ger der Jugendhilfe",
             "uri":      "ka2.category.traeger_der_jugendhilfe",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Transportm\u00f6glichkeiten",
+            "uri":      "ka2.category.transportmoeglichkeiten",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -504,8 +664,28 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Unterhaltung",
+            "uri":      "ka2.category.unterhaltung",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Vermittlung von Jobs / Nachbarschaftshilfe",
+            "uri":      "ka2.category.vermittlung_von_jobs_nachbarschaftshilfe",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Wohnen",
             "uri":      "ka2.category.wohnen",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Wohngemeinschaft f\u00fcr Demenzkranke",
+            "uri":      "ka2.category.wohngemeinschaft_fuer_demenzkranke",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Wohngemeinschaft f\u00fcr Pflegebed\u00fcrftige",
+            "uri":      "ka2.category.wohngemeinschaft_fuer_pflegebeduerftige",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -588,7 +768,7 @@
         },
         {
             "value":    "Sonstige",
-            "uri":      "ka2.category.sonstige",
+            "uri":      "ka2.category.zielgruppe_sonstige",
             "type_uri": "ka2.criteria.zielgruppe"
         },
 
