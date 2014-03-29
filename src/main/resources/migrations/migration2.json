@@ -697,6 +697,26 @@
         # Zielgruppen
 
         {
+            "value":    "0-6 Jahre",
+            "uri":      "ka2.category.0_bis_6_jahre",
+            "type_uri": "ka2.criteria.zielgruppe"
+        },
+        {
+            "value":    "2-6 Jahre",
+            "uri":      "ka2.category.2_bis_6_jahre",
+            "type_uri": "ka2.criteria.zielgruppe"
+        },
+        {
+            "value":    "11-14 Jahren",
+            "uri":      "ka2.category.11_bis_14_jahre",
+            "type_uri": "ka2.criteria.zielgruppe"
+        },
+        {
+            "value":    "ab 14 Jahren",
+            "uri":      "ka2.category.ab_14_jahre",
+            "type_uri": "ka2.criteria.zielgruppe"
+        },
+        {
             "value":    "Alle Altersgruppen",
             "uri":      "ka2.category.alle_altersgruppen",
             "type_uri": "ka2.criteria.zielgruppe"
@@ -742,8 +762,18 @@
             "type_uri": "ka2.criteria.zielgruppe"
         },
         {
+            "value":    "Jugendgruppen",
+            "uri":      "ka2.category.jugendgruppen",
+            "type_uri": "ka2.criteria.zielgruppe"
+        },
+        {
             "value":    "Jugendliche",
             "uri":      "ka2.category.jugendliche",
+            "type_uri": "ka2.criteria.zielgruppe"
+        },
+        {
+            "value":    "Jugendliche / Selbstorganisierte",
+            "uri":      "ka2.category.jugendliche_selbstorganisierte",
             "type_uri": "ka2.criteria.zielgruppe"
         },
         {
@@ -768,7 +798,7 @@
         },
         {
             "value":    "Sonstige",
-            "uri":      "ka2.category.zielgruppe_sonstige",
+            "uri":      "ka2.category.zielgruppe_sonstige", # ka2.category.sonstige is used already
             "type_uri": "ka2.criteria.zielgruppe"
         },
 
