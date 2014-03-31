@@ -1,0 +1,153 @@
+{
+    "error": null, 
+    "result": [
+        {
+            "categories": [
+                {
+                    "catIcon": "nk-9.gif", 
+                    "catId": "t-181739", 
+                    "catName": "Alle"
+                }, 
+                {
+                    "catIcon": "nk-1.gif", 
+                    "catId": "t-181731", 
+                    "catName": "Freizeit"
+                }, 
+                {
+                    "catIcon": "nk-4.gif", 
+                    "catId": "t-181734", 
+                    "catName": "Gesch\u00e4ftsstelle"
+                }, 
+                {
+                    "catIcon": "nk-2.gif", 
+                    "catId": "t-181732", 
+                    "catName": "Hilfen"
+                }, 
+                {
+                    "catIcon": "nk-3.gif", 
+                    "catId": "t-181733", 
+                    "catName": "Kieztreff"
+                }, 
+                {
+                    "catIcon": "nk-5.gif", 
+                    "catId": "t-181735", 
+                    "catName": "Politik"
+                }, 
+                {
+                    "catIcon": "nk-6.gif", 
+                    "catId": "t-181736", 
+                    "catName": "Schule"
+                }, 
+                {
+                    "catIcon": "nk-8.gif", 
+                    "catId": "t-181738", 
+                    "catName": "Sonstiges"
+                }, 
+                {
+                    "catIcon": "nk-7.gif", 
+                    "catId": "t-181737", 
+                    "catName": "Tagesbetreuung"
+                }
+            ], 
+            "critId": "t-181709", 
+            "critName": "Kategorie"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181748", 
+                    "catName": "Alle"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181743", 
+                    "catName": "Familie"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181745", 
+                    "catName": "Gemeinwesen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181742", 
+                    "catName": "Jugendliche"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181741", 
+                    "catName": "Kinder"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181746", 
+                    "catName": "Schule"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181744", 
+                    "catName": "Sport"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181747", 
+                    "catName": "Verwaltung"
+                }
+            ], 
+            "critId": "t-181711", 
+            "critName": "Themen"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181758", 
+                    "catName": "Alle"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181754", 
+                    "catName": "AWO"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181751", 
+                    "catName": "Diverse"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181756", 
+                    "catName": "DPW"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181755", 
+                    "catName": "DRK"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181752", 
+                    "catName": "Evangelisch"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181753", 
+                    "catName": "Katholisch"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181757", 
+                    "catName": "Sonstige"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-181750", 
+                    "catName": "St\u00e4dtisch"
+                }
+            ], 
+            "critId": "t-181713", 
+            "critName": "Traeger"
+        }
+    ]
+}

@@ -26,6 +26,21 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Freizeit",
+            "uri":      "ka2.category.freizeit",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Gemeinwesen",
+            "uri":      "ka2.category.gemeinwesen",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Gesch\u00e4ftsstelle",
+            "uri":      "ka2.category.geschaeftsstelle",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Gesundheit",
             "uri":      "ka2.category.gesundheit",
             "type_uri": "ka2.criteria.kategorie"
@@ -41,6 +56,11 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Hilfen",
+            "uri":      "ka2.category.hilfen",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Jugend",
             "uri":      "ka2.category.jugend",
             "type_uri": "ka2.criteria.kategorie"
@@ -48,6 +68,11 @@
         {
             "value":    "Jugendamt",
             "uri":      "ka2.category.jugendamt",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Kieztreff",
+            "uri":      "ka2.category.kieztreff",
             "type_uri": "ka2.criteria.kategorie"
         },
         {
@@ -96,6 +121,11 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Politik",
+            "uri":      "ka2.category.politik",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Schule",
             "uri":      "ka2.category.schule",
             "type_uri": "ka2.criteria.kategorie"
@@ -106,6 +136,11 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Sonstiges",
+            "uri":      "ka2.category.sonstiges",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Spezielle Angebote f\u00fcr Migranten und Migrantinnen",
             "uri":      "ka2.category.spezielle_angebote_fuer_migranten_und_migrantinnen",
             "type_uri": "ka2.criteria.kategorie"
@@ -113,6 +148,16 @@
         {
             "value":    "Sport",
             "uri":      "ka2.category.sport",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Tagesbetreuung",
+            "uri":      "ka2.category.tagesbetreuung",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Verwaltung",
+            "uri":      "ka2.category.verwaltung",
             "type_uri": "ka2.criteria.kategorie"
         },
         {

@@ -69,6 +69,28 @@
             ]
         },
 
+        # Träger
+
+        {
+            "value":            "Tr\u00e4ger",
+            "uri":              "ka2.criteria.traeger",
+            "data_type_uri":    "dm4.core.text",
+            "index_mode_uris": ["dm4.core.fulltext", "dm4.core.fulltext_key"]
+        },
+        {
+            "value":         "Tr\u00e4ger Facet",
+            "uri":           "ka2.criteria.traeger.facet",
+            "data_type_uri": "dm4.core.composite",
+            "assoc_defs": [
+                {
+                    "child_type_uri":         "ka2.criteria.traeger",
+                    "child_cardinality_uri":  "dm4.core.many",
+                    "parent_cardinality_uri": "dm4.core.many",
+                    "assoc_type_uri":         "dm4.core.aggregation_def"
+                }
+            ]
+        },
+
         # Überregional
 
         {
