@@ -287,6 +287,11 @@
             "uri":      "ka2.bezirk.treptow-koepenick",
             "type_uri": "ka2.bezirk"
         },
+        {
+            "value":    "Neuk\u00f6lln",
+            "uri":      "ka2.bezirk.neukoelln",
+            "type_uri": "ka2.bezirk"
+        },
 
         # Bezirksregionen
 
@@ -524,6 +529,59 @@
         {
             "value":    "Spindlersfeld",
             "uri":      "ka2.bezirksregion.tk-spindlersfeld",
+            "type_uri": "ka2.bezirksregion"
+        },
+
+        # --- Neukölln
+
+        {
+            "value":    "Britz",
+            "uri":      "ka2.bezirksregion.nk-britz",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Buckow",
+            "uri":      "ka2.bezirksregion.nk-buckow",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Buckow-Nord",
+            "uri":      "ka2.bezirksregion.nk-buckow-nord",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Gropiusstadt",
+            "uri":      "ka2.bezirksregion.nk-gropiusstadt",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "K\u00f6llnische Heide",
+            "uri":      "ka2.bezirksregion.nk-koellnische-heide",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Neuk\u00f6llner Mitte",
+            "uri":      "ka2.bezirksregion.nk-neukoellner-mitte",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Reuterplatz",
+            "uri":      "ka2.bezirksregion.nk-reuter",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Rixdorf",
+            "uri":      "ka2.bezirksregion.nk-rixdorf",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Rudow",
+            "uri":      "ka2.bezirksregion.nk-rudow",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Schillerpromenade",
+            "uri":      "ka2.bezirksregion.nk-schillerpromenade",
             "type_uri": "ka2.bezirksregion"
         },
 

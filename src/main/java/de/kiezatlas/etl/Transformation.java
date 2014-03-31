@@ -289,6 +289,16 @@ public class Transformation {
         putCat("t-ka-alt11", "ka2.category.zielgruppe_sonstige");                                       // TeSch
         putCat("t-230457",   "ka2.category.zielgruppe_sonstige");                                       // TreKö
 
+        // Träger
+        putCat("t-181754",  "ka2.category.awo");                                                        // Neuk
+        putCat("t-181751",  "ka2.category.diverse");                                                    // Neuk
+        putCat("t-181756",  "ka2.category.dpw");                                                        // Neuk
+        putCat("t-181755",  "ka2.category.drk");                                                        // Neuk
+        putCat("t-181752",  "ka2.category.evangelisch");                                                // Neuk
+        putCat("t-181753",  "ka2.category.katholisch");                                                 // Neuk
+        putCat("t-181757",  "ka2.category.sonstige_traeger");                                           // Neuk
+        putCat("t-181750",  "ka2.category.staedtisch");                                                 // Neuk
+
         // Überregional
         putCat("t-1220613", "ka2.category.berlinweit");                                                 // FrKr
         putCat("t-1220614", "ka2.category.gesamtbezirk");                                               // FrKr

@@ -847,6 +847,49 @@
             "type_uri": "ka2.criteria.zielgruppe"
         },
 
+        # Träger
+
+        {
+            "value":    "AWO",
+            "uri":      "ka2.category.awo",
+            "type_uri": "ka2.criteria.traeger"
+        },
+        {
+            "value":    "Diverse",
+            "uri":      "ka2.category.diverse",
+            "type_uri": "ka2.criteria.traeger"
+        },
+        {
+            "value":    "DPW",
+            "uri":      "ka2.category.dpw",
+            "type_uri": "ka2.criteria.traeger"
+        },
+        {
+            "value":    "DRK",
+            "uri":      "ka2.category.drk",
+            "type_uri": "ka2.criteria.traeger"
+        },
+        {
+            "value":    "Evangelisch",
+            "uri":      "ka2.category.evangelisch",
+            "type_uri": "ka2.criteria.traeger"
+        },
+        {
+            "value":    "Katholisch",
+            "uri":      "ka2.category.katholisch",
+            "type_uri": "ka2.criteria.traeger"
+        },
+        {
+            "value":    "Sonstige",
+            "uri":      "ka2.category.sonstige_traeger",    # ka2.category.sonstige is in use (Angebot)
+            "type_uri": "ka2.criteria.traeger"
+        },
+        {
+            "value":    "St\u00e4dtisch",
+            "uri":      "ka2.category.staedtisch",
+            "type_uri": "ka2.criteria.traeger"
+        },
+
         # Überregional
 
         {
