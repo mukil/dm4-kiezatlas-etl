@@ -14,12 +14,15 @@ public class Transformation {
         putCrit("t-253478",           "ka2.criteria.kategorie.facet");      // Mitte
         putCrit("t-239975",           "ka2.criteria.kategorie.facet");      // FrKr
         putCrit("tt-ka-kategorie",    "ka2.criteria.kategorie.facet");      // TeSch
+        putCrit("t-229903",           "ka2.criteria.kategorie.facet");      // TreKö
         putCrit("t-253482",           "ka2.criteria.angebot.facet");        // Mitte
         putCrit("t-239977",           "ka2.criteria.angebot.facet");        // FrKr
         putCrit("tt-ka-angebot",      "ka2.criteria.angebot.facet");        // TeSch
+        putCrit("t-229905",           "ka2.criteria.angebot.facet");        // TreKö
         putCrit("t-253480",           "ka2.criteria.zielgruppe.facet");     // Mitte
         putCrit("t-239979",           "ka2.criteria.zielgruppe.facet");     // FrKr
         putCrit("tt-ka-altersgruppe", "ka2.criteria.zielgruppe.facet");     // TeSch
+        putCrit("t-229907",           "ka2.criteria.zielgruppe.facet");     // TreKö
         putCrit("t-1220610",          "ka2.criteria.ueberregional.facet");  // FrKr
     }
 
@@ -28,52 +31,67 @@ public class Transformation {
         putCat("t-253525",   "ka2.category.ausbildung_und_arbeit");                                 // Mitte
         putCat("t-240011",   "ka2.category.ausbildung_und_arbeit");                                 // FrKr
         putCat("t-ka-kat5",  "ka2.category.ausbildung_und_arbeit");                                 // TeSch
+        putCat("t-229947",   "ka2.category.ausbildung_und_arbeit");                                 // TreKö
         putCat("t-253526",   "ka2.category.beratung");                                              // Mitte
         putCat("t-240012",   "ka2.category.beratung");                                              // FrKr
         putCat("t-ka-kat6",  "ka2.category.beratung");                                              // TeSch
+        putCat("t-230424",   "ka2.category.beratung");                                              // TreKö
         putCat("t-253527",   "ka2.category.familie");                                               // Mitte
         putCat("t-240013",   "ka2.category.familie");                                               // FrKr
         putCat("t-ka-kat1",  "ka2.category.familie");                                               // TeSch
+        putCat("t-230425",   "ka2.category.familie");                                               // TreKö
         putCat("t-507124",   "ka2.category.frauen");                                                // Mitte
         putCat("t-240014",   "ka2.category.gesundheit");                                            // FrKr
         putCat("t-253528",   "ka2.category.gesundheit_und_behinderung");                            // Mitte
         putCat("t-ka-kat7",  "ka2.category.gesundheit_und_behinderung");                            // TeSch
+        putCat("t-230426",   "ka2.category.gesundheit_und_behinderung");                            // TreKö
         putCat("t-ka-kat17", "ka2.category.gewerbe");                                               // TeSch
         putCat("t-240016",   "ka2.category.jugend");                                                // FrKr
         putCat("t-6246",     "ka2.category.jugend");                                                // TeSch
+        putCat("t-230427",   "ka2.category.jugend");                                                // TreKö
         putCat("t-253530",   "ka2.category.jugendamt");                                             // Mitte
         putCat("t-240017",   "ka2.category.jugendamt");                                             // FrKr
         putCat("t-ka-kat8",  "ka2.category.jugendamt");                                             // TeSch
+        putCat("t-230437",   "ka2.category.jugendamt");                                             // TreKö
         putCat("t-253529",   "ka2.category.kinder_und_jugendfreizeit");                             // Mitte
         putCat("t-240018",   "ka2.category.kinder");                                                // FrKr
         putCat("t-ka-kat2",  "ka2.category.kinder");                                                // TeSch
+        putCat("t-230438",   "ka2.category.kinder");                                                // TreKö
         putCat("t-253531",   "ka2.category.kinderbetreuung");                                       // Mitte
         putCat("t-240019",   "ka2.category.kinderbetreuung");                                       // FrKr
         putCat("t-ka-kat9",  "ka2.category.kinderbetreuung");                                       // TeSch
+        putCat("t-230439",   "ka2.category.kinderbetreuung");                                       // TreKö
         putCat("t-253532",   "ka2.category.kultur_und_bildung");                                    // Mitte
         putCat("t-240020",   "ka2.category.kultur_und_bildung");                                    // FrKr
         putCat("t-ka-kat10", "ka2.category.kultur_und_bildung");                                    // TeSch
+        putCat("t-230440",   "ka2.category.kultur_und_bildung");                                    // TreKö
         putCat("t-240015",   "ka2.category.menschen_mit_behinderungen");                            // FrKr
         putCat("t-253533",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // Mitte
         putCat("t-240021",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // FrKr
         putCat("t-ka-kat11", "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // TeSch
+        putCat("t-230441",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // TreKö
         putCat("t-266441",   "ka2.category.netzwerk");                                              // Mitte
         putCat("t-253534",   "ka2.category.notdienste");                                            // Mitte
         putCat("t-240022",   "ka2.category.notdienste");                                            // FrKr
         putCat("t-ka-kat13", "ka2.category.notdienste");                                            // TeSch
+        putCat("t-230442",   "ka2.category.notdienste");                                            // TreKö
         putCat("t-305613",   "ka2.category.pflege");                                                // TeSch
         putCat("t-253535",   "ka2.category.schule");                                                // Mitte
         putCat("t-240023",   "ka2.category.schule");                                                // FrKr
         putCat("t-ka-kat14", "ka2.category.schule");                                                // TeSch
+        putCat("t-230443",   "ka2.category.schule");                                                // TreKö
         putCat("t-266443",   "ka2.category.seniorinnen_und_senioren");                              // Mitte
         putCat("t-240026",   "ka2.category.seniorinnen_und_senioren");                              // FrKr
         putCat("t-ka-kat4",  "ka2.category.seniorinnen_und_senioren");                              // TeSch
+        putCat("t-230444",   "ka2.category.seniorinnen_und_senioren");                              // TreKö
         putCat("t-240025",   "ka2.category.spezielle_angebote_fuer_migranten_und_migrantinnen");    // FrKr
         putCat("t-266440",   "ka2.category.sport");                                                 // Mitte
         putCat("t-240024",   "ka2.category.sport");                                                 // FrKr
         putCat("t-ka-kat15", "ka2.category.sport");                                                 // TeSch
+        putCat("t-230445",   "ka2.category.sport");                                                 // TreKö
         putCat("t-266442",   "ka2.category.wohnung_und_unterkunft");                                // Mitte
         putCat("t-ka-kat16", "ka2.category.wohnung_und_unterkunft");                                // TeSch
+        putCat("t-230446",   "ka2.category.wohnung_und_unterkunft");                                // TreKö
 
         // Angebote
         putCat("t-240053",   "ka2.category.aerzte");                                                    // FrKr
@@ -209,27 +227,34 @@ public class Transformation {
         putCat("t-253538",   "ka2.category.alle_altersgruppen");                                        // Mitte
         putCat("t-240105",   "ka2.category.alle_altersgruppen");                                        // FrKr
         putCat("t-ka-alt10", "ka2.category.alle_altersgruppen");                                        // TeSch
+        putCat("t-230448",   "ka2.category.alle_altersgruppen");                                        // TreKö
         putCat("t-240106",   "ka2.category.auszubildende");                                             // FrKr
         putCat("t-253539",   "ka2.category.auszubildende_und_junge_erwachsene");                        // Mitte
         putCat("t-ka-alt7",  "ka2.category.auszubildende_und_junge_erwachsene");                        // TeSch
+        putCat("t-230449",   "ka2.category.auszubildende_und_junge_erwachsene");                        // TreKö
         putCat("t-253540",   "ka2.category.erwachsene");                                                // Mitte
         putCat("t-240108",   "ka2.category.erwachsene");                                                // FrKr
         putCat("t-ka-alt8",  "ka2.category.erwachsene");                                                // TeSch
+        putCat("t-230450",   "ka2.category.erwachsene");                                                // TreKö
         putCat("t-240109",   "ka2.category.familien");                                                  // FrKr
         putCat("t-253541",   "ka2.category.familien_und_alleinerziehende_mit_kindern_im_schulalter");   // Mitte
         putCat("t-240111",   "ka2.category.familien_und_alleinerziehende_mit_kindern_im_schulalter");   // FrKr
         putCat("t-ka-alt3",  "ka2.category.familien_und_alleinerziehende_mit_kindern_im_schulalter");   // TeSch
+        putCat("t-230451",   "ka2.category.familien_und_alleinerziehende_mit_kindern_im_schulalter");   // TreKö
         putCat("t-253542",   "ka2.category.familien_und_alleinerziehende_mit_kleinkindern");            // Mitte
         putCat("t-240112",   "ka2.category.familien_und_alleinerziehende_mit_kleinkindern");            // FrKr
         putCat("t-ka-alt2",  "ka2.category.familien_und_alleinerziehende_mit_kleinkindern");            // TeSch
+        putCat("t-230452",   "ka2.category.familien_und_alleinerziehende_mit_kleinkindern");            // TreKö
         putCat("t-253543",   "ka2.category.familien_und_alleinerziehende_mit_saeuglingen");             // Mitte
         putCat("t-240113",   "ka2.category.familien_und_alleinerziehende_mit_saeuglingen");             // FrKr
         putCat("t-ka-alt1",  "ka2.category.familien_und_alleinerziehende_mit_saeuglingen");             // TeSch
+        putCat("t-230453",   "ka2.category.familien_und_alleinerziehende_mit_saeuglingen");             // TreKö
         putCat("t-253544",   "ka2.category.zielgruppe_frauen");                                         // Mitte
         putCat("t-240114",   "ka2.category.zielgruppe_frauen");                                         // FrKr
         putCat("t-ka-alt6",  "ka2.category.jugendgruppen");                                             // TeSch
         putCat("t-253545",   "ka2.category.jugendliche");                                               // Mitte
         putCat("t-240115",   "ka2.category.jugendliche");                                               // FrKr
+        putCat("t-230454",   "ka2.category.jugendliche");                                               // TreKö
         putCat("t-ka-alt5",  "ka2.category.jugendliche_selbstorganisierte");                            // TeSch
         putCat("t-240107",   "ka2.category.junge_erwachsene");                                          // FrKr
         putCat("t-95469",    "ka2.category.junge_erwachsene");                                          // TeSch
@@ -237,11 +262,14 @@ public class Transformation {
         putCat("t-253546",   "ka2.category.kinder_im_schulalter");                                      // Mitte
         putCat("t-240116",   "ka2.category.kinder_im_schulalter");                                      // FrKr
         putCat("t-ka-alt4",  "ka2.category.kinder_im_schulalter");                                      // TeSch
+        putCat("t-230455",   "ka2.category.kinder_im_schulalter");                                      // TreKö
         putCat("t-240117",   "ka2.category.zielgruppe_seniorinnen_und_senioren");                       // FrKr
         putCat("t-ka-alt9",  "ka2.category.zielgruppe_seniorinnen_und_senioren");                       // TeSch
+        putCat("t-230456",   "ka2.category.zielgruppe_seniorinnen_und_senioren");                       // TreKö
         putCat("t-253547",   "ka2.category.zielgruppe_sonstige");                                       // Mitte
         putCat("t-240118",   "ka2.category.zielgruppe_sonstige");                                       // FrKr
         putCat("t-ka-alt11", "ka2.category.zielgruppe_sonstige");                                       // TeSch
+        putCat("t-230457",   "ka2.category.zielgruppe_sonstige");                                       // TreKö
 
         // Überregional
         putCat("t-1220613", "ka2.category.berlinweit");                                                 // FrKr

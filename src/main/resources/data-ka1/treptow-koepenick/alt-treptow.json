@@ -1,0 +1,147 @@
+{
+    "error": null, 
+    "result": [
+        {
+            "categories": [
+                {
+                    "catIcon": "aus-und-arb.gif", 
+                    "catId": "t-229947", 
+                    "catName": "Ausbildung + Arbeit"
+                }, 
+                {
+                    "catIcon": "tk-berat.gif", 
+                    "catId": "t-230424", 
+                    "catName": "Beratung"
+                }, 
+                {
+                    "catIcon": "tk-familien.gif", 
+                    "catId": "t-230425", 
+                    "catName": "Familien"
+                }, 
+                {
+                    "catIcon": "tk-gesundheit.gif", 
+                    "catId": "t-230426", 
+                    "catName": "Gesundheit + Behinderung"
+                }, 
+                {
+                    "catIcon": "tk-jugend.gif", 
+                    "catId": "t-230427", 
+                    "catName": "Jugend"
+                }, 
+                {
+                    "catIcon": "tk-jugendamt.gif", 
+                    "catId": "t-230437", 
+                    "catName": "Jugendamt"
+                }, 
+                {
+                    "catIcon": "tk-kinder.gif", 
+                    "catId": "t-230438", 
+                    "catName": "Kinder"
+                }, 
+                {
+                    "catIcon": "tk-kinderbetreuung.gif", 
+                    "catId": "t-230439", 
+                    "catName": "Kinderbetreuung"
+                }, 
+                {
+                    "catIcon": "tk-kultur.gif", 
+                    "catId": "t-230440", 
+                    "catName": "Kultur + Bildung"
+                }, 
+                {
+                    "catIcon": "tk-nachbarschaft.gif", 
+                    "catId": "t-230441", 
+                    "catName": "Nachbarschaft + Stadtteil"
+                }, 
+                {
+                    "catIcon": "tk-not.gif", 
+                    "catId": "t-230442", 
+                    "catName": "Not"
+                }, 
+                {
+                    "catIcon": "tk-schule.gif", 
+                    "catId": "t-230443", 
+                    "catName": "Schule"
+                }, 
+                {
+                    "catIcon": "tk-senioren.gif", 
+                    "catId": "t-230444", 
+                    "catName": "Senioren"
+                }, 
+                {
+                    "catIcon": "tk-sport.gif", 
+                    "catId": "t-230445", 
+                    "catName": "Sport"
+                }, 
+                {
+                    "catIcon": "tk-wohnung.gif", 
+                    "catId": "t-230446", 
+                    "catName": "Wohnung + Unterkunft"
+                }
+            ], 
+            "critId": "t-229903", 
+            "critName": "Kategorie"
+        }, 
+        {
+            "categories": [], 
+            "critId": "t-229905", 
+            "critName": "Angebot"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230448", 
+                    "catName": "Alle Altersgruppen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230449", 
+                    "catName": "Auszubildende + junge Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230450", 
+                    "catName": "Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230451", 
+                    "catName": "Familien / Alleinerziehende mit Kindern im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230452", 
+                    "catName": "Familien / Alleinerziehende mit Kleinkindern"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230453", 
+                    "catName": "Familien / Alleinerziehende mit S\u00e4uglingen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230454", 
+                    "catName": "Jugendliche"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230455", 
+                    "catName": "Kinder im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230456", 
+                    "catName": "Seniorinnen + Senioren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230457", 
+                    "catName": "Sonstige"
+                }
+            ], 
+            "critId": "t-229907", 
+            "critName": "Altersgruppe"
+        }
+    ]
+}
