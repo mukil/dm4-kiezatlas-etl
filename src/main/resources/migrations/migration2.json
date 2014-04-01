@@ -565,7 +565,7 @@
         },
         {
             "value":    "Migration/Integration",
-            "uri":      "ka2.category.migration_und_integration",
+            "uri":      "ka2.category.angebot_migration_und_integration",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -576,6 +576,11 @@
         {
             "value":    "Musikschulen/VHS",
             "uri":      "ka2.category.musikschulen_vhs",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Nachbarschaftszentren",
+            "uri":      "ka2.category.nachbarschaftszentren",
             "type_uri": "ka2.criteria.angebot"
         },
         {
