@@ -21,8 +21,18 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Familien- und Nachbarschaftszentren",
+            "uri":      "ka2.category.familien_und_nachbarschaftszentren",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Frauen",
             "uri":      "ka2.category.frauen",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Freie Tr\u00e4ger der Hilfen zur Erziehung",
+            "uri":      "ka2.category.freie_traeger_der_hilfen_zur_erziehung",
             "type_uri": "ka2.criteria.kategorie"
         },
         {
@@ -51,6 +61,11 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Gesundheit und Soziales",
+            "uri":      "ka2.category.gesundheit_und_soziales",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Gewerbe",
             "uri":      "ka2.category.gewerbe",
             "type_uri": "ka2.criteria.kategorie"
@@ -68,6 +83,11 @@
         {
             "value":    "Jugendamt",
             "uri":      "ka2.category.jugendamt",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Jugendsozialarbeit",
+            "uri":      "ka2.category.thema_jugendsozialarbeit",
             "type_uri": "ka2.criteria.kategorie"
         },
         {
@@ -91,6 +111,16 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Kindertagesst\u00e4tten",
+            "uri":      "ka2.category.kindertagesstaetten",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Kirchengemeinden",
+            "uri":      "ka2.category.kirchengemeinden",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Kultur und Bildung",
             "uri":      "ka2.category.kultur_und_bildung",
             "type_uri": "ka2.criteria.kategorie"
@@ -101,6 +131,11 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Migration und Integration",
+            "uri":      "ka2.category.migration_und_integration",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Nachbarschaftstreffpunkte und Stadtteilarbeit",
             "uri":      "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit",
             "type_uri": "ka2.criteria.kategorie"
@@ -108,6 +143,11 @@
         {
             "value":    "Netzwerk",
             "uri":      "ka2.category.netzwerk",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Netzwerk Fr\u00fche Hilfen",
+            "uri":      "ka2.category.netzwerk_fruehe_hilfen",
             "type_uri": "ka2.criteria.kategorie"
         },
         {
@@ -146,13 +186,33 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Spielpl\u00e4tze",
+            "uri":      "ka2.category.spielplaetze",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Sport",
             "uri":      "ka2.category.sport",
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Standorte des Bezirksamtes",
+            "uri":      "ka2.category.standorte_des_bezirksamtes",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Standorte des Jugendamtes",
+            "uri":      "ka2.category.standorte_des_jugendamtes",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Tagesbetreuung",
             "uri":      "ka2.category.tagesbetreuung",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Umwelt und Natur",
+            "uri":      "ka2.category.umwelt_und_natur",
             "type_uri": "ka2.criteria.kategorie"
         },
         {

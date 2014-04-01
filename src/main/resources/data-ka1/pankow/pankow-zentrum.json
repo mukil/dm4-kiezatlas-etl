@@ -1,0 +1,233 @@
+{
+    "error": null, 
+    "result": [
+        {
+            "categories": [
+                {
+                    "catIcon": "pankow-09a.gif", 
+                    "catId": "t-253608", 
+                    "catName": "Angebote f\u00fcr Frauen"
+                }, 
+                {
+                    "catIcon": "pankow-029a.gif", 
+                    "catId": "t-777382", 
+                    "catName": "Familien- und Nachbarschaftszentren"
+                }, 
+                {
+                    "catIcon": "pankow-11a.gif", 
+                    "catId": "t-230577", 
+                    "catName": "Freie Tr\u00e4ger der Hilfen zur Erziehung"
+                }, 
+                {
+                    "catIcon": "pankow-35a.gif", 
+                    "catId": "t-230583", 
+                    "catName": "Gesundheit und Soziales"
+                }, 
+                {
+                    "catIcon": "pankow-03a.gif", 
+                    "catId": "t-230576", 
+                    "catName": "Jugendsozialarbeit"
+                }, 
+                {
+                    "catIcon": "pankow-04a.gif", 
+                    "catId": "t-230575", 
+                    "catName": "Kinder- und Jugendfreizeitst\u00e4tten"
+                }, 
+                {
+                    "catIcon": "pankow-10a.gif", 
+                    "catId": "t-230574", 
+                    "catName": "Kindertagesst\u00e4tten"
+                }, 
+                {
+                    "catIcon": "pankow-47a.gif", 
+                    "catId": "t-230586", 
+                    "catName": "Kirchengemeinden"
+                }, 
+                {
+                    "catIcon": "pankow-30a.gif", 
+                    "catId": "t-230582", 
+                    "catName": "Kultur und Bildung"
+                }, 
+                {
+                    "catIcon": "pankow-08a.gif", 
+                    "catId": "t-253610", 
+                    "catName": "Migration und Integration"
+                }, 
+                {
+                    "catIcon": "pankow-019a.gif", 
+                    "catId": "t-777381", 
+                    "catName": "Netzwerk Fr\u00fche Hilfen"
+                }, 
+                {
+                    "catIcon": "pankow-04gruen3.gif", 
+                    "catId": "t-230580", 
+                    "catName": "Schulen"
+                }, 
+                {
+                    "catIcon": "pankow-14a.gif", 
+                    "catId": "t-230578", 
+                    "catName": "Sonstige Projekte und Einrichtungen"
+                }, 
+                {
+                    "catIcon": "pankow-51a.gif", 
+                    "catId": "t-230585", 
+                    "catName": "Spielpl\u00e4tze"
+                }, 
+                {
+                    "catIcon": "pankow-28a.gif", 
+                    "catId": "t-230581", 
+                    "catName": "Sportanlagen und Sporthallen"
+                }, 
+                {
+                    "catIcon": "pankow-28c.gif", 
+                    "catId": "t-256208", 
+                    "catName": "Standorte BA Pankow"
+                }, 
+                {
+                    "catIcon": "pankow-23a.gif", 
+                    "catId": "t-230579", 
+                    "catName": "Standorte des Jugendamtes"
+                }, 
+                {
+                    "catIcon": "pankow-45a.gif", 
+                    "catId": "t-230584", 
+                    "catName": "Umwelt und Natur"
+                }
+            ], 
+            "critId": "t-230488", 
+            "critName": "Kategorie"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230632", 
+                    "catName": "Angebote f\u00fcr Menschen mit Behinderung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230630", 
+                    "catName": "Beratungsangebote"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230614", 
+                    "catName": "Erziehungs- und Familienberatung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230615", 
+                    "catName": "Frauenprojekte"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230587", 
+                    "catName": "Grundschulen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230612", 
+                    "catName": "Hilfen zur Erziehung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230613", 
+                    "catName": "Jugendberatung / Jugendberufshilfe"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230628", 
+                    "catName": "Migration/Integration"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230616", 
+                    "catName": "Nachbarschaftszentren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230588", 
+                    "catName": "Oberschulen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230629", 
+                    "catName": "Schuldner- und Insolvenzberatung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230635", 
+                    "catName": "Schulpsychologische Beratungsstelle"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230589", 
+                    "catName": "Sonstige Schulen"
+                }
+            ], 
+            "critId": "t-230490", 
+            "critName": "Angebot"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230593", 
+                    "catName": "Alle Altersgruppen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230594", 
+                    "catName": "Auszubildende + junge Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230595", 
+                    "catName": "Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230596", 
+                    "catName": "Familien / Alleinerziehende mit Kindern im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230597", 
+                    "catName": "Familien / Alleinerziehende mit Kleinkindern"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230598", 
+                    "catName": "Familien / Alleinerziehende mit S\u00e4uglingen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230639", 
+                    "catName": "Frauen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230599", 
+                    "catName": "Jugendliche"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230600", 
+                    "catName": "Kinder im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230610", 
+                    "catName": "Seniorinnen + Senioren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-230601", 
+                    "catName": "Sonstige"
+                }
+            ], 
+            "critId": "t-230492", 
+            "critName": "Zielgruppe"
+        }
+    ]
+}
