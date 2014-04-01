@@ -832,6 +832,11 @@
             "type_uri": "ka2.criteria.zielgruppe"
         },
         {
+            "value":    "6-10 Jahre",
+            "uri":      "ka2.category.6_bis_10_jahre",
+            "type_uri": "ka2.criteria.zielgruppe"
+        },
+        {
             "value":    "11-14 Jahren",
             "uri":      "ka2.category.11_bis_14_jahre",
             "type_uri": "ka2.criteria.zielgruppe"

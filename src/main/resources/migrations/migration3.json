@@ -297,6 +297,11 @@
             "uri":      "ka2.bezirk.pankow",
             "type_uri": "ka2.bezirk"
         },
+        {
+            "value":    "Charlottenburg-Wilmersdorf",
+            "uri":      "ka2.bezirk.charlottenburg_wilmersdorf",
+            "type_uri": "ka2.bezirk"
+        },
 
         # Bezirksregionen
 
@@ -670,6 +675,34 @@
         {
             "value":    "Wei\u00dfensee Ost",
             "uri":      "ka2.bezirksregion.pankow-weissensee-ost",
+            "type_uri": "ka2.bezirksregion"
+        },
+
+        # --- Charlottenburg-Wilmersdorf
+
+        {
+            "value":    "Charlottenburg-Wilmersdorf 1",
+            "uri":      "ka2.bezirksregion.charlottenburg-wilmersdorf-1",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Charlottenburg-Wilmersdorf 2",
+            "uri":      "ka2.bezirksregion.charlottenburg-wilmersdorf-2",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Charlottenburg-Wilmersdorf 3",
+            "uri":      "ka2.bezirksregion.charlottenburg-wilmersdorf-3",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Charlottenburg-Wilmersdorf 4",
+            "uri":      "ka2.bezirksregion.charlottenburg-wilmersdorf-4",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Charlottenburg-Wilmersdorf 5",
+            "uri":      "ka2.bezirksregion.charlottenburg-wilmersdorf-5",
             "type_uri": "ka2.bezirksregion"
         },
 
