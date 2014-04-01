@@ -292,6 +292,11 @@
             "uri":      "ka2.bezirk.neukoelln",
             "type_uri": "ka2.bezirk"
         },
+        {
+            "value":    "Pankow",
+            "uri":      "ka2.bezirk.pankow",
+            "type_uri": "ka2.bezirk"
+        },
 
         # Bezirksregionen
 
@@ -582,6 +587,89 @@
         {
             "value":    "Schillerpromenade",
             "uri":      "ka2.bezirksregion.nk-schillerpromenade",
+            "type_uri": "ka2.bezirksregion"
+        },
+
+        # --- Pankow
+
+        {
+            "value":    "Blankenburg/Heinersdorf/M\u00e4rchenland",
+            "uri":      "ka2.bezirksregion.pankow-blankenburg-heinersdorf-maerchenland",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Blankenfelde/Niedersch\u00f6nhausen",
+            "uri":      "ka2.bezirksregion.pankow-blankenfelde-niederschoenhausen",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Buch",
+            "uri":      "ka2.bezirksregion.pankow-buch",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Buchholz",
+            "uri":      "ka2.bezirksregion.pankow-buchholz",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Helmholtzplatz",
+            "uri":      "ka2.bezirksregion.pankow-helmholtzplatz",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Karow",
+            "uri":      "ka2.bezirksregion.pankow-karow",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Pankow S\u00fcd",
+            "uri":      "ka2.bezirksregion.pankow-sued",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Pankow Zentrum",
+            "uri":      "ka2.bezirksregion.pankow-zentrum",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Prenzlauer Berg Nord",
+            "uri":      "ka2.bezirksregion.prenzlauer-berg-nord",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Prenzlauer Berg Nordwest",
+            "uri":      "ka2.bezirksregion.prenzlauer-berg-nordwest",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Prenzlauer Berg Ost",
+            "uri":      "ka2.bezirksregion.prenzlauer-berg-ost",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Prenzlauer Berg S\u00fcd",
+            "uri":      "ka2.bezirksregion.prenzlauer-berg-sued",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Prenzlauer Berg S\u00fcd-West",
+            "uri":      "ka2.bezirksregion.prenzlauer-berg-sued-west",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Sch\u00f6nholz/Wilhelmsruh/Rosenthal",
+            "uri":      "ka2.bezirksregion.pankow-schoenholz-wilhelmsruh-rosenthal",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Wei\u00dfensee",
+            "uri":      "ka2.bezirksregion.pankow-weissensee",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Wei\u00dfensee Ost",
+            "uri":      "ka2.bezirksregion.pankow-weissensee-ost",
             "type_uri": "ka2.bezirksregion"
         },
 
