@@ -1,0 +1,323 @@
+{
+    "error": null, 
+    "result": [
+        {
+            "categories": [
+                {
+                    "catIcon": "cw-arbeit.gif", 
+                    "catId": "t-202851", 
+                    "catName": "Ausbildung + Arbeit"
+                }, 
+                {
+                    "catIcon": "cw-beratung.gif", 
+                    "catId": "t-202852", 
+                    "catName": "Beratung"
+                }, 
+                {
+                    "catIcon": "cw-familien.gif", 
+                    "catId": "t-202853", 
+                    "catName": "Familien"
+                }, 
+                {
+                    "catIcon": "cw-gesundheit.gif", 
+                    "catId": "t-202854", 
+                    "catName": "Gesundheit + Behinderung"
+                }, 
+                {
+                    "catIcon": "cw-jugend.gif", 
+                    "catId": "t-202855", 
+                    "catName": "Jugend"
+                }, 
+                {
+                    "catIcon": "cw-jugendamt.gif", 
+                    "catId": "t-202856", 
+                    "catName": "Jugendamt"
+                }, 
+                {
+                    "catIcon": "cw-kinder.gif", 
+                    "catId": "t-202857", 
+                    "catName": "Kinder"
+                }, 
+                {
+                    "catIcon": "cw-kinderbetreuung.gif", 
+                    "catId": "t-202858", 
+                    "catName": "Kinderbetreuung"
+                }, 
+                {
+                    "catIcon": "cw-kultur.gif", 
+                    "catId": "t-202859", 
+                    "catName": "Kultur + Bildung"
+                }, 
+                {
+                    "catIcon": "cw-nachbarschaft.gif", 
+                    "catId": "t-202860", 
+                    "catName": "Nachbarschaft + Stadtteil"
+                }, 
+                {
+                    "catIcon": "cw-not.gif", 
+                    "catId": "t-202861", 
+                    "catName": "Not"
+                }, 
+                {
+                    "catIcon": "cw-schule.gif", 
+                    "catId": "t-202862", 
+                    "catName": "Schule"
+                }, 
+                {
+                    "catIcon": "cw-spielplatz.gif", 
+                    "catId": "t-894927", 
+                    "catName": "Spielpl\u00e4tze"
+                }, 
+                {
+                    "catIcon": "cw-sport.gif", 
+                    "catId": "t-202864", 
+                    "catName": "Sport"
+                }, 
+                {
+                    "catIcon": "cw-weltanschauung.gif", 
+                    "catId": "t-794601", 
+                    "catName": "Weltanschauung"
+                }, 
+                {
+                    "catIcon": "cw-wohnung.gif", 
+                    "catId": "t-202865", 
+                    "catName": "Wohnung + Unterkunft"
+                }
+            ], 
+            "critId": "t-202836", 
+            "critName": "Kategorie"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202867", 
+                    "catName": "Beratung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202868", 
+                    "catName": "Besch\u00e4ftigungstagesst\u00e4tte f. Alkoholkranke"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202869", 
+                    "catName": "Betreutes Einzelwohnen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202870", 
+                    "catName": "Betreuung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202871", 
+                    "catName": "Essen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202872", 
+                    "catName": "Freizeit und Besch\u00e4ftigung f. Kinder u. Jugendliche"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202873", 
+                    "catName": "Freizeit-u.Besch\u00e4ftigungen f. Senioren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202874", 
+                    "catName": "Ganzheitliche Bildung &amp; Erziehung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202895", 
+                    "catName": "Hilfen zur Erziehung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-794603", 
+                    "catName": "Hort"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-879767", 
+                    "catName": "Kinderbetreuung an Schulen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202875", 
+                    "catName": "Kleiderkammer"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202876", 
+                    "catName": "Kochen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202877", 
+                    "catName": "Kontakte"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202878", 
+                    "catName": "Medien / Computer"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202879", 
+                    "catName": "Qualifizierung / Aus- /Weiterbildung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202880", 
+                    "catName": "R\u00e4ume / Freiraumnutzung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202881", 
+                    "catName": "Sonstige"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202882", 
+                    "catName": "Sozial-kulturelle Projekte"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202883", 
+                    "catName": "Sozialbetreutes Wohnen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202884", 
+                    "catName": "Spielzeug / Sportger\u00e4te / Spiel- /Sportplatz"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202885", 
+                    "catName": "Technische Ger\u00e4te / Werkzeuge / Werkst\u00e4tten"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202886", 
+                    "catName": "Therapeutische Wohngemeinschaft"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202888", 
+                    "catName": "Transportm\u00f6glichkeiten"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202889", 
+                    "catName": "Unterhaltung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202891", 
+                    "catName": "Vermittlung von Jobs / Nachbarschaftshilfe"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202892", 
+                    "catName": "Weiterbildung"
+                }
+            ], 
+            "critId": "t-202838", 
+            "critName": "Angebot"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202898", 
+                    "catName": "0 - 6 Jahre"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202899", 
+                    "catName": "11-14 Jahren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202900", 
+                    "catName": "2 - 6 Jahre"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202903", 
+                    "catName": "6 - 10 Jahre"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202905", 
+                    "catName": "ab 14 Jahren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202906", 
+                    "catName": "Alle Altersgruppen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202907", 
+                    "catName": "Auszubildende &amp; junge Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202908", 
+                    "catName": "Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202909", 
+                    "catName": "Familien/Alleinerziehende mit Kindern im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202910", 
+                    "catName": "Familien/Alleinerziehende mit Kleinkindern"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202912", 
+                    "catName": "Familien/Alleinerziehende mit S\u00e4uglingen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202914", 
+                    "catName": "Jugendgruppen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202915", 
+                    "catName": "Jugendliche/Selbstorganisierte"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202916", 
+                    "catName": "Junge Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202917", 
+                    "catName": "Kinder im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202918", 
+                    "catName": "Seniorinnen und Senioren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-202919", 
+                    "catName": "Sonstige"
+                }
+            ], 
+            "critId": "t-202840", 
+            "critName": "Altersgruppe"
+        }
+    ]
+}

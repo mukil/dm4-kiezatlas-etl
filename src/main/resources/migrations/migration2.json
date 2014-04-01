@@ -221,6 +221,11 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Weltanschauung",
+            "uri":      "ka2.category.weltanschauung",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Wohnung + Unterkunft",
             "uri":      "ka2.category.wohnung_und_unterkunft",
             "type_uri": "ka2.criteria.kategorie"
@@ -419,6 +424,11 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Hort",
+            "uri":      "ka2.category.hort",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Hotline",
             "uri":      "ka2.category.hotline",
             "type_uri": "ka2.criteria.angebot"
@@ -476,6 +486,11 @@
         {
             "value":    "Kinder- und Jugendpsychiatrische Beratungsstelle",
             "uri":      "ka2.category.kinder_und_jugendpsychiatrische_beratungsstelle",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Kinderbetreuung an Schulen",
+            "uri":      "ka2.category.kinderbetreuung_an_schulen",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -689,6 +704,11 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Sozial-kulturelle Projekte",
+            "uri":      "ka2.category.sozial_kulturelle_projekte",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Sozialbetreutes Wohnen",
             "uri":      "ka2.category.sozialbetreutes_wohnen",
             "type_uri": "ka2.criteria.angebot"
@@ -696,11 +716,6 @@
         {
             "value":    "Sozialhilfeberatung",
             "uri":      "ka2.category.sozialhilfeberatung",
-            "type_uri": "ka2.criteria.angebot"
-        },
-        {
-            "value":    "Sozial-kulturelle Projekte",
-            "uri":      "ka2.category.sozial_kulturelle_projekte",
             "type_uri": "ka2.criteria.angebot"
         },
         {
