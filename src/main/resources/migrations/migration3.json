@@ -302,6 +302,11 @@
             "uri":      "ka2.bezirk.charlottenburg_wilmersdorf",
             "type_uri": "ka2.bezirk"
         },
+        {
+            "value":    "Spandau",
+            "uri":      "ka2.bezirk.spandau",
+            "type_uri": "ka2.bezirk"
+        },
 
         # Bezirksregionen
 
@@ -703,6 +708,54 @@
         {
             "value":    "Charlottenburg-Wilmersdorf 5",
             "uri":      "ka2.bezirksregion.charlottenburg-wilmersdorf-5",
+            "type_uri": "ka2.bezirksregion"
+        },
+
+        # --- Spandau
+
+        {
+            "value":    "Hakenfelde",
+            "uri":      "ka2.bezirksregion.spandau-01-hakenfelde",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Falkenhagener Feld",
+            "uri":      "ka2.bezirksregion.spandau-02-falkenhagener-feld",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Spandauer Mitte",
+            "uri":      "ka2.bezirksregion.spandau-03-mitte",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Brunsb\u00fctteler Damm",
+            "uri":      "ka2.bezirksregion.spandau-04-brunsbuettelerdamm",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Heerstra\u00dfe Nord",
+            "uri":      "ka2.bezirksregion.spandau-05-heerstrasse-nord",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Wilhelmstadt",
+            "uri":      "ka2.bezirksregion.spandau-06-wilhelmstadt",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Haselhorst",
+            "uri":      "ka2.bezirksregion.spandau-07-haselhorst",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Siemensstadt",
+            "uri":      "ka2.bezirksregion.spandau-08-Siemensstadt",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Gatow / Kladow",
+            "uri":      "ka2.bezirksregion.spandau-09-gatow-kladow",
             "type_uri": "ka2.bezirksregion"
         },
 
