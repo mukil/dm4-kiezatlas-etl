@@ -86,6 +86,11 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Jugendhilfeangebote",
+            "uri":      "ka2.category.jugendhilfeangebote",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Jugendsozialarbeit",
             "uri":      "ka2.category.thema_jugendsozialarbeit",
             "type_uri": "ka2.criteria.kategorie"
