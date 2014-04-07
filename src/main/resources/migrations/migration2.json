@@ -76,6 +76,11 @@
             "type_uri": "ka2.criteria.kategorie"
         },
         {
+            "value":    "Hochschulen",
+            "uri":      "ka2.category.hochschulen",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
             "value":    "Jugend",
             "uri":      "ka2.category.jugend",
             "type_uri": "ka2.criteria.kategorie"
@@ -128,6 +133,16 @@
         {
             "value":    "Kultur und Bildung",
             "uri":      "ka2.category.kultur_und_bildung",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "Kultur und Freizeit",
+            "uri":      "ka2.category.kultur_und_freizeit",
+            "type_uri": "ka2.criteria.kategorie"
+        },
+        {
+            "value":    "M\u00e4nner",
+            "uri":      "ka2.category.maenner",
             "type_uri": "ka2.criteria.kategorie"
         },
         {

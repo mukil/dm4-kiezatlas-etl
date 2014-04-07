@@ -1,0 +1,335 @@
+{
+    "error": null, 
+    "result": [
+        {
+            "categories": [
+                {
+                    "catIcon": "Nichts3x3.png", 
+                    "catId": "t-695734", 
+                    "catName": ""
+                }, 
+                {
+                    "catIcon": "fam-sz-du-braun.png", 
+                    "catId": "t-308014", 
+                    "catName": "Aus- und Weiterbildung, Arbeit"
+                }, 
+                {
+                    "catIcon": "fam-sz-he-rot.png", 
+                    "catId": "t-308015", 
+                    "catName": "Behinderung und Pflege"
+                }, 
+                {
+                    "catIcon": "fam-sz-he-gruen.png", 
+                    "catId": "t-308016", 
+                    "catName": "Familie und Nachbarschaft"
+                }, 
+                {
+                    "catIcon": "fam-sz-du-pink.png", 
+                    "catId": "t-308017", 
+                    "catName": "Frauen"
+                }, 
+                {
+                    "catIcon": "fam-sz-pink.png", 
+                    "catId": "t-308018", 
+                    "catName": "Gesundheit"
+                }, 
+                {
+                    "catIcon": "fam-sz-he-blau.png", 
+                    "catId": "t-308019", 
+                    "catName": "Hochschulen"
+                }, 
+                {
+                    "catIcon": "fam-sz-kinder-orange.png", 
+                    "catId": "t-569792", 
+                    "catName": "Jugendfreizeiteinrichtungen"
+                }, 
+                {
+                    "catIcon": "fam-sz-kinder-orange.png", 
+                    "catId": "t-308021", 
+                    "catName": "Kinder und Jugendliche"
+                }, 
+                {
+                    "catIcon": "fam-sz-kinder-orange.png", 
+                    "catId": "t-569787", 
+                    "catName": "Kitas"
+                }, 
+                {
+                    "catIcon": "fam-sz-violet.png", 
+                    "catId": "t-308022", 
+                    "catName": "Kultur und Freizeit"
+                }, 
+                {
+                    "catIcon": "fam-sz-lila.png", 
+                    "catId": "t-308024", 
+                    "catName": "Migrantinnen + Migranten"
+                }, 
+                {
+                    "catIcon": "fam-sz-he-grau.png", 
+                    "catId": "t-308023", 
+                    "catName": "M\u00e4nner"
+                }, 
+                {
+                    "catIcon": "fam-sz-du-rot.png", 
+                    "catId": "t-308025", 
+                    "catName": "Not"
+                }, 
+                {
+                    "catIcon": "fam-sz-kinder-orange.png", 
+                    "catId": "t-569790", 
+                    "catName": "Schulen"
+                }, 
+                {
+                    "catIcon": "fam-sz-turq.png", 
+                    "catId": "t-308027", 
+                    "catName": "Seniorinnen + Senioren"
+                }, 
+                {
+                    "catIcon": "fam-sz-kinder-orange.png", 
+                    "catId": "t-569791", 
+                    "catName": "Spielpl\u00e4tze"
+                }, 
+                {
+                    "catIcon": "fam-sz-gelb.png", 
+                    "catId": "t-308028", 
+                    "catName": "Sport"
+                }, 
+                {
+                    "catIcon": "fam-sz-hehe-gruen.png", 
+                    "catId": "t-308029", 
+                    "catName": "Umwelt und Naturschutz"
+                }, 
+                {
+                    "catIcon": "fam-sz-weiss.png", 
+                    "catId": "t-308030", 
+                    "catName": "Weltanschauung / Religion / Kirche"
+                }
+            ], 
+            "critId": "t-307982", 
+            "critName": "Kategorie"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308040", 
+                    "catName": "ALLE  EINTR\u00c4GE"
+                }
+            ], 
+            "critId": "t-307984", 
+            "critName": "Angebot"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "Nichts3x3.png", 
+                    "catId": "t-695733", 
+                    "catName": ""
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308032", 
+                    "catName": "Alle Altersgruppen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308033", 
+                    "catName": "Auszubildende + junge Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308034", 
+                    "catName": "Familien / Alleinerziehende mit Kindern im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308035", 
+                    "catName": "Familien / Alleinerziehende mit Kleinkindern"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308036", 
+                    "catName": "Familien / Alleinerziehende mit S\u00e4uglingen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308037", 
+                    "catName": "Jugendliche"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308038", 
+                    "catName": "Kinder im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308039", 
+                    "catName": "Seniorinnen + Senioren"
+                }
+            ], 
+            "critId": "t-307986", 
+            "critName": "Altersgruppe"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "Nichts3x3.png", 
+                    "catId": "t-695732", 
+                    "catName": ""
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308191", 
+                    "catName": "Amt f\u00fcr Gewerbe, Ordnung, Veterin\u00e4r- und Lebensmittelaufsicht"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308193", 
+                    "catName": "Bauordnungsamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-646940", 
+                    "catName": "Behindertenbeauftragte"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-646944", 
+                    "catName": "Bibliotheken"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-645803", 
+                    "catName": "B\u00fcrgeramt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-552214", 
+                    "catName": "B\u00fcro des Bezirksb\u00fcrgermeisters"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-646946", 
+                    "catName": "Einb\u00fcrgerungen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-646947", 
+                    "catName": "Frauenbeauftragte"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308188", 
+                    "catName": "Gesundheitsamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308183", 
+                    "catName": "Jugendamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308189", 
+                    "catName": "Kulturamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308186", 
+                    "catName": "Schulamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308184", 
+                    "catName": "Sozialamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308185", 
+                    "catName": "Sportamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-680565", 
+                    "catName": "Sprechstunde der Stadtr\u00e4tinnen und Stadtr\u00e4te"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-646950", 
+                    "catName": "Standesamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308192", 
+                    "catName": "Tiefbau- und Gr\u00fcnfl\u00e4chenamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308187", 
+                    "catName": "Umwelt- und Naturschutzamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308190", 
+                    "catName": "Volkshochschule und Musikschule"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-646951", 
+                    "catName": "Wahlamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-646952", 
+                    "catName": "Wirtschaftsf\u00f6rderung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-646953", 
+                    "catName": "Wohnungsamt"
+                }
+            ], 
+            "critId": "t-307988", 
+            "critName": "Bezirksamt"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "Nichts3x3.png", 
+                    "catId": "t-696876", 
+                    "catName": ""
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308042", 
+                    "catName": "Agentur f\u00fcr Arbeit / Jobcenter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308046", 
+                    "catName": "Botschaften"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308043", 
+                    "catName": "Feuerwehr"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308044", 
+                    "catName": "Finanzamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-308047", 
+                    "catName": "Polizei"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-754271", 
+                    "catName": "Stadtreinigung"
+                }
+            ], 
+            "critId": "t-307990", 
+            "critName": "Sonstige Beh\u00f6rden"
+        }
+    ]
+}
