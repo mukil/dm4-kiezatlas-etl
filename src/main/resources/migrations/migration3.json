@@ -307,6 +307,11 @@
             "uri":      "ka2.bezirk.spandau",
             "type_uri": "ka2.bezirk"
         },
+        {
+            "value":    "Steglitz-Zehlendorf",
+            "uri":      "ka2.bezirk.steglitz-zehlendorf",
+            "type_uri": "ka2.bezirk"
+        },
 
         # Bezirksregionen
 
@@ -756,6 +761,69 @@
         {
             "value":    "Gatow / Kladow",
             "uri":      "ka2.bezirksregion.spandau-09-gatow-kladow",
+            "type_uri": "ka2.bezirksregion"
+        },
+
+        # --- Steglitz-Zehlendorf
+
+        {
+            "value":    "Albrechtstra\u00dfe",
+            "uri":      "ka2.bezirksregion.fa-sz-albrecht",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Dahlem",
+            "uri":      "ka2.bezirksregion.fa-sz-dahlem",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Lankwitz-Nord",
+            "uri":      "ka2.bezirksregion.fa-sz-lankwitz-nord",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Lankwitz-S\u00fcd",
+            "uri":      "ka2.bezirksregion.fa-sz-lankwitz-sued",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Lichterfelde-S\u00fcd",
+            "uri":      "ka2.bezirksregion.fa-sz-lichterfelde-sued",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Lichterfelde-West",
+            "uri":      "ka2.bezirksregion.fa-sz-lichterfelde-west",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Schlo\u00dfstra\u00dfe",
+            "uri":      "ka2.bezirksregion.fa-sz-schloss",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Schweizer Viertel",
+            "uri":      "ka2.bezirksregion.fa-sz-schweizer-viertel",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "S\u00fcdende",
+            "uri":      "ka2.bezirksregion.fa-sz-suedende",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Wannsee / Nikolassee / Düppel",
+            "uri":      "ka2.bezirksregion.fa-sz-wa-ni-du",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Zehlendorf-Mitte",
+            "uri":      "ka2.bezirksregion.fa-sz-zehlendorf-mitte",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Zehlendorf-S\u00fcd",
+            "uri":      "ka2.bezirksregion.fa-sz-zehlendorf-sued",
             "type_uri": "ka2.bezirksregion"
         },
 

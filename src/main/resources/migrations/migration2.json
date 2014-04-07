@@ -309,6 +309,11 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Botschaften",
+            "uri":      "ka2.category.botschaften",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Drogenberatung",
             "uri":      "ka2.category.drogenberatung",
             "type_uri": "ka2.criteria.angebot"
@@ -351,6 +356,16 @@
         {
             "value":    "Familienzentren",
             "uri":      "ka2.category.familienzentren",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Feuerwehr",
+            "uri":      "ka2.category.feuerwehr",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Finanzamt",
+            "uri":      "ka2.category.finanzamt",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -639,6 +654,11 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
+            "value":    "Polizei",
+            "uri":      "ka2.category.polizei",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
             "value":    "Qualifizierung / Aus- und Weiterbildung",
             "uri":      "ka2.category.qualifizierung_ausbildung_weiterbildung",
             "type_uri": "ka2.criteria.angebot"
@@ -756,6 +776,11 @@
         {
             "value":    "Sportvereine",
             "uri":      "ka2.category.sportvereine",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Stadtreinigung",
+            "uri":      "ka2.category.stadtreinigung",
             "type_uri": "ka2.criteria.angebot"
         },
         {
