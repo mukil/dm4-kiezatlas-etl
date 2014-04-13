@@ -321,7 +321,7 @@
         },
         {
             "value":    "Charlottenburg-Wilmersdorf",
-            "uri":      "ka2.bezirk.charlottenburg_wilmersdorf",
+            "uri":      "ka2.bezirk.charlottenburg-wilmersdorf",
             "type_uri": "ka2.bezirk"
         },
         {
@@ -786,7 +786,7 @@
             "type_uri": "ka2.bezirksregion"
         },
         {
-            "value":    "Gatow / Kladow",
+            "value":    "Gatow/Kladow",
             "uri":      "ka2.bezirksregion.spandau-09-gatow-kladow",
             "type_uri": "ka2.bezirksregion"
         },
@@ -839,7 +839,7 @@
             "type_uri": "ka2.bezirksregion"
         },
         {
-            "value":    "Wannsee / Nikolassee / Düppel",
+            "value":    "Wannsee/Nikolassee/Düppel",
             "uri":      "ka2.bezirksregion.fa-sz-wa-ni-du",
             "type_uri": "ka2.bezirksregion"
         },

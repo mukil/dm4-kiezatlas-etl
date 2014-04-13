@@ -147,14 +147,14 @@ public class Transformation {
         putCat("t-253610",   "ka2.category.migration_und_integration");                             // Pankow
         putCat("t-308024",   "ka2.category.migration_und_integration");                             // SteZe
         putCat("t-189000",   "ka2.category.migration_und_integration");                             // Li
-        putCat("t-253533",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // Mitte
-        putCat("t-240021",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // FrKr
-        putCat("t-ka-kat11", "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // TeSch
-        putCat("t-230441",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // TreKö
-        putCat("t-202860",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // ChaWi
-        putCat("t-96806",    "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // Span
-        putCat("t-215495",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // Li
-        putCat("t-376353",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // Li
+        putCat("t-253533",   "ka2.category.nachbarschaft_und_stadtteil");                           // Mitte
+        putCat("t-240021",   "ka2.category.nachbarschaft_und_stadtteil");                           // FrKr
+        putCat("t-ka-kat11", "ka2.category.nachbarschaft_und_stadtteil");                           // TeSch
+        putCat("t-230441",   "ka2.category.nachbarschaft_und_stadtteil");                           // TreKö
+        putCat("t-202860",   "ka2.category.nachbarschaft_und_stadtteil");                           // ChaWi
+        putCat("t-96806",    "ka2.category.nachbarschaft_und_stadtteil");                           // Span
+        putCat("t-215495",   "ka2.category.nachbarschaft_und_stadtteil");                           // Li
+        putCat("t-376353",   "ka2.category.nachbarschaft_und_stadtteil");                           // Li
         putCat("t-266441",   "ka2.category.netzwerk");                                              // Mitte
         putCat("t-777381",   "ka2.category.netzwerk_fruehe_hilfen");                                // Pankow
         putCat("t-253534",   "ka2.category.notdienste");                                            // Mitte
@@ -298,13 +298,13 @@ public class Transformation {
         putCat("t-266732",   "ka2.category.eltern_kind_gruppen");                                       // FrKr
         putCat("t-240060",   "ka2.category.fallmanagement_jugendamt_behindertenhilfe");                 // FrKr
         putCat("t-189036",   "ka2.category.angebote_fuer_erwachsene");                                  // Li
-        putCat("t-253550",   "ka2.category.erziehungs_und_familienberatung");                           // Mitte
-        putCat("t-240070",   "ka2.category.erziehungs_und_familienberatung");                           // FrKr
-        putCat("t-240040",   "ka2.category.erziehungs_und_familienberatung");                           // FrKr
-        putCat("t-230614",   "ka2.category.erziehungs_und_familienberatung");                           // Pankow
         putCat("t-ka-ang3",  "ka2.category.essen");                                                     // TeSch
         putCat("t-202871",   "ka2.category.essen");                                                     // ChaWi
         putCat("t-96813",    "ka2.category.essen");                                                     // Span
+        putCat("t-253550",   "ka2.category.familien_und_erziehungsberatung");                           // Mitte
+        putCat("t-240070",   "ka2.category.familien_und_erziehungsberatung");                           // FrKr
+        putCat("t-240040",   "ka2.category.familien_und_erziehungsberatung");                           // FrKr
+        putCat("t-230614",   "ka2.category.familien_und_erziehungsberatung");                           // Pankow
         putCat("t-240043",   "ka2.category.familiencafes");                                             // FrKr
         putCat("t-240049",   "ka2.category.familienkasse");                                             // FrKr
         putCat("t-240042",   "ka2.category.familienzentren");                                           // FrKr
@@ -357,8 +357,8 @@ public class Transformation {
         putCat("t-230613",   "ka2.category.jugendberatung_und_jugendberufshilfe");                      // Pankow
         putCat("t-183042",   "ka2.category.jugendfeuerwehr");                                           // TeSch
         putCat("t-240062",   "ka2.category.jugendfreizeiteinrichtungen");                               // FrKr
-        putCat("t-240074",   "ka2.category.jugendgerichtshilfe_bewaehrungshilfe");                      // FrKr
-        putCat("t-240067",   "ka2.category.jugendgerichtshilfe_bewaehrungshilfe");                      // FrKr
+        putCat("t-240074",   "ka2.category.jugendgerichtshilfe_und_bewaehrungshilfe");                  // FrKr
+        putCat("t-240067",   "ka2.category.jugendgerichtshilfe_und_bewaehrungshilfe");                  // FrKr
         putCat("t-240066",   "ka2.category.jugendnotdienst");                                           // FrKr
         putCat("t-240063",   "ka2.category.jugendsozialarbeit");                                        // FrKr
         putCat("t-215641",   "ka2.category.kfz_zulassungsstelle");                                      // Li
@@ -389,14 +389,14 @@ public class Transformation {
         putCat("t-305623",   "ka2.category.kurzzeitpflegeeinrichtungen");                               // TeSch
         putCat("t-240069",   "ka2.category.leitung_und_team_des_jugendamtes");                          // FrKr
         putCat("t-240079",   "ka2.category.logopaedische_praxen");                                      // FrKr
-        putCat("t-ka-ang5",  "ka2.category.medien_computer");                                           // TeSch
-        putCat("t-202878",   "ka2.category.medien_computer");                                           // ChaWi
-        putCat("t-103813",   "ka2.category.medien_computer");                                           // Span
+        putCat("t-ka-ang5",  "ka2.category.medien_und_computer");                                       // TeSch
+        putCat("t-202878",   "ka2.category.medien_und_computer");                                       // ChaWi
+        putCat("t-103813",   "ka2.category.medien_und_computer");                                       // Span
         putCat("t-240037",   "ka2.category.mietberatung");                                              // FrKr
         putCat("t-253555",   "ka2.category.angebot_migration_und_integration");                         // Mitte
         putCat("t-230628",   "ka2.category.angebot_migration_und_integration");                         // Pankow
         putCat("t-305626",   "ka2.category.mobilitaetsdienst");                                         // TeSch
-        putCat("t-240086",   "ka2.category.musikschulen_vhs");                                          // FrKr
+        putCat("t-240086",   "ka2.category.musikschulen_und_vhs");                                      // FrKr
         putCat("t-230616",   "ka2.category.nachbarschaftszentren");                                     // Pankow
         putCat("t-253556",   "ka2.category.oberschulen");                                               // Mitte
         putCat("t-230588",   "ka2.category.oberschulen");                                               // Pankow

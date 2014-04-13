@@ -161,8 +161,8 @@
             "type_uri": "ka2.criteria.thema"
         },
         {
-            "value":    "Nachbarschaftstreffpunkte und Stadtteilarbeit",
-            "uri":      "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit",
+            "value":    "Nachbarschaft und Stadtteil",
+            "uri":      "ka2.category.nachbarschaft_und_stadtteil",
             "type_uri": "ka2.criteria.thema"
         },
         {
@@ -284,7 +284,7 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "Angebote f\u00fcr Menschen mit Behinderung/Integration",
+            "value":    "Angebote f\u00fcr Menschen mit Behinderung",
             "uri":      "ka2.category.angebote_fuer_menschen_mit_behinderung",
             "type_uri": "ka2.criteria.angebot"
         },
@@ -374,11 +374,6 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "Erziehungs- und Familienberatung",
-            "uri":      "ka2.category.erziehungs_und_familienberatung",
-            "type_uri": "ka2.criteria.angebot"
-        },
-        {
             "value":    "Essen",
             "uri":      "ka2.category.essen",
             "type_uri": "ka2.criteria.angebot"
@@ -386,6 +381,11 @@
         {
             "value":    "Fallmanagement/Jugendamt/Behindertenhilfe",
             "uri":      "ka2.category.fallmanagement_jugendamt_behindertenhilfe",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Familien- und Erziehungsberatung",
+            "uri":      "ka2.category.familien_und_erziehungsberatung",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -524,7 +524,7 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "Jugendberatung / Jugendberufshilfe",
+            "value":    "Jugendberatung und Jugendberufshilfe",
             "uri":      "ka2.category.jugendberatung_und_jugendberufshilfe",
             "type_uri": "ka2.criteria.angebot"
         },
@@ -539,8 +539,8 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "Jugendgerichtshilfe/Bew\u00e4hrungshilfe",
-            "uri":      "ka2.category.jugendgerichtshilfe_bewaehrungshilfe",
+            "value":    "Jugendgerichtshilfe und Bew\u00e4hrungshilfe",
+            "uri":      "ka2.category.jugendgerichtshilfe_und_bewaehrungshilfe",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -659,8 +659,8 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "Medien / Computer",
-            "uri":      "ka2.category.medien_computer",
+            "value":    "Medien und Computer",
+            "uri":      "ka2.category.medien_und_computer",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -669,7 +669,7 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "Migration/Integration",
+            "value":    "Migration und Integration",
             "uri":      "ka2.category.angebot_migration_und_integration",
             "type_uri": "ka2.criteria.angebot"
         },
@@ -679,8 +679,8 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "Musikschulen/VHS",
-            "uri":      "ka2.category.musikschulen_vhs",
+            "value":    "Musikschulen und VHS",
+            "uri":      "ka2.category.musikschulen_und_vhs",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -694,7 +694,7 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "offene Treffpunkte mit sozialkulturellem Charakter",
+            "value":    "Offene Treffpunkte mit sozialkulturellem Charakter",
             "uri":      "ka2.category.offene_treffpunkte_mit_sozialkulturellem_charakter",
             "type_uri": "ka2.criteria.angebot"
         },
@@ -714,7 +714,7 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "Qualifizierung / Aus- und Weiterbildung",
+            "value":    "Qualifizierung/Aus- und Weiterbildung",
             "uri":      "ka2.category.qualifizierung_ausbildung_weiterbildung",
             "type_uri": "ka2.criteria.angebot"
         },
@@ -729,7 +729,7 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "R\u00e4ume / Freiraumnutzung",
+            "value":    "R\u00e4ume/Freiraumnutzung",
             "uri":      "ka2.category.raeume_freiraumnutzung",
             "type_uri": "ka2.criteria.angebot"
         },
@@ -749,7 +749,7 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "schulbezogene Angebote der Jugendhilfe",
+            "value":    "Schulbezogene Angebote der Jugendhilfe",
             "uri":      "ka2.category.schulbezogene_angebote_der_jugendhilfe",
             "type_uri": "ka2.criteria.angebot"
         },
@@ -819,7 +819,7 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "Spielzeug / Sportger\u00e4te / Spiel- oder Sportplatz",
+            "value":    "Spielzeug/Sportger\u00e4te/Spiel- oder Sportplatz",
             "uri":      "ka2.category.spielzeug_sportgeraete_spielplatz_sportplatz",
             "type_uri": "ka2.criteria.angebot"
         },
@@ -879,7 +879,7 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "Technische Ger\u00e4te / Werkzeuge / Werkst\u00e4tten",
+            "value":    "Technische Ger\u00e4te/Werkzeuge/Werkst\u00e4tten",
             "uri":      "ka2.category.technische_geraete_werkzeuge_werkstaetten",
             "type_uri": "ka2.criteria.angebot"
         },
@@ -914,7 +914,7 @@
             "type_uri": "ka2.criteria.angebot"
         },
         {
-            "value":    "Vermittlung von Jobs / Nachbarschaftshilfe",
+            "value":    "Vermittlung von Jobs/Nachbarschaftshilfe",
             "uri":      "ka2.category.vermittlung_von_jobs_nachbarschaftshilfe",
             "type_uri": "ka2.criteria.angebot"
         },
@@ -992,17 +992,17 @@
             "type_uri": "ka2.criteria.zielgruppe"
         },
         {
-            "value":    "Familien / Alleinerziehende mit Kindern im Schulalter",
+            "value":    "Familien und Alleinerziehende mit Kindern im Schulalter",
             "uri":      "ka2.category.familien_und_alleinerziehende_mit_kindern_im_schulalter",
             "type_uri": "ka2.criteria.zielgruppe"
         },
         {
-            "value":    "Familien / Alleinerziehende mit Kleinkindern",
+            "value":    "Familien und Alleinerziehende mit Kleinkindern",
             "uri":      "ka2.category.familien_und_alleinerziehende_mit_kleinkindern",
             "type_uri": "ka2.criteria.zielgruppe"
         },
         {
-            "value":    "Familien / Alleinerziehende mit S\u00e4uglingen",
+            "value":    "Familien und Alleinerziehende mit S\u00e4uglingen",
             "uri":      "ka2.category.familien_und_alleinerziehende_mit_saeuglingen",
             "type_uri": "ka2.criteria.zielgruppe"
         },
@@ -1022,12 +1022,12 @@
             "type_uri": "ka2.criteria.zielgruppe"
         },
         {
-            "value":    "Jugendliche / Selbstorganisierte",
+            "value":    "Jugendliche/Selbstorganisierte",
             "uri":      "ka2.category.jugendliche_selbstorganisierte",
             "type_uri": "ka2.criteria.zielgruppe"
         },
         {
-            "value":    "junge Erwachsene",
+            "value":    "Junge Erwachsene",
             "uri":      "ka2.category.junge_erwachsene",
             "type_uri": "ka2.criteria.zielgruppe"
         },
