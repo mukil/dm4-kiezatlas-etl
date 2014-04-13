@@ -244,19 +244,30 @@ public class Transformation {
 
         // Angebote
         putCat("t-240053",   "ka2.category.aerzte");                                                    // FrKr
+        putCat("t-189018",   "ka2.category.angebote_des_jugendamtes");                                  // Li
+        putCat("t-189014",   "ka2.category.angebote_fuer_frauen");                                      // Li
+        putCat("t-189017",   "ka2.category.angebote_fuer_jugendliche");                                 // Li
+        putCat("t-189019",   "ka2.category.angebote_fuer_kinder");                                      // Li
         putCat("t-253548",   "ka2.category.angebote_fuer_menschen_mit_behinderung");                    // Mitte
         putCat("t-240059",   "ka2.category.angebote_fuer_menschen_mit_behinderung");                    // FrKr
         putCat("t-230632",   "ka2.category.angebote_fuer_menschen_mit_behinderung");                    // Pankow
+        putCat("t-189016",   "ka2.category.angebote_fuer_menschen_mit_behinderung");                    // Li
+        putCat("t-189026",   "ka2.category.angebote_fuer_senioren");                                    // Li
         putCat("t-240041",   "ka2.category.angebote_in_familienbildung_elternbildung_familienselbsthilfe_familienberatung_familienerholung");   // FrKr
+        putCat("t-189013",   "ka2.category.angebote_in_familienbildung_elternbildung_familienselbsthilfe_familienberatung_familienerholung");   // Li
+        putCat("t-205729",   "ka2.category.angebote_in_kultur_und_bildungseinrichtungen");              // Li
         putCat("t-240083",   "ka2.category.babysitter");                                                // FrKr
         putCat("t-240038",   "ka2.category.beratung_bei_trennung_und_scheidung");                       // FrKr
         putCat("t-240094",   "ka2.category.beratung_und_hilfe_in_krisensituationen");                   // FrKr
+        putCat("t-189025",   "ka2.category.beratung_und_hilfe_in_krisensituationen");                   // Li
         putCat("t-253549",   "ka2.category.beratungsangebote");                                         // Mitte
         putCat("t-ka-ang1",  "ka2.category.beratungsangebote");                                         // TeSch
         putCat("t-230630",   "ka2.category.beratungsangebote");                                         // Pankow
         putCat("t-202867",   "ka2.category.beratungsangebote");                                         // ChaWi
         putCat("t-103804",   "ka2.category.beratungsangebote");                                         // Span
+        putCat("t-189011",   "ka2.category.beratungsangebote");                                         // Li
         putCat("t-240028",   "ka2.category.berufsausbildung");                                          // FrKr
+        putCat("t-189008",   "ka2.category.berufsausbildung");                                          // Li
         putCat("t-240036",   "ka2.category.berufsberatung_und_orientierung");                           // FrKr
         putCat("t-240065",   "ka2.category.berufsberatung_und_orientierung");                           // FrKr
         putCat("t-95413",    "ka2.category.beschaeftigungstagesstaette_fuer_alkoholkranke");            // TeSch
@@ -273,6 +284,7 @@ public class Transformation {
         putCat("t-240058",   "ka2.category.drogenentzugseinrichtung");                                  // FrKr
         putCat("t-266732",   "ka2.category.eltern_kind_gruppen");                                       // FrKr
         putCat("t-240060",   "ka2.category.fallmanagement_jugendamt_behindertenhilfe");                 // FrKr
+        putCat("t-189036",   "ka2.category.erwachsene");                                                // Li
         putCat("t-253550",   "ka2.category.erziehungs_und_familienberatung");                           // Mitte
         putCat("t-240070",   "ka2.category.erziehungs_und_familienberatung");                           // FrKr
         putCat("t-240040",   "ka2.category.erziehungs_und_familienberatung");                           // FrKr
@@ -289,6 +301,7 @@ public class Transformation {
         putCat("t-96696",    "ka2.category.fort_und_weiterbildungen");                                  // TeSch
         putCat("t-202892",   "ka2.category.fort_und_weiterbildungen");                                  // ChaWi
         putCat("t-103825",   "ka2.category.fort_und_weiterbildungen");                                  // Span
+        putCat("t-189010",   "ka2.category.fort_und_weiterbildungen");                                  // Li
         putCat("t-240050",   "ka2.category.frauenhaeuser");                                             // FrKr
         putCat("t-253551",   "ka2.category.frauenprojekte");                                            // Mitte
         putCat("t-230615",   "ka2.category.frauenprojekte");                                            // Pankow
@@ -305,6 +318,7 @@ public class Transformation {
         putCat("t-305625",   "ka2.category.generationsuebergreifendes_wohnen");                         // TeSch
         putCat("t-305622",   "ka2.category.gesetzliche_betreuung");                                     // TeSch
         putCat("t-240051",   "ka2.category.gezielte_gesundheitsfoerderung");                            // FrKr
+        putCat("t-189015",   "ka2.category.gezielte_gesundheitsfoerderung");                            // Li
         putCat("t-240082",   "ka2.category.grosselterndienst");                                         // FrKr
         putCat("t-240097",   "ka2.category.grund_und_oberschulen");                                     // FrKr
         putCat("t-253552",   "ka2.category.grundschulen");                                              // Mitte
@@ -331,6 +345,7 @@ public class Transformation {
         putCat("t-240066",   "ka2.category.jugendnotdienst");                                           // FrKr
         putCat("t-240063",   "ka2.category.jugendsozialarbeit");                                        // FrKr
         putCat("t-240087",   "ka2.category.kieznahe_mehrgenerationsangebote");                          // FrKr
+        putCat("t-189024",   "ka2.category.kieznahe_mehrgenerationsangebote");                          // Li
         putCat("t-240054",   "ka2.category.kinder_und_jugendgesundheitsdienste");                       // FrKr
         putCat("t-240095",   "ka2.category.kinder_und_jugendnotdienst");                                // FrKr
         putCat("t-240039",   "ka2.category.kinder_und_jugendpsychiatrische_beratungsstelle");           // FrKr
@@ -375,6 +390,7 @@ public class Transformation {
         putCat("t-202879",   "ka2.category.qualifizierung_ausbildung_weiterbildung");                   // ChaWi
         putCat("t-103814",   "ka2.category.qualifizierung_ausbildung_weiterbildung");                   // Span
         putCat("t-240029",   "ka2.category.qualifizierung_und_beschaeftigung");                         // FrKr
+        putCat("t-189009",   "ka2.category.qualifizierung_und_beschaeftigung");                         // Li
         putCat("t-240090",   "ka2.category.quartiersmanagement");                                       // FrKr
         putCat("t-ka-ang7",  "ka2.category.raeume_freiraumnutzung");                                    // TeSch
         putCat("t-202880",   "ka2.category.raeume_freiraumnutzung");                                    // ChaWi
@@ -405,10 +421,12 @@ public class Transformation {
         putCat("t-202883",   "ka2.category.sozialbetreutes_wohnen");                                    // ChaWi
         putCat("t-103818",   "ka2.category.sozialbetreutes_wohnen");                                    // Span
         putCat("t-240033",   "ka2.category.sozialhilfeberatung");                                       // FrKr
+        putCat("t-189012",   "ka2.category.spezialberatung");                                           // Li
         putCat("t-ka-ang8",  "ka2.category.spielzeug_sportgeraete_spielplatz_sportplatz");              // TeSch
         putCat("t-202884",   "ka2.category.spielzeug_sportgeraete_spielplatz_sportplatz");              // ChaWi
         putCat("t-103819",   "ka2.category.spielzeug_sportgeraete_spielplatz_sportplatz");              // Span
         putCat("t-240099",   "ka2.category.sport_und_bolzplaetze");                                     // FrKr
+        putCat("t-189027",   "ka2.category.sportangebote");                                             // Li
         putCat("t-240101",   "ka2.category.sportbezogene_jugendfreizeitangebote");                      // FrKr
         putCat("t-240100",   "ka2.category.sportvereine");                                              // FrKr
         putCat("t-754271",   "ka2.category.stadtreinigung");                                            // SteZe
@@ -416,6 +434,8 @@ public class Transformation {
         putCat("t-240092",   "ka2.category.streetworker");                                              // FrKr
         putCat("t-240080",   "ka2.category.tagesbetreuung_fuer_kinder");                                // FrKr
         putCat("t-240081",   "ka2.category.tagesbetreuung_fuer_kinder");                                // FrKr
+        putCat("t-189021",   "ka2.category.tagesbetreuung_fuer_kinder");                                // Li
+        putCat("t-189020",   "ka2.category.tageseinrichtung_fuer_kinder");                              // Li
         putCat("t-305624",   "ka2.category.tagespflegeeinrichtungen");                                  // TeSch
         putCat("t-1037011",  "ka2.category.tagespflegestelle");                                         // TeSch
         putCat("t-ka-ang9",  "ka2.category.technische_geraete_werkzeuge_werkstaetten");                 // TeSch
@@ -428,6 +448,7 @@ public class Transformation {
         putCat("t-ka-ang10", "ka2.category.transportmoeglichkeiten");                                   // TeSch
         putCat("t-202888",   "ka2.category.transportmoeglichkeiten");                                   // ChaWi
         putCat("t-103822",   "ka2.category.transportmoeglichkeiten");                                   // Span
+        putCat("t-206809",   "ka2.category.umweltbildung_und_umweltberatung");                          // Li
         putCat("t-240048",   "ka2.category.unterhalt_vaterschaftsanerkennung_im_jugendamt");            // FrKr
         putCat("t-ka-ang11", "ka2.category.unterhaltung");                                              // TeSch
         putCat("t-202889",   "ka2.category.unterhaltung");                                              // ChaWi
