@@ -3,21 +3,21 @@
 {
     "topic_types": [
 
-        # Kategorie
+        # Thema
 
         {
-            "value":            "Kategorie",
-            "uri":              "ka2.criteria.kategorie",
+            "value":            "Thema",
+            "uri":              "ka2.criteria.thema",
             "data_type_uri":    "dm4.core.text",
             "index_mode_uris": ["dm4.core.fulltext", "dm4.core.fulltext_key"]
         },
         {
-            "value":         "Kategorie Facet",
-            "uri":           "ka2.criteria.kategorie.facet",
+            "value":         "Thema Facet",
+            "uri":           "ka2.criteria.thema.facet",
             "data_type_uri": "dm4.core.composite",
             "assoc_defs": [
                 {
-                    "child_type_uri":         "ka2.criteria.kategorie",
+                    "child_type_uri":         "ka2.criteria.thema",
                     "child_cardinality_uri":  "dm4.core.many",
                     "parent_cardinality_uri": "dm4.core.many",
                     "assoc_type_uri":         "dm4.core.aggregation_def"

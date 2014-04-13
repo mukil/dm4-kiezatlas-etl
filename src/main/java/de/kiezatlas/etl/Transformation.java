@@ -11,17 +11,17 @@ public class Transformation {
     public static Map<String, String> CATEGORY_MAP = new HashMap();
 
     static {
-        putCrit("t-253478",           "ka2.criteria.kategorie.facet");      // Mitte
-        putCrit("t-239975",           "ka2.criteria.kategorie.facet");      // FrKr
-        putCrit("tt-ka-kategorie",    "ka2.criteria.kategorie.facet");      // TeSch
-        putCrit("t-229903",           "ka2.criteria.kategorie.facet");      // TreKö
-        putCrit("t-181709",           "ka2.criteria.kategorie.facet");      // Neuk
-        putCrit("t-181711",           "ka2.criteria.kategorie.facet");      // Neuk
-        putCrit("t-230488",           "ka2.criteria.kategorie.facet");      // Pankow
-        putCrit("t-202836",           "ka2.criteria.kategorie.facet");      // ChaWi
-        putCrit("t-96787",            "ka2.criteria.kategorie.facet");      // Span
-        putCrit("t-307982",           "ka2.criteria.kategorie.facet");      // SteZe
-        putCrit("t-307988",           "ka2.criteria.kategorie.facet");      // SteZe
+        putCrit("t-253478",           "ka2.criteria.thema.facet");          // Mitte
+        putCrit("t-239975",           "ka2.criteria.thema.facet");          // FrKr
+        putCrit("tt-ka-kategorie",    "ka2.criteria.thema.facet");          // TeSch
+        putCrit("t-229903",           "ka2.criteria.thema.facet");          // TreKö
+        putCrit("t-181709",           "ka2.criteria.thema.facet");          // Neuk
+        putCrit("t-181711",           "ka2.criteria.thema.facet");          // Neuk
+        putCrit("t-230488",           "ka2.criteria.thema.facet");          // Pankow
+        putCrit("t-202836",           "ka2.criteria.thema.facet");          // ChaWi
+        putCrit("t-96787",            "ka2.criteria.thema.facet");          // Span
+        putCrit("t-307982",           "ka2.criteria.thema.facet");          // SteZe
+        putCrit("t-307988",           "ka2.criteria.thema.facet");          // SteZe
         putCrit("t-253482",           "ka2.criteria.angebot.facet");        // Mitte
         putCrit("t-239977",           "ka2.criteria.angebot.facet");        // FrKr
         putCrit("tt-ka-angebot",      "ka2.criteria.angebot.facet");        // TeSch
@@ -43,7 +43,7 @@ public class Transformation {
     }
 
     static {
-        // Kategorien
+        // Themen
         putCat("t-253525",   "ka2.category.ausbildung_und_arbeit");                                 // Mitte
         putCat("t-240011",   "ka2.category.ausbildung_und_arbeit");                                 // FrKr
         putCat("t-ka-kat5",  "ka2.category.ausbildung_und_arbeit");                                 // TeSch
