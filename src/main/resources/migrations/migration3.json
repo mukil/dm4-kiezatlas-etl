@@ -312,6 +312,11 @@
             "uri":      "ka2.bezirk.steglitz-zehlendorf",
             "type_uri": "ka2.bezirk"
         },
+        {
+            "value":    "Lichtenberg",
+            "uri":      "ka2.bezirk.lichtenberg",
+            "type_uri": "ka2.bezirk"
+        },
 
         # Bezirksregionen
 
@@ -824,6 +829,74 @@
         {
             "value":    "Zehlendorf-S\u00fcd",
             "uri":      "ka2.bezirksregion.fa-sz-zehlendorf-sued",
+            "type_uri": "ka2.bezirksregion"
+        },
+
+        # --- Lichtenberg
+
+        {
+            "value":    "Alt-Hohensch\u00f6nhausen Nord",
+            "uri":      "ka2.bezirksregion.li-alt-hohenschoenhausen-nord",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Alt-Hohensch\u00f6nhausen S\u00fcd",
+            "uri":      "ka2.bezirksregion.li-alt-hohenschoenhausen-sued",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Alt-Lichtenberg",
+            "uri":      "ka2.bezirksregion.li-alt-lichtenberg",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Fennpfuhl",
+            "uri":      "ka2.bezirksregion.li-fennpfuhl",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Frankfurter Allee S\u00fcd",
+            "uri":      "ka2.bezirksregion.li-frankfurter-allee-sued",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Friedrichsfelde Nord",
+            "uri":      "ka2.bezirksregion.li-friedrichsfelde-nord",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Friedrichsfelde S\u00fcd",
+            "uri":      "ka2.bezirksregion.li-friedrichsfelde-sued",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Karlshorst",
+            "uri":      "ka2.bezirksregion.li-karlshorst",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Malchow, Wartenberg und Falkenberg",
+            "uri":      "ka2.bezirksregion.li-malchow-wartenberg-falkenberg",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Neu-Hohensch\u00f6nhausen Nord",
+            "uri":      "ka2.bezirksregion.li-neu-hohenschoenhausen-nord",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Neu-Hohensch\u00f6nhausen S\u00fcd",
+            "uri":      "ka2.bezirksregion.li-neu-hohenschoenhausen-sued",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Neu-Lichtenberg",
+            "uri":      "ka2.bezirksregion.li-neu-lichtenberg",
+            "type_uri": "ka2.bezirksregion"
+        },
+        {
+            "value":    "Rummelsburger Bucht",
+            "uri":      "ka2.bezirksregion.li-rummelsburger-bucht",
             "type_uri": "ka2.bezirksregion"
         },
 
