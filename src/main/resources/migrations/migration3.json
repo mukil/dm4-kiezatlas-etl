@@ -8,6 +8,7 @@
 #   - Sonstiges
 #   - Bezirk
 #   - Bezirksregion
+#   - LOR Nummer
 
 {
     "topic_types": [
@@ -248,6 +249,27 @@
                 }
             ]
         },
+
+        # LOR Nummer
+
+        {
+            "value":         "LOR Nummer",
+            "uri":           "ka2.lor_nummer",
+            "data_type_uri": "dm4.core.text"
+        },
+        {
+            "value":         "LOR Nummer Facet",
+            "uri":           "ka2.lor_nummer.facet",
+            "data_type_uri": "dm4.core.composite",
+            "assoc_defs": [
+                {
+                    "child_type_uri":         "ka2.lor_nummer",
+                    "child_cardinality_uri":  "dm4.core.one",
+                    "parent_cardinality_uri": "dm4.core.many",
+                    "assoc_type_uri":         "dm4.core.aggregation_def"
+                }
+            ]
+        }
     ],
 
     "topics": [
