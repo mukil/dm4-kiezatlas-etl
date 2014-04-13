@@ -16,6 +16,11 @@
             "type_uri": "ka2.criteria.thema"
         },
         {
+            "value":    "B\u00fcrgerhaushalt",
+            "uri":      "ka2.category.buergerhaushalt",
+            "type_uri": "ka2.criteria.thema"
+        },
+        {
             "value":    "Familie",
             "uri":      "ka2.category.familie",
             "type_uri": "ka2.criteria.thema"
@@ -198,6 +203,11 @@
         {
             "value":    "Sonstiges",
             "uri":      "ka2.category.sonstiges",
+            "type_uri": "ka2.criteria.thema"
+        },
+        {
+            "value":    "Soziale Einrichtungen + Dienste",
+            "uri":      "ka2.category.soziale_einrichtungen_und_dienste",
             "type_uri": "ka2.criteria.thema"
         },
         {

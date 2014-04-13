@@ -22,6 +22,8 @@ public class Transformation {
         putCrit("t-96787",            "ka2.criteria.thema.facet");          // Span
         putCrit("t-307982",           "ka2.criteria.thema.facet");          // SteZe
         putCrit("t-307988",           "ka2.criteria.thema.facet");          // SteZe
+        putCrit("t-188950",           "ka2.criteria.thema.facet");          // Li
+        putCrit("t-214403",           "ka2.criteria.thema.facet");          // Li
         putCrit("t-253482",           "ka2.criteria.angebot.facet");        // Mitte
         putCrit("t-239977",           "ka2.criteria.angebot.facet");        // FrKr
         putCrit("tt-ka-angebot",      "ka2.criteria.angebot.facet");        // TeSch
@@ -30,6 +32,8 @@ public class Transformation {
         putCrit("t-202838",           "ka2.criteria.angebot.facet");        // ChaWi
         putCrit("t-96789",            "ka2.criteria.angebot.facet");        // Span
         putCrit("t-307990",           "ka2.criteria.angebot.facet");        // SteZe
+        putCrit("t-188952",           "ka2.criteria.angebot.facet");        // Li
+        putCrit("t-214437",           "ka2.criteria.angebot.facet");        // Li
         putCrit("t-253480",           "ka2.criteria.zielgruppe.facet");     // Mitte
         putCrit("t-239979",           "ka2.criteria.zielgruppe.facet");     // FrKr
         putCrit("tt-ka-altersgruppe", "ka2.criteria.zielgruppe.facet");     // TeSch
@@ -38,6 +42,7 @@ public class Transformation {
         putCrit("t-202840",           "ka2.criteria.zielgruppe.facet");     // ChaWi
         putCrit("t-96791",            "ka2.criteria.zielgruppe.facet");     // Span
         putCrit("t-307986",           "ka2.criteria.zielgruppe.facet");     // SteZe
+        putCrit("t-188954",           "ka2.criteria.zielgruppe.facet");     // Li
         putCrit("t-181713",           "ka2.criteria.traeger.facet");        // Neuk
         putCrit("t-1220610",          "ka2.criteria.ueberregional.facet");  // FrKr
     }
@@ -51,12 +56,15 @@ public class Transformation {
         putCat("t-202851",   "ka2.category.ausbildung_und_arbeit");                                 // ChaWi
         putCat("t-96796",    "ka2.category.ausbildung_und_arbeit");                                 // Span
         putCat("t-308014",   "ka2.category.ausbildung_und_arbeit");                                 // SteZe
+        putCat("t-188991",   "ka2.category.ausbildung_und_arbeit");                                 // Li
         putCat("t-253526",   "ka2.category.beratung");                                              // Mitte
         putCat("t-240012",   "ka2.category.beratung");                                              // FrKr
         putCat("t-ka-kat6",  "ka2.category.beratung");                                              // TeSch
         putCat("t-230424",   "ka2.category.beratung");                                              // TreKö
         putCat("t-202852",   "ka2.category.beratung");                                              // ChaWi
         putCat("t-96797",    "ka2.category.beratung");                                              // Span
+        putCat("t-188992",   "ka2.category.beratung");                                              // Li
+        putCat("t-929829",   "ka2.category.buergerhaushalt");                                       // Li
         putCat("t-253527",   "ka2.category.familie");                                               // Mitte
         putCat("t-240013",   "ka2.category.familie");                                               // FrKr
         putCat("t-ka-kat1",  "ka2.category.familie");                                               // TeSch
@@ -64,11 +72,13 @@ public class Transformation {
         putCat("t-181743",   "ka2.category.familie");                                               // Neuk
         putCat("t-202853",   "ka2.category.familie");                                               // ChaWi
         putCat("t-96798",    "ka2.category.familie");                                               // Span
+        putCat("t-188993",   "ka2.category.familie");                                               // Li
         putCat("t-777382",   "ka2.category.familien_und_nachbarschaftszentren");                    // Pankow
         putCat("t-308016",   "ka2.category.familien_und_nachbarschaftszentren");                    // SteZe
         putCat("t-507124",   "ka2.category.frauen");                                                // Mitte
         putCat("t-253608",   "ka2.category.frauen");                                                // Pankow
         putCat("t-308017",   "ka2.category.frauen");                                                // SteZe
+        putCat("t-188994",   "ka2.category.frauen");                                                // Li
         putCat("t-230577",   "ka2.category.freie_traeger_der_hilfen_zur_erziehung");                // Pankow
         putCat("t-181731",   "ka2.category.freizeit");                                              // Neuk
         putCat("t-181745",   "ka2.category.gemeinwesen");                                           // Neuk
@@ -80,16 +90,19 @@ public class Transformation {
         putCat("t-230426",   "ka2.category.gesundheit_und_behinderung");                            // TreKö
         putCat("t-202854",   "ka2.category.gesundheit_und_behinderung");                            // ChaWi
         putCat("t-96799",    "ka2.category.gesundheit_und_behinderung");                            // Span
+        putCat("t-188995",   "ka2.category.gesundheit_und_behinderung");                            // Li
         putCat("t-230583",   "ka2.category.gesundheit_und_soziales");                               // Pankow
         putCat("t-ka-kat17", "ka2.category.gewerbe");                                               // TeSch
         putCat("t-181732",   "ka2.category.hilfen");                                                // Neuk
         putCat("t-308019",   "ka2.category.hochschulen");                                           // SteZe
+        putCat("t-198186",   "ka2.category.hochschulen");                                           // Li
         putCat("t-240016",   "ka2.category.jugend");                                                // FrKr
         putCat("t-6246",     "ka2.category.jugend");                                                // TeSch
         putCat("t-230427",   "ka2.category.jugend");                                                // TreKö
         putCat("t-181742",   "ka2.category.jugend");                                                // Neuk
         putCat("t-202855",   "ka2.category.jugend");                                                // ChaWi
         putCat("t-96801",    "ka2.category.jugend");                                                // Span
+        putCat("t-188997",   "ka2.category.jugend");                                                // Li
         putCat("t-253530",   "ka2.category.jugendamt");                                             // Mitte
         putCat("t-240017",   "ka2.category.jugendamt");                                             // FrKr
         putCat("t-ka-kat8",  "ka2.category.jugendamt");                                             // TeSch
@@ -109,6 +122,7 @@ public class Transformation {
         putCat("t-181741",   "ka2.category.kinder");                                                // Neuk
         putCat("t-202857",   "ka2.category.kinder");                                                // ChaWi
         putCat("t-96803",    "ka2.category.kinder");                                                // Span
+        putCat("t-188998",   "ka2.category.kinder");                                                // Li
         putCat("t-253531",   "ka2.category.kinderbetreuung");                                       // Mitte
         putCat("t-240019",   "ka2.category.kinderbetreuung");                                       // FrKr
         putCat("t-ka-kat9",  "ka2.category.kinderbetreuung");                                       // TeSch
@@ -125,18 +139,22 @@ public class Transformation {
         putCat("t-230582",   "ka2.category.kultur_und_bildung");                                    // Pankow
         putCat("t-202859",   "ka2.category.kultur_und_bildung");                                    // ChaWi
         putCat("t-96805",    "ka2.category.kultur_und_bildung");                                    // Span
+        putCat("t-188999",   "ka2.category.kultur_und_bildung");                                    // Li
         putCat("t-308022",   "ka2.category.kultur_und_freizeit");                                   // SteZe
         putCat("t-308023",   "ka2.category.maenner");                                               // SteZe
         putCat("t-240015",   "ka2.category.menschen_mit_behinderungen");                            // FrKr
         putCat("t-308015",   "ka2.category.menschen_mit_behinderungen");                            // SteZe
         putCat("t-253610",   "ka2.category.migration_und_integration");                             // Pankow
         putCat("t-308024",   "ka2.category.migration_und_integration");                             // SteZe
+        putCat("t-189000",   "ka2.category.migration_und_integration");                             // Li
         putCat("t-253533",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // Mitte
         putCat("t-240021",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // FrKr
         putCat("t-ka-kat11", "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // TeSch
         putCat("t-230441",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // TreKö
         putCat("t-202860",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // ChaWi
         putCat("t-96806",    "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // Span
+        putCat("t-215495",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // Li
+        putCat("t-376353",   "ka2.category.nachbarschaftstreffpunkte_und_stadtteilarbeit");         // Li
         putCat("t-266441",   "ka2.category.netzwerk");                                              // Mitte
         putCat("t-777381",   "ka2.category.netzwerk_fruehe_hilfen");                                // Pankow
         putCat("t-253534",   "ka2.category.notdienste");                                            // Mitte
@@ -146,6 +164,7 @@ public class Transformation {
         putCat("t-202861",   "ka2.category.notdienste");                                            // ChaWi
         putCat("t-96807",    "ka2.category.notdienste");                                            // Span
         putCat("t-308025",   "ka2.category.notdienste");                                            // SteZe
+        putCat("t-189002",   "ka2.category.notdienste");                                            // Li
         putCat("t-305613",   "ka2.category.pflege");                                                // TeSch
         putCat("t-181735",   "ka2.category.politik");                                               // Neuk
         putCat("t-253535",   "ka2.category.schule");                                                // Mitte
@@ -158,14 +177,17 @@ public class Transformation {
         putCat("t-202862",   "ka2.category.schule");                                                // ChaWi
         putCat("t-96808",    "ka2.category.schule");                                                // Span
         putCat("t-569790",   "ka2.category.schule");                                                // SteZe
+        putCat("t-188996",   "ka2.category.schule");                                                // Li
         putCat("t-266443",   "ka2.category.seniorinnen_und_senioren");                              // Mitte
         putCat("t-240026",   "ka2.category.seniorinnen_und_senioren");                              // FrKr
         putCat("t-ka-kat4",  "ka2.category.seniorinnen_und_senioren");                              // TeSch
         putCat("t-230444",   "ka2.category.seniorinnen_und_senioren");                              // TreKö
         putCat("t-96809",    "ka2.category.seniorinnen_und_senioren");                              // Span
         putCat("t-308027",   "ka2.category.seniorinnen_und_senioren");                              // SteZe
+        putCat("t-189003",   "ka2.category.seniorinnen_und_senioren");                              // Li
         putCat("t-181738",   "ka2.category.sonstiges");                                             // Neuk
         putCat("t-230578",   "ka2.category.sonstiges");                                             // Pankow
+        putCat("t-189004",   "ka2.category.soziale_einrichtungen_und_dienste");                     // Li
         putCat("t-240025",   "ka2.category.spezielle_angebote_fuer_migranten_und_migrantinnen");    // FrKr
         putCat("t-230585",   "ka2.category.spielplaetze");                                          // Pankow
         putCat("t-894927",   "ka2.category.spielplaetze");                                          // ChaWi
@@ -179,6 +201,8 @@ public class Transformation {
         putCat("t-202864",   "ka2.category.sport");                                                 // ChaWi
         putCat("t-96810",    "ka2.category.sport");                                                 // Span
         putCat("t-308028",   "ka2.category.sport");                                                 // SteZe
+        putCat("t-189005",   "ka2.category.sport");                                                 // Li
+        putCat("t-230591",   "ka2.category.sport");                                                 // Li
         putCat("t-256208",   "ka2.category.standorte_des_bezirksamtes");                            // Pankow
         putCat("t-308191",   "ka2.category.standorte_des_bezirksamtes");                            // SteZe
         putCat("t-308193",   "ka2.category.standorte_des_bezirksamtes");                            // SteZe
@@ -206,14 +230,17 @@ public class Transformation {
         putCat("t-181737",   "ka2.category.tagesbetreuung");                                        // Neuk
         putCat("t-230584",   "ka2.category.umwelt_und_natur");                                      // Pankow
         putCat("t-308029",   "ka2.category.umwelt_und_natur");                                      // SteZe
+        putCat("t-206811",   "ka2.category.umwelt_und_natur");                                      // Li
         putCat("t-181747",   "ka2.category.verwaltung");                                            // Neuk
         putCat("t-794601",   "ka2.category.weltanschauung");                                        // ChaWi
         putCat("t-308030",   "ka2.category.weltanschauung");                                        // SteZe
+        putCat("t-189006",   "ka2.category.weltanschauung");                                        // Li
         putCat("t-266442",   "ka2.category.wohnung_und_unterkunft");                                // Mitte
         putCat("t-ka-kat16", "ka2.category.wohnung_und_unterkunft");                                // TeSch
         putCat("t-230446",   "ka2.category.wohnung_und_unterkunft");                                // TreKö
         putCat("t-202865",   "ka2.category.wohnung_und_unterkunft");                                // ChaWi
         putCat("t-96811",    "ka2.category.wohnung_und_unterkunft");                                // Span
+        putCat("t-1281580",  "ka2.category.wohnung_und_unterkunft");                                // Li
 
         // Angebote
         putCat("t-240053",   "ka2.category.aerzte");                                                    // FrKr

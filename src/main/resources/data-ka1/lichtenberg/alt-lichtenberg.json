@@ -1,0 +1,400 @@
+{
+    "error": null, 
+    "result": [
+        {
+            "categories": [
+                {
+                    "catIcon": "arbeit.gif", 
+                    "catId": "t-188991", 
+                    "catName": "Ausbildung + Arbeit"
+                }, 
+                {
+                    "catIcon": "beratung.gif", 
+                    "catId": "t-188992", 
+                    "catName": "Beratung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-929829", 
+                    "catName": "B\u00fcrgerhaushalt"
+                }, 
+                {
+                    "catIcon": "familie.gif", 
+                    "catId": "t-188993", 
+                    "catName": "Familien"
+                }, 
+                {
+                    "catIcon": "Frauen.png", 
+                    "catId": "t-188994", 
+                    "catName": "Frauen"
+                }, 
+                {
+                    "catIcon": "gesundheit.gif", 
+                    "catId": "t-188995", 
+                    "catName": "Gesundheit + Behinderung"
+                }, 
+                {
+                    "catIcon": "hochschulen.gif", 
+                    "catId": "t-198186", 
+                    "catName": "Hochschulen"
+                }, 
+                {
+                    "catIcon": "jugend.gif", 
+                    "catId": "t-188997", 
+                    "catName": "Jugend"
+                }, 
+                {
+                    "catIcon": "kinder.gif", 
+                    "catId": "t-188998", 
+                    "catName": "Kinder"
+                }, 
+                {
+                    "catIcon": "kultur.gif", 
+                    "catId": "t-188999", 
+                    "catName": "Kultur + Bildung"
+                }, 
+                {
+                    "catIcon": "migranten.gif", 
+                    "catId": "t-189000", 
+                    "catName": "Migranten"
+                }, 
+                {
+                    "catIcon": "Nachbarschaftsheime.gif", 
+                    "catId": "t-215495", 
+                    "catName": "Nachbarschaft und Stadtteil"
+                }, 
+                {
+                    "catIcon": "notdienste.gif", 
+                    "catId": "t-189002", 
+                    "catName": "Not / Wohnungsnot"
+                }, 
+                {
+                    "catIcon": "schule.gif", 
+                    "catId": "t-188996", 
+                    "catName": "Schule"
+                }, 
+                {
+                    "catIcon": "senioren.gif", 
+                    "catId": "t-189003", 
+                    "catName": "Senioren"
+                }, 
+                {
+                    "catIcon": "soziale dienste.gif", 
+                    "catId": "t-189004", 
+                    "catName": "Soziale Einrichtungen + Dienste"
+                }, 
+                {
+                    "catIcon": "sport.gif", 
+                    "catId": "t-189005", 
+                    "catName": "Sportangebote"
+                }, 
+                {
+                    "catIcon": "Sportanlage.png", 
+                    "catId": "t-230591", 
+                    "catName": "Sportanlagen"
+                }, 
+                {
+                    "catIcon": "nachbarschaftsheime.gif", 
+                    "catId": "t-376353", 
+                    "catName": "Stadtteilzentren / Soziale Treffpunkte"
+                }, 
+                {
+                    "catIcon": "umwelt.gif", 
+                    "catId": "t-206811", 
+                    "catName": "Umwelt und Naturschutz"
+                }, 
+                {
+                    "catIcon": "religion.gif", 
+                    "catId": "t-189006", 
+                    "catName": "Weltanschauung / Religion / Kirche"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-1281580", 
+                    "catName": "Wohnen"
+                }
+            ], 
+            "critId": "t-188950", 
+            "critName": "Kategorie"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189018", 
+                    "catName": "Angebote des Jugendamtes"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189014", 
+                    "catName": "Angebote f\u00fcr Frauen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189017", 
+                    "catName": "Angebote f\u00fcr Jugendliche"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189019", 
+                    "catName": "Angebote f\u00fcr Kinder"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189016", 
+                    "catName": "Angebote f\u00fcr Menschen mit Behinderung / Integration"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189026", 
+                    "catName": "Angebote f\u00fcr Senioren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189013", 
+                    "catName": "Angebote in Familienbildung, Elternbildung, Familienselbsthilfe, Familienberatung, Familienerholung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-205729", 
+                    "catName": "Angebote in Kultur- und Bildungseinrichtungen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189025", 
+                    "catName": "Beratung + Hilfe in Krisensituationen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189011", 
+                    "catName": "Beratungsstellen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189008", 
+                    "catName": "Berufsausbildung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189036", 
+                    "catName": "Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189010", 
+                    "catName": "Fort- + Weiterbildungen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189015", 
+                    "catName": "Gezielte Gesundheitsf\u00f6rderung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189024", 
+                    "catName": "Kieznahe Mehrgenerationsangebote und offene Treffpunkte mit soziokulturellem Charakter / Stadtteilarbeit"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189009", 
+                    "catName": "Qualifizierung + Besch\u00e4ftigung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189021", 
+                    "catName": "Sonstige Tagesbetreuungen f\u00fcr Kinder"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189012", 
+                    "catName": "Spezialberatung"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189027", 
+                    "catName": "Sportangebote"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189020", 
+                    "catName": "Tageseinrichtung f\u00fcr Kinder"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-206809", 
+                    "catName": "Umweltbildung und Umweltberatung"
+                }
+            ], 
+            "critId": "t-188952", 
+            "critName": "Angebot"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-1036938", 
+                    "catName": ""
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214508", 
+                    "catName": "Amt f\u00fcr B\u00fcrgerdienste"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214509", 
+                    "catName": "Amt f\u00fcr regionalisierte Ordnungsaufgaben"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214499", 
+                    "catName": "Amt f\u00fcr Soziales"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214506", 
+                    "catName": "Amt f\u00fcr Weiterbildung und Kultur"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214487", 
+                    "catName": "Gesundheitsamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214484", 
+                    "catName": "Jugendamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214504", 
+                    "catName": "Ordnungsamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214505", 
+                    "catName": "Schul- und Sportamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214511", 
+                    "catName": "Stadtentwicklungsamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-1014206", 
+                    "catName": "Steuerungsdienst und Sozialraumorientierte Planungskoordination"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214510", 
+                    "catName": "Tiefbau- und Landschaftsplanungsamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214512", 
+                    "catName": "Umwelt- und Naturschutzamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-330478", 
+                    "catName": "Wirtschaftsf\u00f6rderung"
+                }
+            ], 
+            "critId": "t-214403", 
+            "critName": "Bezirksamt"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189029", 
+                    "catName": "Alle Altersgruppen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189032", 
+                    "catName": "Auszubildende + junge Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-192210", 
+                    "catName": "Erwachsene"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189035", 
+                    "catName": "Familien / Alleinerziehende mit Kindern im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189034", 
+                    "catName": "Familien / Alleinerziehende mit Kleinkindern"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189033", 
+                    "catName": "Familien / Alleinerziehende mit S\u00e4uglingen"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189031", 
+                    "catName": "Jugendliche"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189030", 
+                    "catName": "Kinder im Schulalter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-192207", 
+                    "catName": "Seniorinnen + Senioren"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-189037", 
+                    "catName": "Sonstige"
+                }
+            ], 
+            "critId": "t-188954", 
+            "critName": "Altersgruppe"
+        }, 
+        {
+            "categories": [
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-215599", 
+                    "catName": "Agentur f\u00fcr Arbeit / Jobcenter"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-215651", 
+                    "catName": "Feuerwehr"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-215598", 
+                    "catName": "Finanzamt"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-215631", 
+                    "catName": "Gerichte"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-215641", 
+                    "catName": "KfZ-Zulassungsstelle"
+                }, 
+                {
+                    "catIcon": "blackdot.gif", 
+                    "catId": "t-214773", 
+                    "catName": "Polizei"
+                }
+            ], 
+            "critId": "t-214437", 
+            "critName": "Sonstige Beh\u00f6rden"
+        }
+    ]
+}
