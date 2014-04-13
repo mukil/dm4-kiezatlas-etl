@@ -370,7 +370,7 @@
         },
         {
             "value":    "Erwachsene",
-            "uri":      "ka2.category.erwachsene",
+            "uri":      "ka2.category.angebote_fuer_erwachsene",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -451,6 +451,11 @@
         {
             "value":    "Generations\u00fcbergreifendes Wohnen",
             "uri":      "ka2.category.generationsuebergreifendes_wohnen",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "Gerichte",
+            "uri":      "ka2.category.gerichte",
             "type_uri": "ka2.criteria.angebot"
         },
         {
@@ -546,6 +551,11 @@
         {
             "value":    "Jugendsozialarbeit",
             "uri":      "ka2.category.jugendsozialarbeit",
+            "type_uri": "ka2.criteria.angebot"
+        },
+        {
+            "value":    "KfZ-Zulassungsstelle",
+            "uri":      "ka2.category.kfz_zulassungsstelle",
             "type_uri": "ka2.criteria.angebot"
         },
         {
