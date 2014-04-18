@@ -6,6 +6,7 @@
 #   - Beschreibung
 #   - Bild
 #   - Sonstiges
+#   - Stichworte
 #   - Bezirk
 #   - Bezirksregion
 #   - LOR Nummer
@@ -202,6 +203,26 @@
             "assoc_defs": [
                 {
                     "child_type_uri":         "ka2.sonstiges",
+                    "child_cardinality_uri":  "dm4.core.one",
+                    "assoc_type_uri":         "dm4.core.composition_def"
+                }
+            ]
+        },
+
+        # Stichworte
+
+        {
+            "value":         "Stichworte",
+            "uri":           "ka2.stichworte",
+            "data_type_uri": "dm4.core.text"
+        },
+        {
+            "value":         "Stichworte Facet",
+            "uri":           "ka2.stichworte.facet",
+            "data_type_uri": "dm4.core.composite",
+            "assoc_defs": [
+                {
+                    "child_type_uri":         "ka2.stichworte",
                     "child_cardinality_uri":  "dm4.core.one",
                     "assoc_type_uri":         "dm4.core.composition_def"
                 }
