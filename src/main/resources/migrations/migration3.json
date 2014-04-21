@@ -274,9 +274,10 @@
         # LOR Nummer
 
         {
-            "value":         "LOR Nummer",
-            "uri":           "ka2.lor_nummer",
-            "data_type_uri": "dm4.core.text"
+            "value":            "LOR Nummer",
+            "uri":              "ka2.lor_nummer",
+            "data_type_uri":    "dm4.core.text",
+            "index_mode_uris": ["dm4.core.fulltext_key"]
         },
         {
             "value":         "LOR Nummer Facet",
