@@ -328,12 +328,12 @@
         },
         {
             "value":    "Treptow-K\u00f6penick",
-            "uri":      "ka2.bezirk.treptow-koepenick",
+            "uri":      "ka2.bezirk.tk",                # needed to contruct overall map URI
             "type_uri": "ka2.bezirk"
         },
         {
             "value":    "Neuk\u00f6lln",
-            "uri":      "ka2.bezirk.neukoelln",
+            "uri":      "ka2.bezirk.neukoelln",         # overall map doesn't exist
             "type_uri": "ka2.bezirk"
         },
         {
@@ -348,12 +348,12 @@
         },
         {
             "value":    "Spandau",
-            "uri":      "ka2.bezirk.spandau",
+            "uri":      "ka2.bezirk.spandau",           # overall map doesn't exist
             "type_uri": "ka2.bezirk"
         },
         {
             "value":    "Steglitz-Zehlendorf",
-            "uri":      "ka2.bezirk.steglitz-zehlendorf",
+            "uri":      "ka2.bezirk.familienatlas-sz",  # needed to contruct overall map URI
             "type_uri": "ka2.bezirk"
         },
         {
