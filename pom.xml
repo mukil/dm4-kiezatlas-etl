@@ -6,7 +6,7 @@
 
     <name>DeepaMehta 4 Kiezatlas - ETL</name>
     <groupId>de.kiezatlas</groupId>
-    <artifactId>dm42-kiezatlas-etl</artifactId>
+    <artifactId>dm43-SNAPSHOT-kiezatlas-etl</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
