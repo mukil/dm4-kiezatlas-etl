@@ -1093,19 +1093,6 @@
             "value":    "St\u00e4dtisch",
             "uri":      "ka2.category.staedtisch",
             "type_uri": "ka2.criteria.traeger"
-        },
-
-        # Überregional
-
-        {
-            "value":    "Berlinweit",
-            "uri":      "ka2.category.berlinweit",
-            "type_uri": "ka2.criteria.ueberregional"
-        },
-        {
-            "value":    "Gesamtbezirk",
-            "uri":      "ka2.category.gesamtbezirk",
-            "type_uri": "ka2.criteria.ueberregional"
         }
     ]
 }
