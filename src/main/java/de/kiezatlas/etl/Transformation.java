@@ -44,6 +44,7 @@ public class Transformation {
         putCrit("t-307986",           "ka2.criteria.zielgruppe.facet");     // SteZe
         putCrit("t-188954",           "ka2.criteria.zielgruppe.facet");     // Li
         putCrit("t-181713",           "ka2.criteria.traeger.facet");        // Neuk
+        putCrit("t-1220610",          "ka2.criteria.ueberregional.facet");  // FrKr
     }
 
     static {
