@@ -62,7 +62,7 @@
         {
             "value":         "\u00d6ffnungszeiten",
             "uri":           "ka2.oeffnungszeiten",
-            "data_type_uri": "dm4.core.text"
+            "data_type_uri": "dm4.core.html"
         },
         {
             "value":         "\u00d6ffnungszeiten Facet",
