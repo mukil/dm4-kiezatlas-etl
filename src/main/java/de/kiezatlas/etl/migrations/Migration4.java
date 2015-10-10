@@ -36,7 +36,7 @@ public class Migration4 extends Migration {
     }
 
     private void checkTopic(String topicUri) {
-        Topic topic = dms.getTopic("uri", new SimpleValue(topicUri), false);
+        Topic topic = dms.getTopic("uri", new SimpleValue(topicUri));
         if (topic == null) {
             throw new RuntimeException("\"" + topicUri + "\" is an invalid URI");
         }
