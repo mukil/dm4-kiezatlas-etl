@@ -21,6 +21,8 @@ public class Migration5 extends Migration {
     @Override
     public void run() {
 
+        logger.info("##### SKIPPING Kiezatlas ETL Migration 5 due to performance issues. #####");
+
         /** Topic bezirkPankow = dms.getTopic("uri", new SimpleValue("ka2.bezirk.pankow"));
         ResultList<RelatedTopic> pankowEntries = bezirkPankow.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
                 "dm4.core.parent", "ka2.geo_object", 10);
