@@ -2,6 +2,8 @@ package de.kiezatlas.etl.migrations;
 
 import de.deepamehta.core.Topic;
 import de.deepamehta.core.TopicType;
+import de.deepamehta.core.model.ChildTopicsModel;
+import de.deepamehta.core.model.TopicModel;
 import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
 import de.deepamehta.core.model.SimpleValue;
@@ -13,7 +15,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 
-public class Migration5 extends Migration {
+public class Migration6 extends Migration {
 
 
     private Logger log = Logger.getLogger(getClass().getName());
@@ -26,13 +28,23 @@ public class Migration5 extends Migration {
     @Inject
     private AccessControlService accessControlService;
 
-    // ### Note: The "System" Workspace seems to be not the right place for our Kiezatlas types and topics as not
-    // "everyone" can READ the type definitions.
-    // ### Note: The "DeepaMehta" Workspace neiter, since this is where all the "Geo Objects" will live and normal user
-    // will be member.
+    // We rely on the "Kiezatlas" Workspace introduced by dm4-kiezatlas in Migration3 (2.1.7)
+    // - The "System" Workspace seems to be not the right place for our Kiezatlas types and topics as not
+    // "everyone" can READ the type definitions (hardcoded exception for this "Public" workspace).
+    // - The "DeepaMehta" Workspace neither, since this is will become either "Confidential" or all the "Geo Objects"
+    // will live in that and a "normal user" (=EinrichtungsinhaberIn) would be member (and thus have write permission)..
 
     @Override
     public void run() {
+
+        log.info("###### Introduce Kiezatlas Application Types to the \"Kiezatlas\" Workspace and turn the " +
+                "\"DeepaMehta\" Workspace SharingMode to \"Confidential\" ######");
+
+        // 0) Change the "DeepaMehta" Workspace SharingMode to "Confidential"
+        Topic deepaMehta = workspaceService.getWorkspace(WorkspacesService.DEEPAMEHTA_WORKSPACE_URI);
+        deepaMehta.getChildTopics().setRef("dm4.workspaces.sharing_mode", "dm4.workspaces.confidential");
+        // Note: instead of calling update(...) on the entire topic object we could update the child selectively:
+        //     workspace.getChildTopics().setRef("dm4.workspaces.sharing_mode", "dm4.workspaces.public")
 
         // 1) Assign all our types from migration1 to the "Kiezatlas" workspace so "admin" can edit these definitions
         Topic kiezatlas = workspaceService.getWorkspace(KIEZATLAS_WORKSPACE_URI);
@@ -68,6 +80,7 @@ public class Migration5 extends Migration {
 
         // 3) Assign all kiezatlas facets from migration3 to the "kiezatlas" workspace so "admin" can edit these defs
         // ### Träger
+        log.info("### Assigning all Kiezatlas Facets to public workspace \"Kiezatlas\"");
         TopicType kaTraeger = dms.getTopicType("ka2.traeger");
         TopicType kaTraegerName = dms.getTopicType("ka2.traeger.name");
         TopicType kaTraegerArt = dms.getTopicType("ka2.traeger.art");

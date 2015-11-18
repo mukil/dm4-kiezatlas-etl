@@ -8,7 +8,7 @@ import de.deepamehta.plugins.workspaces.WorkspacesService;
 
 public class KiezatlasETLPlugin extends PluginActivator {
 
-    // --- Service Injection (and this class are just) here to provide these Services to Migration5 --- //
+    // --- Service Injection (and this class are just) here to provide these Services to Migration6 --- //
 
     @Inject
     private WorkspacesService workspaceService;
