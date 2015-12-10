@@ -14,7 +14,7 @@ import java.util.Iterator;
 /**
  * A defused migration since it will take ages to complete, thus it is yet untested.
  */
-public class Migration6 extends Migration {
+public class Migration13 extends Migration {
 
     // ---------------------------------------------------------------------------------------------- Instance Variables
 
@@ -27,6 +27,7 @@ public class Migration6 extends Migration {
 
         logger.info("##### Starting Kiezatlas ETL Migration for Pankow Removal #####");
         int count = 1;
+        int maxCount = 100;
         long started = new Date().getTime();
         Topic bezirkPankow = dms.getTopic("uri", new SimpleValue("ka2.bezirk.pankow"));
         ResultList<RelatedTopic> pankowEntries = bezirkPankow.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
@@ -34,7 +35,7 @@ public class Migration6 extends Migration {
         logger.info("### Identified " + pankowEntries.getSize() + " Related Pankow Geo Objects #####");
         Iterator<RelatedTopic> iterator = pankowEntries.getItems().iterator();
         while (iterator.hasNext()) {
-            // if (count > 100) break;
+            if (count > maxCount) break;
             RelatedTopic entry = iterator.next();
             if (entry.getTypeUri().equals("ka2.geo_object")) {
                 int assocSize = entry.getAssociations().size();
@@ -45,7 +46,7 @@ public class Migration6 extends Migration {
             }
             count++;
         }
-        logger.info("### Breaking out of our migration iterator ### Deleted 10 Geo Objects related to Pankow ###");
+        logger.info("### Breaking out of pankow iteration - Deleted "+maxCount+ " Geo Objects related to Pankow ###");
         logger.info("### ETL Pankow migration finished at "+new Date().toGMTString()+", started at " + new Date(started)
                 .toGMTString());
         /** ResultList<RelatedTopic> regionenEntries = bezirkPankow.getRelatedTopics("dm4.core.association", "dm4
