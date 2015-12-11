@@ -43,8 +43,6 @@ public class Migration6 extends Migration {
         // 0) Change the "DeepaMehta" Workspace SharingMode to "Confidential"
         Topic deepaMehta = workspaceService.getWorkspace(WorkspacesService.DEEPAMEHTA_WORKSPACE_URI);
         deepaMehta.getChildTopics().setRef("dm4.workspaces.sharing_mode", "dm4.workspaces.confidential");
-        // Note: instead of calling update(...) on the entire topic object we could update the child selectively:
-        //     workspace.getChildTopics().setRef("dm4.workspaces.sharing_mode", "dm4.workspaces.public")
 
         // 1) Assign all our types from migration1 to the "Kiezatlas" workspace so "admin" can edit these definitions
         Topic kiezatlas = workspaceService.getWorkspace(KIEZATLAS_WORKSPACE_URI);
@@ -138,7 +136,7 @@ public class Migration6 extends Migration {
         workspaceService.assignTypeToWorkspace(lorNummer, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(lorNummerFacet, kiezatlas.getId());
         // 4) Assign all kiezatlas topics from migration3 to the "kiezatlas" workspace so "admin" can edit these
-        // ### Bezirke
+        // 4.1) Bezirke
         List<Topic> bezirke = dms.getTopics("uri", new SimpleValue("ka2.bezirk.*"));
         Iterator<Topic> k = bezirke.iterator();
         while (k.hasNext()) {
@@ -146,9 +144,9 @@ public class Migration6 extends Migration {
             workspaceService.assignToWorkspace(topic, kiezatlas.getId());
             log.info("Assigned bezirk " + topic.getSimpleValue() + " to public workspace \"Kiezatlas\"");
         }
-        // ### Bezirksregion
+        // 4.2) Bezirksregion
         List<Topic> bezirksregionen = dms.getTopics("uri", new SimpleValue("ka2.bezirksregion.*"));
-        Iterator<Topic> m = bezirke.iterator();
+        Iterator<Topic> m = bezirksregionen.iterator();
         while (m.hasNext()) {
             Topic topic = m.next();
             workspaceService.assignToWorkspace(topic, kiezatlas.getId());
