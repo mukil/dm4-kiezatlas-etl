@@ -28,21 +28,12 @@ public class Migration6 extends Migration {
     @Inject
     private AccessControlService accessControlService;
 
-    // We rely on the "Kiezatlas" Workspace introduced by dm4-kiezatlas in Migration3 (2.1.7)
-    // - The "System" Workspace seems to be not the right place for our Kiezatlas types and topics as not
-    // "everyone" can READ the type definitions (hardcoded exception for this "Public" workspace).
-    // - The "DeepaMehta" Workspace neither, since this is will become either "Confidential" or all the "Geo Objects"
-    // will live in that and a "normal user" (=EinrichtungsinhaberIn) would be member (and thus have write permission)..
+    // We introduce "Kiezatlas" Workspace to correct missing type assignments of dm4-kiezatlas (Migration3, 2.1.7)
 
     @Override
     public void run() {
 
-        log.info("###### Introduce Kiezatlas Application Types to the \"Kiezatlas\" Workspace and turn the " +
-                "\"DeepaMehta\" Workspace SharingMode to \"Confidential\" ######");
-
-        // 0) Change the "DeepaMehta" Workspace SharingMode to "Confidential"
-        Topic deepaMehta = workspaceService.getWorkspace(WorkspacesService.DEEPAMEHTA_WORKSPACE_URI);
-        deepaMehta.getChildTopics().setRef("dm4.workspaces.sharing_mode", "dm4.workspaces.confidential");
+        log.info("###### Introduce all Kiezatlas Application Types to the \"Kiezatlas\" Workspace ######");
 
         // 1) Assign all our types from migration1 to the "Kiezatlas" workspace so "admin" can edit these definitions
         Topic kiezatlas = workspaceService.getWorkspace(KIEZATLAS_WORKSPACE_URI);
@@ -152,5 +143,6 @@ public class Migration6 extends Migration {
             workspaceService.assignToWorkspace(topic, kiezatlas.getId());
             log.info("Assigned bezirksregion " + topic.getSimpleValue() + " to public workspace \"Kiezatlas\"");
         }
+        // ### Träger Topics maybe too
     }
 }
