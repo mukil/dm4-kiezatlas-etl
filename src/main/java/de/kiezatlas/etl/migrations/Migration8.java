@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 
 /**
- * A migration to adjust geo object topics to more confidential workspace.
+ * A DEFUSED migration to adjust geo object topics to more confidential workspace.
  * Todo: This turns out to be not the way to go.
  */
 public class Migration8 extends Migration {

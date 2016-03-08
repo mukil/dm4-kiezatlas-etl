@@ -12,7 +12,7 @@ import java.util.Iterator;
 
 
 /**
- * A defused migration since it will take ages to complete, thus it is yet untested.
+ * A DEFUSED migration since it will take ages to complete, thus it is yet untested.
  */
 public class Migration7 extends Migration {
 

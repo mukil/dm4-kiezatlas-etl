@@ -2,8 +2,6 @@ package de.kiezatlas.etl.migrations;
 
 import de.deepamehta.core.Topic;
 import de.deepamehta.core.TopicType;
-import de.deepamehta.core.model.ChildTopicsModel;
-import de.deepamehta.core.model.TopicModel;
 import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
 import de.deepamehta.core.model.SimpleValue;
