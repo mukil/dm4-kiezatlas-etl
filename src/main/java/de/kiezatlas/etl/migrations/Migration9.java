@@ -24,9 +24,9 @@ public class Migration9 extends Migration {
         logger.info("###### Kiezatlas Migration 4: Add Fulltext Index to \"Geo Object\" child Topic Types ######");
         addIndexModeFulltextKey("ka2.beschreibung");
         addIndexModeFulltextKey("ka2.stichworte");
-        addIndexModeFulltextKey("ka2.sonstiges");
+        // addIndexModeFulltextKey("ka2.sonstiges");
         addIndexModeFulltextKey("ka2.bezirksregion");
-        // TODO: Straßenname, Träger Name
+        addIndexModeFulltextKey("ka2.traeger.name");
     }
     
     private void addIndexModeFulltextKey(String typeUri) {
