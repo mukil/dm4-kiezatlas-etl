@@ -12,7 +12,7 @@ import java.util.Iterator;
 
 
 /**
- * A DEFUSED migration since it will take ages to complete, thus it is yet untested.
+ * A migration for deleting the 1st part of 1400 Geo Objects related to Pankow.
  */
 public class Migration7 extends Migration {
 
@@ -25,9 +25,9 @@ public class Migration7 extends Migration {
     @Override
     public void run() {
 
-        logger.info("##### Starting Kiezatlas ETL Migration for Pankow Removal #####");
+        logger.info("##### Starting Kiezatlas ETL Migration Nr. 1 for Pankow Removal #####");
         int count = 1;
-        int maxCount = 100;
+        int maxCount = 700;
         long started = new Date().getTime();
         Topic bezirkPankow = dms.getTopic("uri", new SimpleValue("ka2.bezirk.pankow"));
         ResultList<RelatedTopic> pankowEntries = bezirkPankow.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
@@ -49,20 +49,7 @@ public class Migration7 extends Migration {
         logger.info("### Breaking out of pankow iteration - Deleted "+maxCount+ " Geo Objects related to Pankow ###");
         logger.info("### ETL Pankow migration finished at "+new Date().toGMTString()+", started at " + new Date(started)
                 .toGMTString());
-        /** ResultList<RelatedTopic> regionenEntries = bezirkPankow.getRelatedTopics("dm4.core.association", "dm4
-         * .core" +
-                ".default", "dm4.core.default", "ka2.bezirksregion", 0);
-        logger.info("### Identified " + regionenEntries.getSize() + " Related Pankow Bezirksregionen #####");
-        Iterator<RelatedTopic> iterato = pankowEntries.getItems().iterator();
-        while (iterato.hasNext()) {
-            RelatedTopic bezirksregion = iterato.next();
-            if (bezirksregion.getTypeUri().equals("ka2.bezirksregion")) {
-                logger.info("####### >>  Deleting \"" + bezirksregion.getSimpleValue() + "");
-                dms.deleteTopic(bezirksregion.getId());
-            }
-        }
-        dms.deleteTopic(bezirkPankow.getId());
-        logger.info("######################### Pankow Data Removal complete " +  "#############################"); **/
+
     }
 
 }
