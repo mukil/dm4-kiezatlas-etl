@@ -25,7 +25,7 @@ public class Migration7 extends Migration {
     @Override
     public void run() {
 
-        logger.info("##### Starting Kiezatlas ETL Migration Nr. 1 for Pankow Removal #####");
+        /** logger.info("##### Starting Kiezatlas ETL Migration Nr. 1 for Pankow Removal #####");
         int count = 1;
         int maxCount = 700;
         long started = new Date().getTime();
@@ -48,7 +48,7 @@ public class Migration7 extends Migration {
         }
         logger.info("### Breaking out of pankow iteration - Deleted "+maxCount+ " Geo Objects related to Pankow ###");
         logger.info("### ETL Pankow migration finished at "+new Date().toGMTString()+", started at " + new Date(started)
-                .toGMTString());
+                .toGMTString()); **/
 
     }
 

@@ -39,7 +39,7 @@ public class Migration9 extends Migration {
             dms.getTopicType(typeUri).addIndexMode(IndexMode.FULLTEXT_KEY);
             logger.info("> Index Mode FULLTEXT_KEY UNAVAILABLE: Added index mode to " + typeUri);
         } else {
-            logger.info("> Index Mode FULLTEXT_KEY on " + typeUri + " already AVAILABLE - Doing nothing");
+            logger.info("> Index Mode FULLTEXT_KEY on type \"" + typeUri + "\" already AVAILABLE - Doing nothing");
         }
     }
 
