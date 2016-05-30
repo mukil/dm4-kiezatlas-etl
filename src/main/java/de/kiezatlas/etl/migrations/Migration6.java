@@ -5,7 +5,6 @@ import de.deepamehta.core.TopicType;
 import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
 import de.deepamehta.core.model.SimpleValue;
-import de.deepamehta.plugins.accesscontrol.AccessControlService;
 import de.deepamehta.plugins.workspaces.WorkspacesService;
 
 import java.util.Iterator;
@@ -22,9 +21,6 @@ public class Migration6 extends Migration {
 
     @Inject
     private WorkspacesService workspaceService;
-
-    @Inject
-    private AccessControlService accessControlService;
 
     // We introduce "Kiezatlas" Workspace to correct missing type assignments of dm4-kiezatlas (Migration3, 2.1.7)
 

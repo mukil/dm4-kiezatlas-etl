@@ -27,7 +27,7 @@ public class Migration11 extends Migration {
 
     @Override
     public void run() {
-        HashMap<Long, Topic> bezirksWebsiteTopics = new HashMap<Long, Topic>();
+        /** HashMap<Long, Topic> bezirksWebsiteTopics = new HashMap<Long, Topic>();
         ResultList<RelatedTopic> bezirke = dms.getTopics("ka2.bezirk", 0);
         // 1) Create one site topic for each bezirks topic (### Lets do this via our migrator, from KA 1)
         for (Topic bezirk : bezirke) {
@@ -46,7 +46,7 @@ public class Migration11 extends Migration {
                 logger.info("Migrating Geo Object " + geoObject.getSimpleValue() + " from Bezirk "
                     + bezirk.getSimpleValue() + " to Website \"" + bezirksWebsite.getSimpleValue() + "\"");
             }
-        }
+        } **/
         // 3) ### Assign Bezirksregion topics to Site topics (via Bezirk)
     }
 
