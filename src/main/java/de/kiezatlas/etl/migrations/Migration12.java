@@ -1,22 +1,17 @@
 package de.kiezatlas.etl.migrations;
 
-import de.deepamehta.core.RelatedTopic;
-import de.deepamehta.core.Topic;
 import de.deepamehta.core.TopicType;
-import de.deepamehta.core.model.AssociationDefinitionModel;
 import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
-import de.deepamehta.core.service.ResultList;
 import de.kiezatlas.KiezatlasService;
 
 import java.util.logging.Logger;
 
 
 /*
- * DEFUSED: Assigns all Geo Objects assigned to a specific "Bezirk" topic to the new "Kiezatlas Website" topic.
- * Creates new Kiezatlas Website topic if none exists for the given Bezirk.
+ * Adapt "Bild Facet" TypeDefinition accordingly, in a seperate Transaction/Migration.
  */
-public class Migration14 extends Migration {
+public class Migration12 extends Migration {
 
     // ---------------------------------------------------------------------------------------------- Instance Variables
 

@@ -138,5 +138,8 @@ public class Migration6 extends Migration {
             log.info("Assigned bezirksregion " + topic.getSimpleValue() + " to public workspace \"Kiezatlas\"");
         }
         // ### Träger Topics maybe too
+
+        log.info("###### Kiezatlas 2 Workspace<->Types Migration COMPLETE (used the \"Kiezatlas\" Workspace) ######");
+
     }
 }
