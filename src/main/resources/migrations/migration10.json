@@ -1,5 +1,7 @@
 {
+
     "topic_types": [
+
         {
             "value":            "Bild Pfad",
             "uri":              "ka2.bild.pfad",
@@ -12,6 +14,88 @@
                     }
                 }
             ]
+        },
+
+        {
+            "value":            "Rollstuhlgerecht",
+            "uri":              "ka2.criteria.rollstuhlgerecht",
+            "data_type_uri":    "dm4.core.text",
+            "index_mode_uris": ["dm4.core.key"]
+        },
+        {
+            "value":         "Rollstuhlgerecht Facet",
+            "uri":           "ka2.criteria.rollstuhlgerecht.facet",
+            "data_type_uri": "dm4.core.composite",
+            "assoc_defs": [
+                {
+                    "child_type_uri":         "ka2.criteria.rollstuhlgerecht",
+                    "child_cardinality_uri":  "dm4.core.one",
+                    "parent_cardinality_uri": "dm4.core.one",
+                    "assoc_type_uri":         "dm4.core.aggregation_def"
+                }
+            ]
+        },
+
+        {
+            "value":            "Sprachen",
+            "uri":              "ka2.criteria.sprachen",
+            "data_type_uri":    "dm4.core.text",
+            "index_mode_uris": ["dm4.core.key"]
+        },
+        {
+            "value":         "Sprachen Facet",
+            "uri":           "ka2.criteria.sprachen.facet",
+            "data_type_uri": "dm4.core.composite",
+            "assoc_defs": [
+                {
+                    "child_type_uri":         "ka2.criteria.sprachen",
+                    "child_cardinality_uri":  "dm4.core.many",
+                    "parent_cardinality_uri": "dm4.core.many",
+                    "assoc_type_uri":         "dm4.core.aggregation_def"
+                }
+            ]
         }
+
+    ],
+    "topics": [
+
+        # Neue Bezirke
+
+        {
+            "value":    "Marzahn-Hellersdorf",
+            "uri":      "ka2.bezirk.marzahn-hellersdorf",
+            "type_uri": "ka2.bezirk"
+        },
+        {
+            "value":    "Reinickendorf",
+            "uri":      "ka2.bezirk.reinickendorf",
+            "type_uri": "ka2.bezirk"
+        },
+
+        # Neues Kriterium: Rollstuhlgerechtigkeit
+
+        {
+            "value":    "Voll",
+            "type_uri": "ka2.criteria.rollstuhlgerecht",
+            "uri":      "ka2.rollstuhlgerecht.voll"
+        },
+        {
+            "value":    "Teilweise",
+            "type_uri": "ka2.criteria.rollstuhlgerecht",
+            "uri":      "ka2.rollstuhlgerecht.teilweise"
+        },
+        {
+            "value":    "Nicht",
+            "type_uri": "ka2.criteria.rollstuhlgerecht",
+            "uri":      "ka2.rollstuhlgerecht.nicht"
+        },
+        {
+            "value":    "Unbekannt",
+            "type_uri": "ka2.criteria.rollstuhlgerecht",
+            "uri":      "ka2.rollstuhlgerecht.unbekannt"
+        }
+
+        # Neues Kriterium: Sprachen ### TODO:
+
     ]
 }

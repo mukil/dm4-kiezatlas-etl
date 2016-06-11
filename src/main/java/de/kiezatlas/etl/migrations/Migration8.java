@@ -25,8 +25,8 @@ public class Migration8 extends Migration {
     @Override
     public void run() {
 
-        /** logger.info("##### Starting Kiezatlas ETL Migration Nr. 2 for Pankow Removal #####");
-        int count = 1;
+        logger.info("##### Skipping Kiezatlas ETL Migration Nr. 2 for Pankow Removal #####");
+        /** /int count = 1;
         int maxCount = 700;
         long started = new Date().getTime();
         Topic bezirkPankow = dms.getTopic("uri", new SimpleValue("ka2.bezirk.pankow"));
