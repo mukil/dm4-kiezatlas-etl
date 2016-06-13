@@ -41,12 +41,7 @@ public class Migration13 extends Migration {
                 city.delete();
             }
         }
-        // Delete all left over file topics
-        ResultList<RelatedTopic> files = dms.getTopics("dm4.files.file", 0);
-        for (RelatedTopic file : files) {
-            file.delete();
-        }
-        logger.info("### Migration13 COMPLETE: Cleaned up all city topic to be BERLIN and removed unused FILE topics!");
+        logger.info("### Migration13 COMPLETE: Cleaned up all city topic to be BERLIN!");
     }
 
 }
