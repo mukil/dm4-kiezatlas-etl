@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 /*
  * Remove all geo object type facets childs without an association to a Geo Object.
  */
-public class Migration15 extends Migration {
+public class Migration14 extends Migration {
 
     // ---------------------------------------------------------------------------------------------- Instance Variables
 
@@ -27,20 +27,26 @@ public class Migration15 extends Migration {
 
     @Override
     public void run() {
+        // Delete all left over file topics
+        ResultList<RelatedTopic> files = dms.getTopics("dm4.files.file", 0);
+        for (RelatedTopic file : files) {
+            deleteIfNoParentGeoObject(file);
+        }
         // ### Clean up ALL abandoned facet COMPOSITION topics once related to a Geo Object
-        ResultList<RelatedTopic> openingHours = dms.getTopics("ka2.oeffnungszeiten", 0);
-        for (RelatedTopic openingHour : openingHours) {
-            deleteIfNoParentGeoObject(openingHour);
+        // Bezirk, Bezirskregion, LOR Nummer and Criterias are all AGGREGATED
+        ResultList<RelatedTopic> descriptions = dms.getTopics("ka2.beschreibung", 0);
+        for (RelatedTopic description : descriptions) {
+            deleteIfNoParentGeoObject(description);
         }
-        ResultList<RelatedTopic> contactEntries = dms.getTopics("ka2.kontakt", 0);
-        for (RelatedTopic contactEntry : contactEntries) {
-            deleteIfNoParentGeoObject(contactEntry);
+        ResultList<RelatedTopic> stichworte = dms.getTopics("ka2.stichworte", 0);
+        for (RelatedTopic stichwort : stichworte) {
+            deleteIfNoParentGeoObject(stichwort);
         }
-        ResultList<RelatedTopic> websiteTopics = dms.getTopics("dm4.webbrowser.web_resource", 0);
-        for (RelatedTopic websiteTopic : websiteTopics) {
-            deleteIfNoParentGeoObject(websiteTopic);
+        ResultList<RelatedTopic> sonstiges = dms.getTopics("ka2.sonstiges", 0);
+        for (RelatedTopic sonstige : sonstiges) {
+            deleteIfNoParentGeoObject(sonstige);
         }
-        logger.info("### Migration15 Part 1: COMPLETE: Cleaned up (deleted) "+facetTopicsDeletedCount+" abandoned (COMPOSITION) facet topics!");
+        logger.info("### Migration14 COMPLETE: Cleaned up (deleted) "+facetTopicsDeletedCount+" abandoned (COMPOSITION) facet topics!");
     }
 
     private void deleteIfNoParentGeoObject(Topic entry) {
