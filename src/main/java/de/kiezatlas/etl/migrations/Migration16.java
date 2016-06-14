@@ -4,7 +4,6 @@ import de.deepamehta.core.RelatedTopic;
 import de.deepamehta.core.Topic;
 import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
-import de.deepamehta.core.service.ResultList;
 import de.kiezatlas.KiezatlasService;
 import java.util.HashMap;
 

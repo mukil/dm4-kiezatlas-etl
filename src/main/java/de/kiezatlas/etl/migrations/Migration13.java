@@ -4,7 +4,6 @@ import de.deepamehta.core.RelatedTopic;
 import de.deepamehta.core.Topic;
 import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
-import de.deepamehta.core.service.ResultList;
 import de.kiezatlas.KiezatlasService;
 import java.util.List;
 
@@ -27,11 +26,11 @@ public class Migration13 extends Migration {
     @Override
     public void run() {
         // ### Clean up ALL city entries and reference them to "Berlin"
-        ResultList<RelatedTopic> cities = dms.getTopics("dm4.contacts.city", 0);
-        for (RelatedTopic city : cities) {
+        List<Topic> cities = dm4.getTopicsByType("dm4.contacts.city");
+        for (Topic city : cities) {
             if (!city.getUri().equals("ka2.city.berlin")) {
                 List<RelatedTopic> addresses = city.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
-                    "dm4.core.parent", "dm4.contacts.address", 0).getItems();
+                    "dm4.core.parent", "dm4.contacts.address");
                 for (RelatedTopic address : addresses) {
                     Topic incorrectCity = address.getChildTopics().getTopic("dm4.contacts.city");
                     address.getChildTopics().setRef("dm4.contacts.city", "ka2.city.berlin");

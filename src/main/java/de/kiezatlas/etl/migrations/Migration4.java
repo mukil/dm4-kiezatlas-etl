@@ -3,7 +3,6 @@ package de.kiezatlas.etl.migrations;
 import de.kiezatlas.etl.Transformation;
 
 import de.deepamehta.core.Topic;
-import de.deepamehta.core.model.SimpleValue;
 import de.deepamehta.core.service.Migration;
 
 import java.util.Map;
@@ -36,7 +35,7 @@ public class Migration4 extends Migration {
     }
 
     private void checkTopic(String topicUri) {
-        Topic topic = dms.getTopic("uri", new SimpleValue(topicUri));
+        Topic topic = dm4.getTopicByUri(topicUri);
         if (topic == null) {
             throw new RuntimeException("\"" + topicUri + "\" is an invalid URI");
         }

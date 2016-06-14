@@ -4,7 +4,6 @@ import de.deepamehta.core.Topic;
 import de.deepamehta.core.RelatedTopic;
 import de.deepamehta.core.model.SimpleValue;
 import de.deepamehta.core.service.Migration;
-import de.deepamehta.core.service.ResultList;
 
 import java.util.Date;
 import java.util.logging.Logger;

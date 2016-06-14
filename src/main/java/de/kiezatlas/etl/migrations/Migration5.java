@@ -21,8 +21,8 @@ public class Migration5 extends Migration {
     @Override
     public void run() {
         logger.info("###### Kiezatlas ETL Migration 1: Add Index to \"Beschreibung\" und \"Stichworte\" ######");
-        dms.getTopicType("ka2.beschreibung").addIndexMode(IndexMode.FULLTEXT_KEY);
-        dms.getTopicType("ka2.stichworte").addIndexMode(IndexMode.FULLTEXT_KEY);
+        dm4.getTopicType("ka2.beschreibung").addIndexMode(IndexMode.FULLTEXT_KEY);
+        dm4.getTopicType("ka2.stichworte").addIndexMode(IndexMode.FULLTEXT_KEY);
 
     }
 

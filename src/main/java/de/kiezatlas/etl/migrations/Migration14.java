@@ -1,11 +1,10 @@
 package de.kiezatlas.etl.migrations;
 
-import de.deepamehta.core.RelatedTopic;
 import de.deepamehta.core.Topic;
 import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
-import de.deepamehta.core.service.ResultList;
 import de.kiezatlas.KiezatlasService;
+import java.util.List;
 
 import java.util.logging.Logger;
 
@@ -28,22 +27,22 @@ public class Migration14 extends Migration {
     @Override
     public void run() {
         // Delete all left over file topics
-        ResultList<RelatedTopic> files = dms.getTopics("dm4.files.file", 0);
-        for (RelatedTopic file : files) {
+        List<Topic> files = dm4.getTopicsByType("dm4.files.file");
+        for (Topic file : files) {
             deleteIfNoParentGeoObject(file);
         }
         // ### Clean up ALL abandoned facet COMPOSITION topics once related to a Geo Object
         // Bezirk, Bezirskregion, LOR Nummer and Criterias are all AGGREGATED
-        ResultList<RelatedTopic> descriptions = dms.getTopics("ka2.beschreibung", 0);
-        for (RelatedTopic description : descriptions) {
+        List<Topic> descriptions = dm4.getTopicsByType("ka2.beschreibung");
+        for (Topic description : descriptions) {
             deleteIfNoParentGeoObject(description);
         }
-        ResultList<RelatedTopic> stichworte = dms.getTopics("ka2.stichworte", 0);
-        for (RelatedTopic stichwort : stichworte) {
+        List<Topic> stichworte = dm4.getTopicsByType("ka2.stichworte");
+        for (Topic stichwort : stichworte) {
             deleteIfNoParentGeoObject(stichwort);
         }
-        ResultList<RelatedTopic> sonstiges = dms.getTopics("ka2.sonstiges", 0);
-        for (RelatedTopic sonstige : sonstiges) {
+        List<Topic> sonstiges = dm4.getTopicsByType("ka2.sonstiges");
+        for (Topic sonstige : sonstiges) {
             deleteIfNoParentGeoObject(sonstige);
         }
         logger.info("### Migration14 COMPLETE: Cleaned up (deleted) "+facetTopicsDeletedCount+" abandoned (COMPOSITION) facet topics!");

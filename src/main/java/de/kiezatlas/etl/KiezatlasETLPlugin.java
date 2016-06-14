@@ -2,8 +2,8 @@ package de.kiezatlas.etl;
 
 import de.deepamehta.core.osgi.PluginActivator;
 import de.deepamehta.core.service.Inject;
-import de.deepamehta.plugins.accesscontrol.AccessControlService;
-import de.deepamehta.plugins.workspaces.WorkspacesService;
+import de.deepamehta.accesscontrol.AccessControlService;
+import de.deepamehta.workspaces.WorkspacesService;
 import de.kiezatlas.KiezatlasService;
 
 

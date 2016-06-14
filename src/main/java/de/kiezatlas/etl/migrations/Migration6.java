@@ -5,7 +5,7 @@ import de.deepamehta.core.TopicType;
 import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
 import de.deepamehta.core.model.SimpleValue;
-import de.deepamehta.plugins.workspaces.WorkspacesService;
+import de.deepamehta.workspaces.WorkspacesService;
 
 import java.util.Iterator;
 import java.util.List;
@@ -31,16 +31,16 @@ public class Migration6 extends Migration {
 
         // 1) Assign all our types from migration1 to the "Kiezatlas" workspace so "admin" can edit these definitions
         Topic kiezatlas = workspaceService.getWorkspace(KIEZATLAS_WORKSPACE_URI);
-        TopicType themaCriteria = dms.getTopicType("ka2.criteria.thema.facet");
-        TopicType thema = dms.getTopicType("ka2.criteria.thema");
-        TopicType angebotCriteria = dms.getTopicType("ka2.criteria.angebot.facet");
-        TopicType angebot = dms.getTopicType("ka2.criteria.angebot");
-        TopicType zielgruppeCriteria = dms.getTopicType("ka2.criteria.zielgruppe.facet");
-        TopicType zielgruppe = dms.getTopicType("ka2.criteria.zielgruppe");
-        TopicType traegerCriteria = dms.getTopicType("ka2.criteria.traeger.facet");
-        TopicType traeger = dms.getTopicType("ka2.criteria.traeger");
-        TopicType ueberregionalCriteria = dms.getTopicType("ka2.criteria.ueberregional.facet");
-        TopicType ueberregional = dms.getTopicType("ka2.criteria.ueberregional");
+        TopicType themaCriteria = dm4.getTopicType("ka2.criteria.thema.facet");
+        TopicType thema = dm4.getTopicType("ka2.criteria.thema");
+        TopicType angebotCriteria = dm4.getTopicType("ka2.criteria.angebot.facet");
+        TopicType angebot = dm4.getTopicType("ka2.criteria.angebot");
+        TopicType zielgruppeCriteria = dm4.getTopicType("ka2.criteria.zielgruppe.facet");
+        TopicType zielgruppe = dm4.getTopicType("ka2.criteria.zielgruppe");
+        TopicType traegerCriteria = dm4.getTopicType("ka2.criteria.traeger.facet");
+        TopicType traeger = dm4.getTopicType("ka2.criteria.traeger");
+        TopicType ueberregionalCriteria = dm4.getTopicType("ka2.criteria.ueberregional.facet");
+        TopicType ueberregional = dm4.getTopicType("ka2.criteria.ueberregional");
         workspaceService.assignTypeToWorkspace(themaCriteria, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(thema, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(angebotCriteria, kiezatlas.getId());
@@ -53,7 +53,7 @@ public class Migration6 extends Migration {
         workspaceService.assignTypeToWorkspace(ueberregional, kiezatlas.getId());
 
         // 2) Assign all our topics from migration2 to the "System" workspace so "admin" can edit these
-        List<Topic> categories = dms.getTopics("uri", new SimpleValue("ka2.category.*"));
+        List<Topic> categories = dm4.getTopicsByValue("uri", new SimpleValue("ka2.category.*"));
         Iterator<Topic> i = categories.iterator();
         while (i.hasNext()) {
             Topic topic = i.next();
@@ -64,26 +64,26 @@ public class Migration6 extends Migration {
         // 3) Assign all kiezatlas facets from migration3 to the "kiezatlas" workspace so "admin" can edit these defs
         // ### Träger
         log.info("### Assigning all Kiezatlas Facets to public workspace \"Kiezatlas\"");
-        TopicType kaTraeger = dms.getTopicType("ka2.traeger");
-        TopicType kaTraegerName = dms.getTopicType("ka2.traeger.name");
-        TopicType kaTraegerArt = dms.getTopicType("ka2.traeger.art");
-        TopicType kaTraegerFacet = dms.getTopicType("ka2.traeger.facet");
+        TopicType kaTraeger = dm4.getTopicType("ka2.traeger");
+        TopicType kaTraegerName = dm4.getTopicType("ka2.traeger.name");
+        TopicType kaTraegerArt = dm4.getTopicType("ka2.traeger.art");
+        TopicType kaTraegerFacet = dm4.getTopicType("ka2.traeger.facet");
         workspaceService.assignTypeToWorkspace(kaTraeger, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(kaTraegerName, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(kaTraegerArt, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(kaTraegerFacet, kiezatlas.getId());
         //
-        TopicType oeffnungszeiten = dms.getTopicType("ka2.oeffnungszeiten");
-        TopicType oeffnungszeitenFacet = dms.getTopicType("ka2.oeffnungszeiten.facet");
+        TopicType oeffnungszeiten = dm4.getTopicType("ka2.oeffnungszeiten");
+        TopicType oeffnungszeitenFacet = dm4.getTopicType("ka2.oeffnungszeiten.facet");
         workspaceService.assignTypeToWorkspace(oeffnungszeiten, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(oeffnungszeitenFacet, kiezatlas.getId());
         //
-        TopicType kontakt = dms.getTopicType("ka2.kontakt");
-        TopicType kontaktMail = dms.getTopicType("ka2.kontakt.email");
-        TopicType kontaktAnsprechpartner = dms.getTopicType("ka2.kontakt.ansprechpartner");
-        TopicType kontaktFax = dms.getTopicType("ka2.kontakt.fax");
-        TopicType kontaktTelefon = dms.getTopicType("ka2.kontakt.telefon");
-        TopicType kontaktFacet = dms.getTopicType("ka2.kontakt.facet");
+        TopicType kontakt = dm4.getTopicType("ka2.kontakt");
+        TopicType kontaktMail = dm4.getTopicType("ka2.kontakt.email");
+        TopicType kontaktAnsprechpartner = dm4.getTopicType("ka2.kontakt.ansprechpartner");
+        TopicType kontaktFax = dm4.getTopicType("ka2.kontakt.fax");
+        TopicType kontaktTelefon = dm4.getTopicType("ka2.kontakt.telefon");
+        TopicType kontaktFacet = dm4.getTopicType("ka2.kontakt.facet");
         workspaceService.assignTypeToWorkspace(kontakt, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(kontaktMail, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(kontaktAnsprechpartner, kiezatlas.getId());
@@ -91,22 +91,22 @@ public class Migration6 extends Migration {
         workspaceService.assignTypeToWorkspace(kontaktTelefon, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(kontaktFacet, kiezatlas.getId());
         //
-        TopicType website = dms.getTopicType("ka2.website.facet");
+        TopicType website = dm4.getTopicType("ka2.website.facet");
         workspaceService.assignTypeToWorkspace(website, kiezatlas.getId());
         //
-        TopicType beschreibung = dms.getTopicType("ka2.beschreibung");
-        TopicType beschreibungFacet = dms.getTopicType("ka2.beschreibung.facet");
-        TopicType bildFacet = dms.getTopicType("ka2.bild.facet");
-        TopicType sonstiges = dms.getTopicType("ka2.sonstiges");
-        TopicType sonstigesFacet = dms.getTopicType("ka2.sonstiges.facet");
-        TopicType stichworte = dms.getTopicType("ka2.stichworte");
-        TopicType stichworteFacet = dms.getTopicType("ka2.stichworte.facet");
-        TopicType bezirk = dms.getTopicType("ka2.bezirk");
-        TopicType bezirkFacet = dms.getTopicType("ka2.bezirk.facet");
-        TopicType bezirksregion = dms.getTopicType("ka2.bezirksregion");
-        TopicType bezirksregionFacet = dms.getTopicType("ka2.bezirksregion.facet");
-        TopicType lorNummer = dms.getTopicType("ka2.lor_nummer");
-        TopicType lorNummerFacet = dms.getTopicType("ka2.lor_nummer.facet");
+        TopicType beschreibung = dm4.getTopicType("ka2.beschreibung");
+        TopicType beschreibungFacet = dm4.getTopicType("ka2.beschreibung.facet");
+        TopicType bildFacet = dm4.getTopicType("ka2.bild.facet");
+        TopicType sonstiges = dm4.getTopicType("ka2.sonstiges");
+        TopicType sonstigesFacet = dm4.getTopicType("ka2.sonstiges.facet");
+        TopicType stichworte = dm4.getTopicType("ka2.stichworte");
+        TopicType stichworteFacet = dm4.getTopicType("ka2.stichworte.facet");
+        TopicType bezirk = dm4.getTopicType("ka2.bezirk");
+        TopicType bezirkFacet = dm4.getTopicType("ka2.bezirk.facet");
+        TopicType bezirksregion = dm4.getTopicType("ka2.bezirksregion");
+        TopicType bezirksregionFacet = dm4.getTopicType("ka2.bezirksregion.facet");
+        TopicType lorNummer = dm4.getTopicType("ka2.lor_nummer");
+        TopicType lorNummerFacet = dm4.getTopicType("ka2.lor_nummer.facet");
         workspaceService.assignTypeToWorkspace(beschreibung, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(beschreibungFacet, kiezatlas.getId());
         workspaceService.assignTypeToWorkspace(bildFacet, kiezatlas.getId());
@@ -122,7 +122,7 @@ public class Migration6 extends Migration {
         workspaceService.assignTypeToWorkspace(lorNummerFacet, kiezatlas.getId());
         // 4) Assign all kiezatlas topics from migration3 to the "kiezatlas" workspace so "admin" can edit these
         // 4.1) Bezirke
-        List<Topic> bezirke = dms.getTopics("uri", new SimpleValue("ka2.bezirk.*"));
+        List<Topic> bezirke = dm4.getTopicsByValue("uri", new SimpleValue("ka2.bezirk.*"));
         Iterator<Topic> k = bezirke.iterator();
         while (k.hasNext()) {
             Topic topic = k.next();
@@ -130,7 +130,7 @@ public class Migration6 extends Migration {
             log.info("Assigned bezirk " + topic.getSimpleValue() + " to public workspace \"Kiezatlas\"");
         }
         // 4.2) Bezirksregion
-        List<Topic> bezirksregionen = dms.getTopics("uri", new SimpleValue("ka2.bezirksregion.*"));
+        List<Topic> bezirksregionen = dm4.getTopicsByValue("uri", new SimpleValue("ka2.bezirksregion.*"));
         Iterator<Topic> m = bezirksregionen.iterator();
         while (m.hasNext()) {
             Topic topic = m.next();

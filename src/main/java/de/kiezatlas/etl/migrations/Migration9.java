@@ -32,13 +32,13 @@ public class Migration9 extends Migration {
     }
     
     private void addIndexModeFulltextKey(String typeUri) {
-        List<IndexMode> descrIdxModes = dms.getTopicType(typeUri).getIndexModes();
+        List<IndexMode> descrIdxModes = dm4.getTopicType(typeUri).getIndexModes();
         boolean isIndexedFulltextKey = false;
         for (IndexMode idxMode : descrIdxModes) {
             if (idxMode.equals(idxMode.FULLTEXT_KEY)) isIndexedFulltextKey = true;
         }
         if (!isIndexedFulltextKey) {
-            dms.getTopicType(typeUri).addIndexMode(IndexMode.FULLTEXT_KEY);
+            dm4.getTopicType(typeUri).addIndexMode(IndexMode.FULLTEXT_KEY);
             logger.info("> Index Mode FULLTEXT_KEY UNAVAILABLE: Added index mode to " + typeUri);
         } else {
             logger.info("> Index Mode FULLTEXT_KEY on type \"" + typeUri + "\" already AVAILABLE - Doing nothing");

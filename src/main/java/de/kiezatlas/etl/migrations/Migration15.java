@@ -4,8 +4,8 @@ import de.deepamehta.core.RelatedTopic;
 import de.deepamehta.core.Topic;
 import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
-import de.deepamehta.core.service.ResultList;
 import de.kiezatlas.KiezatlasService;
+import java.util.List;
 
 import java.util.logging.Logger;
 
@@ -28,16 +28,16 @@ public class Migration15 extends Migration {
     @Override
     public void run() {
         // ### Clean up ALL abandoned facet COMPOSITION topics once related to a Geo Object
-        ResultList<RelatedTopic> openingHours = dms.getTopics("ka2.oeffnungszeiten", 0);
-        for (RelatedTopic openingHour : openingHours) {
+        List<Topic> openingHours = dm4.getTopicsByType("ka2.oeffnungszeiten");
+        for (Topic openingHour : openingHours) {
             deleteIfNoParentGeoObject(openingHour);
         }
-        ResultList<RelatedTopic> contactEntries = dms.getTopics("ka2.kontakt", 0);
-        for (RelatedTopic contactEntry : contactEntries) {
+        List<Topic> contactEntries = dm4.getTopicsByType("ka2.kontakt");
+        for (Topic contactEntry : contactEntries) {
             deleteIfNoParentGeoObject(contactEntry);
         }
-        ResultList<RelatedTopic> websiteTopics = dms.getTopics("dm4.webbrowser.web_resource", 0);
-        for (RelatedTopic websiteTopic : websiteTopics) {
+        List<Topic> websiteTopics = dm4.getTopicsByType("dm4.webbrowser.web_resource");
+        for (Topic websiteTopic : websiteTopics) {
             deleteIfNoParentGeoObject(websiteTopic);
         }
         logger.info("### Migration15 Part 1: COMPLETE: Cleaned up (deleted) "+facetTopicsDeletedCount+" abandoned (COMPOSITION) facet topics!");
