@@ -40,7 +40,7 @@ public class Migration11 extends Migration {
             Topic fileFacetTopic = kiezService.getImageFileFacetByGeoObject(geoObject);
             if (fileFacetTopic != null) {
                 // 2.1) Construct new "Bild Pfad" value
-                logger.info("Fetched Image File Topic" + fileFacetTopic.getSimpleValue());
+                logger.info("Fetched Image File Topic Name \"" + fileFacetTopic.getSimpleValue() + "\"");
                 String fileName = fileFacetTopic.getChildTopics().getString("dm4.files.file_name");
                 String filePath = fileFacetTopic.getChildTopics().getString("dm4.files.path");
                 // 2.2) Remove oudated file topic

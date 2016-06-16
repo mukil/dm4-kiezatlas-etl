@@ -12,6 +12,7 @@ import java.util.logging.Logger;
 
 /*
  * Remove all geo object type facets childs without an association to a Geo Object.
+ * Attention: Rewrites all existing address topic data to be referecing the city of BERLIN!
  */
 public class Migration13 extends Migration {
 
@@ -32,15 +33,14 @@ public class Migration13 extends Migration {
                 List<RelatedTopic> addresses = city.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
                     "dm4.core.parent", "dm4.contacts.address");
                 for (RelatedTopic address : addresses) {
-                    Topic incorrectCity = address.getChildTopics().getTopic("dm4.contacts.city");
+                    // Re-assign all existing address the city topic "Berlin"
                     address.getChildTopics().setRef("dm4.contacts.city", "ka2.city.berlin");
-                    incorrectCity.delete();
+                    // If city was not initiated with an URI through a previous migration, we delete it
+                    if (city.getUri().isEmpty()) city.delete();
                 }
-            } else {
-                city.delete();
             }
         }
-        logger.info("### Migration13 COMPLETE: Cleaned up all city topic to be BERLIN!");
+        logger.info("### DATA Migration13 COMPLETE: Cleaned up all existing address to be located in the city of BERLIN!");
     }
 
 }
