@@ -6,8 +6,8 @@ import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
 import de.kiezatlas.KiezatlasService;
 import java.util.List;
-
 import java.util.logging.Logger;
+
 
 
 /*
@@ -27,11 +27,9 @@ public class Migration11 extends Migration {
 
     @Override
     public void run() {
-        logger.info("##### Starting Bild Facet \"File Topic to \"Bild Pfad\" Migration #####");
+        logger.info("#### Migration11 STARTED: Bild Facet \"File Topic to \"Bild Pfad\" Migration ####");
         // 1) Extend Bild Facet Definition
         TopicType bildFacetType = dm4.getTopicType("ka2.bild.facet");
-        // ### Asign new Facet to Workspace "ka2.bild.pfad
-        // Topic kiezatlas = workspaceService.getWorkspace(KIEZATLAS_WORKSPACE_URI);
         bildFacetType.addAssocDef(mf.newAssociationDefinitionModel("dm4.core.composition_def", "ka2.bild.facet",
            "ka2.bild.pfad", "dm4.core.one", "dm4.core.one"));
         // 2) Move all File Topics to a new Bild Facet Definition
@@ -43,15 +41,14 @@ public class Migration11 extends Migration {
                 logger.info("Fetched Image File Topic Name \"" + fileFacetTopic.getSimpleValue() + "\"");
                 String fileName = fileFacetTopic.getChildTopics().getString("dm4.files.file_name");
                 String filePath = fileFacetTopic.getChildTopics().getString("dm4.files.path");
-                // 2.2) Remove oudated file topic
+                // 2.2) Remove oudated file topic from Geo Object => Bild Facet
                 fileFacetTopic.delete();
                 // 2.3) Write new "Bild Pfad" facet
                 kiezService.updateImageFileFacet(geoObject, filePath + fileName);
             }
         }
-        logger.info("##### Completed: ("+geoObjects.size()+") Geo Objects Bild Facet \"File\" topic"
-            + "to \"Bild Pfad\" Migration #####");
-
+        logger.info("#### Migration11 COMPLETED: ("+geoObjects.size()+") Geo Objects Bild Facet \"File\" topic"
+            + "to \"Bild Pfad\" Migration ####");
     }
 
 }

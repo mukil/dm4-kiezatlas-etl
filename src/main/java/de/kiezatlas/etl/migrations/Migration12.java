@@ -9,6 +9,7 @@ import de.deepamehta.workspaces.WorkspacesService;
 import java.util.logging.Logger;
 
 
+
 /*
  * Adapt "Bild Facet" TypeDefinition accordingly, in a seperate Transaction/Migration.
  */
@@ -26,35 +27,17 @@ public class Migration12 extends Migration {
 
     @Override
     public void run() {
+        logger.info("#### Migration12 Started: Assignined Bild Facet Types to \"Kiezatlas\" Workspace ####");
         // 1) Reduce Bild Facet Definition
         TopicType bildFacetType = dm4.getTopicType("ka2.bild.facet");
+        TopicType bildPfadFacet = dm4.getTopicType("ka2.bild.pfad");
+        logger.info("Remove Assoc Def to Topic Type File ####");
         bildFacetType.removeAssocDef("dm4.files.file");
+        // 2) Asign new "ka2.bild.pfad" ad bild facets to Workspace "Kiezatlas"
         Topic kiezatlas = workspaceService.getWorkspace(KIEZATLAS_WORKSPACE_URI);
         workspaceService.assignToWorkspace(bildFacetType, kiezatlas.getId());
-        // 2) Assign new Topics Bezirke
-        Topic marzahn = dm4.getTopicByUri("ka2.bezirk.marzahn-hellersdorf");
-        workspaceService.assignToWorkspace(marzahn, kiezatlas.getId());
-        logger.info("Assigned bezirk " + marzahn.getSimpleValue() + " to public workspace \"Kiezatlas\"");
-        Topic reinickendorf = dm4.getTopicByUri("ka2.bezirk.reinickendorf");
-        workspaceService.assignToWorkspace(reinickendorf, kiezatlas.getId());
-        logger.info("Assigned bezirk " + reinickendorf.getSimpleValue() + " to public workspace \"Kiezatlas\"");
-        TopicType sprachenType = dm4.getTopicType("ka2.criteria.sprachen");
-        TopicType sprachenFacetType = dm4.getTopicType("ka2.criteria.sprachen.facet");
-        TopicType rollstuhlType = dm4.getTopicType("ka2.criteria.rollstuhlgerecht");
-        TopicType rollstuhlFacetType = dm4.getTopicType("ka2.criteria.rollstuhlgerecht.facet");
-        workspaceService.assignToWorkspace(sprachenType, kiezatlas.getId());
-        workspaceService.assignToWorkspace(sprachenFacetType, kiezatlas.getId());
-        workspaceService.assignToWorkspace(rollstuhlType, kiezatlas.getId());
-        workspaceService.assignToWorkspace(rollstuhlFacetType, kiezatlas.getId());
-        // 3) ###n Rollstuhlgerecht und Sprachen
-        Topic vollRoll = dm4.getTopicByUri("ka2.rollstuhlgerecht.voll");
-        logger.info("Assigned " + vollRoll.getSimpleValue() + " to public workspace \"Kiezatlas\"");
-        Topic teilweiseRoll = dm4.getTopicByUri("ka2.rollstuhlgerecht.teilweise");
-        logger.info("Assigned " + teilweiseRoll.getSimpleValue() + " to public workspace \"Kiezatlas\"");
-        Topic nichtRoll = dm4.getTopicByUri("ka2.rollstuhlgerecht.nicht");
-        logger.info("Assigned " + nichtRoll.getSimpleValue() + " to public workspace \"Kiezatlas\"");
-        Topic unbekanntRoll = dm4.getTopicByUri("ka2.rollstuhlgerecht.unbekannt");
-        logger.info("Assigned " + unbekanntRoll.getSimpleValue() + " to public workspace \"Kiezatlas\"");
+        workspaceService.assignToWorkspace(bildPfadFacet, kiezatlas.getId());
+        logger.info("#### Migration12 Completed: Assignined Bild Facet Types to \"Kiezatlas\" Workspace ####");
     }
 
 }

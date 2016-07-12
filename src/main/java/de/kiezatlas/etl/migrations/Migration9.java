@@ -21,13 +21,13 @@ public class Migration9 extends Migration {
 
     @Override
     public void run() {
-        logger.info("###### Kiezatlas 2 Migration: Adding Fulltext Index to \"Geo Object\" child Topic Types ######");
+        logger.info("#### Migration9: Starting Fulltext Index to \"Geo Object\" child Topic Types ######");
         addIndexModeFulltextKey("ka2.beschreibung");
         addIndexModeFulltextKey("ka2.stichworte");
         // addIndexModeFulltextKey("ka2.sonstiges");
         addIndexModeFulltextKey("ka2.bezirksregion");
         addIndexModeFulltextKey("ka2.traeger.name");
-        logger.info("### Kiezatlas 2 Migration COMPLETE: Applied new Fulltext Indices to \"Geo Object\""
+        logger.info("#### Migration9: COMPLETE: Applied new Fulltext Indices to \"Geo Object\""
             + " child and facet types ###");
     }
     
