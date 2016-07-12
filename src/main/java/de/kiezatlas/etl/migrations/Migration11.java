@@ -4,6 +4,7 @@ import de.deepamehta.core.Topic;
 import de.deepamehta.core.TopicType;
 import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
+import de.deepamehta.workspaces.WorkspacesService;
 import de.kiezatlas.KiezatlasService;
 import java.util.List;
 import java.util.logging.Logger;
@@ -22,6 +23,7 @@ public class Migration11 extends Migration {
     private Logger logger = Logger.getLogger(getClass().getName());
 
     @Inject KiezatlasService kiezService;
+    @Inject WorkspacesService workspaces;
 
     // -------------------------------------------------------------------------------------------------- Public Methods
 

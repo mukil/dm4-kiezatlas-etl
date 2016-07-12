@@ -29,7 +29,7 @@ public class Migration14 extends Migration {
 
     @Override
     public void run() {
-        logger.info("### Migration13: STARTing Facet Composition Cleanup ###");
+        logger.info("### Migration14: STARTing Facet Composition Cleanup ###");
         // Delete all left over file topics
         List<Topic> files = dm4.getTopicsByType("dm4.files.file");
         for (Topic file : files) {
@@ -62,7 +62,7 @@ public class Migration14 extends Migration {
         for (Topic sonstige : sonstiges) {
             deleteIfNoParentGeoObject(sonstige);
         }
-        logger.info("### Migration13: COMPLETED: Deleted "+facetTopicsDeletedCount+" abandoned composition topics ###");
+        logger.info("### Migration14 COMPLETED: Deleted "+facetTopicsDeletedCount+" abandoned composition topics ###");
     }
 
     private void deleteIfNoParentGeoObject(Topic entry) {
