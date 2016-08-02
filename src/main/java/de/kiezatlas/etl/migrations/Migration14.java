@@ -29,12 +29,12 @@ public class Migration14 extends Migration {
 
     @Override
     public void run() {
-        logger.info("### Migration14: STARTing Facet Composition Cleanup ###");
+        logger.info("### Migration14: STARTing Facet Composition Cleanup (while skipping File topics) ###");
         // Delete all left over file topics
-        List<Topic> files = dm4.getTopicsByType("dm4.files.file");
+        /** List<Topic> files = dm4.getTopicsByType("dm4.files.file");
         for (Topic file : files) {
             deleteIfNoParentGeoObject(file);
-        }
+        } **/
         // ### Clean up ALL abandoned facet COMPOSITION topics once related to a Geo Object
         List<Topic> openingHours = dm4.getTopicsByType("ka2.oeffnungszeiten");
         for (Topic openingHour : openingHours) {

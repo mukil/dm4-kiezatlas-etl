@@ -29,12 +29,12 @@ public class Migration15 extends Migration {
 
     @Override
     public void run() {
-        logger.info("### Migration15: Continueing Facet Composition Cleanup ###");
+        logger.info("### Migration15: Continueing Facet Composition Cleanup (while skipping Web Resource topics) ###");
         // Bezirk, Bezirskregion, LOR Nummer and Criterias are all AGGREGATED
-        List<Topic> websiteTopics = dm4.getTopicsByType("dm4.webbrowser.web_resource");
+        /** List<Topic> websiteTopics = dm4.getTopicsByType("dm4.webbrowser.web_resource");
         for (Topic websiteTopic : websiteTopics) {
             deleteIfNoParentGeoObject(websiteTopic);
-        }
+        } **/
         List<Topic> descriptions = dm4.getTopicsByType("ka2.beschreibung");
         for (Topic description : descriptions) {
             deleteIfNoParentGeoObject(description);
