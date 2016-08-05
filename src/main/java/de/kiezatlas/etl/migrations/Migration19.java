@@ -15,7 +15,7 @@ import java.util.logging.Logger;
  * Attention: Rewrites all existing address topic data to be referecing the city of BERLIN!
  * WARNING: This migration rewrites all existing geo coordinate topics.
  */
-public class Migration17 extends Migration {
+public class Migration19 extends Migration {
 
     // ---------------------------------------------------------------------------------------------- Instance Variables
 
