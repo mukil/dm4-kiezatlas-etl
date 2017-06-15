@@ -57,7 +57,7 @@ public interface KiezatlasETLService {
 
     List<Topic> searchFulltextInCategories(String referer, String query);
 
-    List<Topic> getCategoryNames(String referer, String query);
+    List<Topic> searchCategoryNames(String referer, String query);
 
     List<RelatedTopic> getAllCategories(Topic geoObject);
 

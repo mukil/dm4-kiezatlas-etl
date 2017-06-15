@@ -39,24 +39,24 @@ public class KiezatlasETLPlugin extends PluginActivator implements KiezatlasETLS
         String queryString = prepareLuceneQueryString(query, false, true, false, true);
         if (queryString != null) {
             List<Topic> themen = dm4.searchTopics(queryString, THEMA_CRIT);
-            log.info("Searching \""+queryString+"\" in Themen Kategorien... " + themen.size());
             for (Topic thema : themen) {
                 List<RelatedTopic> geoObjects = thema.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
                     "dm4.core.parent", KiezatlasService.GEO_OBJECT);
+                log.info("Fetching "  + geoObjects.size() + " Orte \""+queryString+"\" in Thema \"" + thema.getSimpleValue()+ "\"");
                 addGeoObjectsToResults(uniqueResults, geoObjects);
             }
             List<Topic> angebote = dm4.searchTopics(queryString, ANGEBOT_CRIT);
-            log.info("Searching \""+queryString+"\" in Angebote category... " + angebote.size());
             for (Topic angebot : angebote) {
                 List<RelatedTopic> geoObjects = angebot.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
                     "dm4.core.parent", KiezatlasService.GEO_OBJECT);
+                log.info("Fetching " + geoObjects.size() + " Orte \""+queryString+"\" in Angebot \"" + angebot.getSimpleValue()+ "\" ");
                 addGeoObjectsToResults(uniqueResults, geoObjects);
             }
             List<Topic> zielgruppen = dm4.searchTopics(queryString, ZIELGRUPPE_CRIT);
-            log.info("Searching \""+queryString+"\" in Zielgruppen category... " + zielgruppen.size());
             for (Topic zielgruppe : zielgruppen) {
                 List<RelatedTopic> geoObjects = zielgruppe.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
                     "dm4.core.parent", KiezatlasService.GEO_OBJECT);
+                log.info("Fetching " + geoObjects.size() + " Orte \""+queryString+"\" in Zielgruppe \"" + zielgruppe.getSimpleValue() + "\" ");
                 addGeoObjectsToResults(uniqueResults, geoObjects);
             }
         }
@@ -64,30 +64,28 @@ public class KiezatlasETLPlugin extends PluginActivator implements KiezatlasETLS
     }
 
     /**
-     * Fetches a combined list of Geo Objects and Angebote to be displayed in two-tier dropdown menu.
+     * Fetches a list of all kiezatlas criterias (category names).
      * @param referer
      * @param query
      * @return A list of topics which represent search input suggestions.
      */
     @Override
-    public List<Topic> getCategoryNames(@HeaderParam("Referer") String referer, @QueryParam("query") String query) {
+    public List<Topic> searchCategoryNames(@HeaderParam("Referer") String referer, @QueryParam("query") String query) {
         if (!isValidReferer(referer)) throw new WebApplicationException(Response.Status.UNAUTHORIZED);
         List<Topic> results = new ArrayList<Topic>();
         try {
-            String queryValue = query.trim();
-            if (queryValue.length() > 2) {
-                // DO Search for "Not Empty" AND "WITH ASTERISK ON BOTH SIDES" in NAME ONLY
-                log.log(Level.INFO, "> autoComplete keywordQuery for \"{0}\"", queryValue);
-                List<Topic> themen = dm4.searchTopics(queryValue, THEMA_CRIT);
-                List<Topic> angebote = dm4.searchTopics(queryValue, ANGEBOT_CRIT);
-                List<Topic> zielgruppen = dm4.searchTopics(queryValue, ZIELGRUPPE_CRIT);
-                // List<Topic> traeger = dm4.searchTopics(queryValue, TRAEGER_CRIT);
-                // List<Topic> stichworte = dm4.searchTopics(queryValue, STICHWORTE);
-                results.addAll(themen);
-                results.addAll(angebote);
-                results.addAll(zielgruppen);
-                // resutls.addAll(stichworte);
-            }
+            String queryValue = prepareLuceneQueryString(query, false, true, false, true);
+            // DO Search for "Not Empty" AND "WITH ASTERISK ON BOTH SIDES" in NAME ONLY
+            log.log(Level.INFO, "> autoComplete keywordQuery for \"{0}\"", queryValue);
+            List<Topic> themen = dm4.searchTopics(queryValue, THEMA_CRIT);
+            List<Topic> angebote = dm4.searchTopics(queryValue, ANGEBOT_CRIT);
+            List<Topic> zielgruppen = dm4.searchTopics(queryValue, ZIELGRUPPE_CRIT);
+            // List<Topic> traeger = dm4.searchTopics(queryValue, TRAEGER_CRIT);
+            // List<Topic> stichworte = dm4.searchTopics(queryValue, STICHWORTE);
+            results.addAll(themen);
+            results.addAll(angebote);
+            results.addAll(zielgruppen);
+            // resutls.addAll(stichworte);
         } catch (Exception e) {
             throw new RuntimeException("Searching geo object for auto completion failed", e);
         }
