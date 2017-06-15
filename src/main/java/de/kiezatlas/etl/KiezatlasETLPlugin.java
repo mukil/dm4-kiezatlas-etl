@@ -9,6 +9,7 @@ import de.deepamehta.facets.FacetsService;
 import de.deepamehta.workspaces.WorkspacesService;
 import de.kiezatlas.KiezatlasService;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -22,6 +23,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 
+
 public class KiezatlasETLPlugin extends PluginActivator implements KiezatlasETLService {
 
     private final Logger log = Logger.getLogger(getClass().getName());
@@ -33,17 +35,46 @@ public class KiezatlasETLPlugin extends PluginActivator implements KiezatlasETLS
     @Inject private KiezatlasService kiezService;
     @Inject private FacetsService facets;
 
+    @Override
+    public List<Topic> searchFulltextInCategories(@HeaderParam("Referer") String referer,
+                                                  @QueryParam("query") String query) {
+        if (!isValidReferer(referer)) throw new WebApplicationException(Response.Status.UNAUTHORIZED);
+        HashMap<Long, Topic> uniqueResults = new HashMap<Long, Topic>();
+        String queryString = prepareLuceneQueryString(query, false, true, false, true);
+        if (queryString != null) {
+            List<Topic> themen = dm4.searchTopics(queryString, THEMA_CRIT);
+            log.info("Searching \""+queryString+"\" in Themen Kategorien... " + themen.size());
+            for (Topic thema : themen) {
+                List<RelatedTopic> geoObjects = thema.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
+                    "dm4.core.parent", KiezatlasService.GEO_OBJECT);
+                addGeoObjectsToResults(uniqueResults, geoObjects);
+            }
+            List<Topic> angebote = dm4.searchTopics(queryString, ANGEBOT_CRIT);
+            log.info("Searching \""+queryString+"\" in Angebote category... " + angebote.size());
+            for (Topic angebot : angebote) {
+                List<RelatedTopic> geoObjects = angebot.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
+                    "dm4.core.parent", KiezatlasService.GEO_OBJECT);
+                addGeoObjectsToResults(uniqueResults, geoObjects);
+            }
+            List<Topic> zielgruppen = dm4.searchTopics(queryString, ZIELGRUPPE_CRIT);
+            log.info("Searching \""+queryString+"\" in Zielgruppen category... " + zielgruppen.size());
+            for (Topic zielgruppe : zielgruppen) {
+                List<RelatedTopic> geoObjects = zielgruppe.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
+                    "dm4.core.parent", KiezatlasService.GEO_OBJECT);
+                addGeoObjectsToResults(uniqueResults, geoObjects);
+            }
+        }
+        return new ArrayList(uniqueResults.values());
+    }
+
     /**
      * Fetches a combined list of Geo Objects and Angebote to be displayed in two-tier dropdown menu.
      * @param referer
      * @param query
      * @return A list of topics which represent search input suggestions.
      */
-    @GET
-    @Path("/search/autocomplete/keywords")
-    @Produces(MediaType.APPLICATION_JSON)
-    public List<Topic> getKeywordSuggestionsForSearch(@HeaderParam("Referer") String referer,
-                                                      @QueryParam("query") String query) {
+    @Override
+    public List<Topic> getCategoryNames(@HeaderParam("Referer") String referer, @QueryParam("query") String query) {
         if (!isValidReferer(referer)) throw new WebApplicationException(Response.Status.UNAUTHORIZED);
         List<Topic> results = new ArrayList<Topic>();
         try {
@@ -87,6 +118,53 @@ public class KiezatlasETLPlugin extends PluginActivator implements KiezatlasETLS
         cats.addAll(zielgruppen);
         cats.addAll(angebot);
         return cats;
+    }
+
+    private void addGeoObjectsToResults(HashMap<Long, Topic> uniqueResults, List<RelatedTopic> geoObjects) {
+        for (Topic geoObject : geoObjects) {
+            if (geoObject != null && !uniqueResults.containsKey(geoObject.getId())) {
+                uniqueResults.put(geoObject.getId(), geoObject);
+            }
+        }
+    }
+
+    /** Find 1:1 copy in dm4-kiezatlas-angebote plugin */
+    private String prepareLuceneQueryString(String userQuery, boolean doSplitWildcards,
+                                            boolean appendWildcard, boolean doExact, boolean leadingWildcard) {
+        String queryPhrase = new String();
+        // 1) split query input by whitespace and append a wildcard to each term
+        if (doSplitWildcards) {
+            String[] terms = userQuery.split(" ");
+            int count = 1;
+            for (String term : terms) {
+                if (appendWildcard && !term.isEmpty()) {
+                    queryPhrase += term + "* ";
+                } else if (!term.isEmpty()) {
+                    queryPhrase += term;
+                    if (terms.length < count) queryPhrase += " ";
+                }
+                count++;
+            }
+            queryPhrase = queryPhrase.trim();
+        } else if (doExact) {
+            // 3) remove (potential "?", introduced as trigger for exact search), quote query input and append fuzzy command
+            queryPhrase = userQuery.trim().replaceAll("\\?", "");
+            queryPhrase = "\"" + queryPhrase + "\"~0.9";
+        } else if (!doSplitWildcards && !appendWildcard  && !leadingWildcard) {
+            // 4) if none, return trimmed user query input
+            queryPhrase = userQuery.trim();
+        } else if (appendWildcard && leadingWildcard && !doSplitWildcards) {
+            queryPhrase = "*" + userQuery.trim() + "*";
+        } else if (appendWildcard && !doSplitWildcards) {
+            // 2) trim and append a wildcard to the query input
+            queryPhrase = userQuery.trim() + "*";
+        } else if (leadingWildcard && !doSplitWildcards) {
+            queryPhrase = "*" + userQuery.trim();
+        }
+        log.info("Prepared Query Phrase \""+userQuery+"\" => \""+queryPhrase+"\" (doSplitWildcards: "
+            + doSplitWildcards + ", appendWildcard: " + appendWildcard + ", leadingWildcard: "
+            + leadingWildcard +", doExact: " + doExact + ")");
+        return queryPhrase;
     }
 
     private boolean isValidReferer(String ref) {

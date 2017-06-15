@@ -3,6 +3,8 @@ package de.kiezatlas.etl;
 import de.deepamehta.core.RelatedTopic;
 import de.deepamehta.core.Topic;
 import java.util.List;
+import javax.ws.rs.HeaderParam;
+import javax.ws.rs.QueryParam;
 
 /**
  *
@@ -52,7 +54,11 @@ public interface KiezatlasETLService {
 
     static final String IMAGE_FACET = "ka2.bild.facet";
     static final String IMAGE_PATH = "ka2.bild.pfad";
-    
+
+    List<Topic> searchFulltextInCategories(String referer, String query);
+
+    List<Topic> getCategoryNames(String referer, String query);
+
     List<RelatedTopic> getAllCategories(Topic geoObject);
 
     Topic getFacetBeschreibung(Topic geoObject);
