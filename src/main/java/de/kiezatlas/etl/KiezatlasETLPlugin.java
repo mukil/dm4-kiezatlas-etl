@@ -103,6 +103,18 @@ public class KiezatlasETLPlugin extends PluginActivator implements KiezatlasETLS
     }
 
     @Override
+    public Topic getImageFileFacetByGeoObject(Topic geoObject) {
+        return facets.getFacet(geoObject, IMAGE_FACET);
+    }
+
+    /** Note: This facet depends on the installation of the dm4-kiezatlas-etl plugin. */
+    @Override
+    public void updateImageFileFacet(Topic geoObject, String imageFilePath) {
+        facets.updateFacet(geoObject, IMAGE_FACET,
+            mf.newFacetValueModel(IMAGE_PATH).put(imageFilePath));
+    }
+
+    @Override
     public List<RelatedTopic> getAllCategories(Topic geoObject) {
         List<RelatedTopic> cats = new ArrayList<RelatedTopic>();
         List<RelatedTopic> themen = facets.getFacets(geoObject, THEMA_FACET);

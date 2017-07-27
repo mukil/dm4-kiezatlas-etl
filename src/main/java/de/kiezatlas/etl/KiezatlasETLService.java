@@ -3,8 +3,6 @@ package de.kiezatlas.etl;
 import de.deepamehta.core.RelatedTopic;
 import de.deepamehta.core.Topic;
 import java.util.List;
-import javax.ws.rs.HeaderParam;
-import javax.ws.rs.QueryParam;
 
 /**
  *
@@ -64,5 +62,9 @@ public interface KiezatlasETLService {
     Topic getFacetBeschreibung(Topic geoObject);
 
     Topic getFacetStichworte(Topic geoObject);
+
+    Topic getImageFileFacetByGeoObject(Topic geoObject);
+
+    void updateImageFileFacet(Topic geoObject, String imageFilePath);
 
 }

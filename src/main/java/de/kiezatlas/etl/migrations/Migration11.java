@@ -6,6 +6,7 @@ import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
 import de.deepamehta.workspaces.WorkspacesService;
 import de.kiezatlas.KiezatlasService;
+import de.kiezatlas.etl.KiezatlasETLService;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -22,6 +23,7 @@ public class Migration11 extends Migration {
 
     private Logger logger = Logger.getLogger(getClass().getName());
 
+    @Inject KiezatlasETLService etlService;
     @Inject KiezatlasService kiezService;
     @Inject WorkspacesService workspaces;
 
@@ -37,7 +39,7 @@ public class Migration11 extends Migration {
         // 2) Move all File Topics to a new Bild Facet Definition
         List<Topic> geoObjects = dm4.getTopicsByType("ka2.geo_object");
         for (Topic geoObject : geoObjects) {
-            Topic fileFacetTopic = kiezService.getImageFileFacetByGeoObject(geoObject);
+            Topic fileFacetTopic = etlService.getImageFileFacetByGeoObject(geoObject);
             if (fileFacetTopic != null) {
                 // 2.1) Construct new "Bild Pfad" value
                 logger.info("Fetched Image File Topic Name \"" + fileFacetTopic.getSimpleValue() + "\"");
@@ -46,7 +48,7 @@ public class Migration11 extends Migration {
                 // 2.2) Remove oudated file topic from Geo Object => Bild Facet
                 fileFacetTopic.delete();
                 // 2.3) Write new "Bild Pfad" facet
-                kiezService.updateImageFileFacet(geoObject, filePath + fileName);
+                etlService.updateImageFileFacet(geoObject, filePath + fileName);
             }
         }
         logger.info("#### Migration11 COMPLETED: ("+geoObjects.size()+") Geo Objects Bild Facet \"File\" topic"
