@@ -16,9 +16,9 @@
         <version>4.8.3</version>
     </parent>
 
-    <properties>
+    <!--properties>
         <dm4.deploy.dir>/Users/malt/source/deepamehta/bundle-deploy</dm4.deploy.dir>
-    </properties>
+    </properties-->
 
     <dependencies>
         <dependency>
