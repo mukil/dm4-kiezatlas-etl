@@ -37,28 +37,32 @@ public class KiezatlasETLPlugin extends PluginActivator implements KiezatlasETLS
         if (!isValidReferer(referer)) throw new WebApplicationException(Response.Status.UNAUTHORIZED);
         HashMap<Long, Topic> uniqueResults = new HashMap<Long, Topic>();
         String queryString = prepareLuceneQueryString(query, false, true, false, true);
-        if (queryString != null) {
-            List<Topic> themen = dm4.searchTopics(queryString, THEMA_CRIT);
-            for (Topic thema : themen) {
-                List<RelatedTopic> geoObjects = thema.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
-                    "dm4.core.parent", KiezatlasService.GEO_OBJECT);
-                log.info("Fetching "  + geoObjects.size() + " Orte \""+queryString+"\" in Thema \"" + thema.getSimpleValue()+ "\"");
-                addGeoObjectsToResults(uniqueResults, geoObjects);
+        try {
+            if (queryString != null) {
+                List<Topic> themen = dm4.searchTopics(queryString, THEMA_CRIT);
+                for (Topic thema : themen) {
+                    List<RelatedTopic> geoObjects = thema.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
+                        "dm4.core.parent", KiezatlasService.GEO_OBJECT);
+                    log.info("Fetching "  + geoObjects.size() + " Orte \""+queryString+"\" in Thema \"" + thema.getSimpleValue()+ "\"");
+                    addGeoObjectsToResults(uniqueResults, geoObjects);
+                }
+                List<Topic> angebote = dm4.searchTopics(queryString, ANGEBOT_CRIT);
+                for (Topic angebot : angebote) {
+                    List<RelatedTopic> geoObjects = angebot.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
+                        "dm4.core.parent", KiezatlasService.GEO_OBJECT);
+                    log.info("Fetching " + geoObjects.size() + " Orte \""+queryString+"\" in Angebot \"" + angebot.getSimpleValue()+ "\" ");
+                    addGeoObjectsToResults(uniqueResults, geoObjects);
+                }
+                List<Topic> zielgruppen = dm4.searchTopics(queryString, ZIELGRUPPE_CRIT);
+                for (Topic zielgruppe : zielgruppen) {
+                    List<RelatedTopic> geoObjects = zielgruppe.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
+                        "dm4.core.parent", KiezatlasService.GEO_OBJECT);
+                    log.info("Fetching " + geoObjects.size() + " Orte \""+queryString+"\" in Zielgruppe \"" + zielgruppe.getSimpleValue() + "\" ");
+                    addGeoObjectsToResults(uniqueResults, geoObjects);
+                }
             }
-            List<Topic> angebote = dm4.searchTopics(queryString, ANGEBOT_CRIT);
-            for (Topic angebot : angebote) {
-                List<RelatedTopic> geoObjects = angebot.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
-                    "dm4.core.parent", KiezatlasService.GEO_OBJECT);
-                log.info("Fetching " + geoObjects.size() + " Orte \""+queryString+"\" in Angebot \"" + angebot.getSimpleValue()+ "\" ");
-                addGeoObjectsToResults(uniqueResults, geoObjects);
-            }
-            List<Topic> zielgruppen = dm4.searchTopics(queryString, ZIELGRUPPE_CRIT);
-            for (Topic zielgruppe : zielgruppen) {
-                List<RelatedTopic> geoObjects = zielgruppe.getRelatedTopics("dm4.core.aggregation", "dm4.core.child",
-                    "dm4.core.parent", KiezatlasService.GEO_OBJECT);
-                log.info("Fetching " + geoObjects.size() + " Orte \""+queryString+"\" in Zielgruppe \"" + zielgruppe.getSimpleValue() + "\" ");
-                addGeoObjectsToResults(uniqueResults, geoObjects);
-            }
+        } catch (Exception ex) {
+            throw new RuntimeException("Seraching Fulltext in Categories failed", ex);
         }
         return new ArrayList(uniqueResults.values());
     }
